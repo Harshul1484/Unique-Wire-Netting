@@ -1,0 +1,745 @@
+@import url('product-styles.css');
+/* 
+   Project: Unique Wire Netting - Corporate Website
+   Theme: Industrial, Premium, Corporate
+*/
+
+:root {
+    /* Color Palette */
+    --primary-color: #0d2c4d;
+    /* Deep Industrial Blue */
+    --secondary-color: #f39c12;
+    /* Safety/Industrial Orange-Gold */
+    --text-color: #333333;
+    /* Dark Slate */
+    --text-light: #666666;
+    /* Medium Grey */
+    --bg-light: #f8f9fa;
+    /* Light Grey Background */
+    --white: #ffffff;
+    --border-color: #e0e0e0;
+
+    /* Typography */
+    --font-heading: 'Roboto', sans-serif;
+    --font-body: 'Open Sans', sans-serif;
+
+    /* Spacing */
+    --container-width: 1200px;
+    --section-padding: 60px 0;
+}
+
+/* Reset & Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--text-color);
+    line-height: 1.6;
+    background-color: var(--white);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-heading);
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.3s ease;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Layout Utilities */
+.container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.section {
+    padding: var(--section-padding);
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    font-weight: 600;
+    border-radius: 4px;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #e67e22;
+    /* Specific darker orange */
+    color: var(--white);
+    opacity: 1;
+}
+
+.btn-outline {
+    background-color: transparent;
+    border: 2px solid var(--primary-color);
+    color: var(--primary-color);
+}
+
+.btn-outline:hover {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.btn-white {
+    background-color: var(--white);
+    color: var(--primary-color);
+}
+
+.btn-white:hover {
+    background-color: var(--secondary-color);
+    color: var(--white);
+}
+
+/* Header & Navigation */
+header {
+    background-color: #000000;
+    /* Black background */
+    box-shadow: 0 2px 10px rgba(255, 255, 255, 0.1);
+    /* Subtle light shadow/glow */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    /* Adjusted padding */
+}
+
+.logo {
+    padding: 10px 0;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo {
+    max-height: 100px;
+    width: auto;
+    display: block;
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.nav-links>li {
+    position: relative;
+    padding: 20px 0;
+    /* Increase hit area */
+}
+
+.nav-links a {
+    font-weight: 600;
+    color: var(--white);
+    /* White link text */
+    padding: 10px 0;
+}
+
+.nav-links a:hover {
+    color: var(--secondary-color);
+}
+
+/* Specific override for button in nav */
+.nav-links a.btn {
+    padding: 12px 24px;
+    margin-left: 20px;
+    background-color: var(--secondary-color);
+    color: var(--white);
+    border-radius: 4px;
+}
+
+.nav-links a.btn:hover {
+    background-color: #e67e22;
+    /* Darker orange */
+    color: var(--white);
+    opacity: 1;
+}
+
+/* Dropdown Styles */
+.dropdown-menu {
+    display: block;
+    /* Required for transition */
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: var(--white);
+    min-width: 250px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    border-top: 3px solid var(--secondary-color);
+    z-index: 1000;
+    transform: translateY(20px);
+    transition: all 0.3s ease;
+}
+
+.dropdown:hover>.dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.dropdown-menu li {
+    position: relative;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-menu li:last-child {
+    border-bottom: none;
+}
+
+.dropdown-menu a {
+    display: block;
+    padding: 12px 20px;
+    font-size: 0.95rem;
+    color: var(--text-color);
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.dropdown-menu a:hover {
+    background-color: #f8f9fa;
+    color: var(--secondary-color);
+    padding-left: 25px;
+    /* Slide effect */
+}
+
+/* Nested Dropdown */
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top: -3px;
+    transform: translateX(10px);
+    /* Slide in from right */
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+    visibility: visible;
+    opacity: 1;
+    transform: translateX(0);
+}
+
+/* Arrow indicators */
+.dropdown>a i {
+    transition: transform 0.3s ease;
+}
+
+.dropdown:hover>a i {
+    transform: rotate(180deg);
+}
+
+.dropdown>a::after {
+    /* Removed CSS pseudo-element arrow in favor of FontAwesome icon in HTML if present, or keep consistent */
+    display: none;
+}
+
+/* Re-adding arrow using pseudo-element if icon is not in HTML, but HTML has <i class="fas fa-chevron-down"></i> */
+/* We will target the icon directly for rotation as per above */
+
+.dropdown-submenu>a::after {
+    content: '\f054';
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    font-size: 0.8em;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: transform 0.3s ease;
+}
+
+.dropdown-submenu:hover>a::after {
+    transform: translateY(-50%) translateX(5px);
+}
+
+/* Mobile Menu Toggle */
+.menu-toggle {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: var(--white);
+    /* White toggle icon */
+}
+
+/* Footer */
+footer {
+    background-color: var(--primary-color);
+    color: var(--white);
+    padding: 60px 0 20px;
+}
+
+.footer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.footer-col h3 {
+    color: var(--white);
+    border-bottom: 2px solid var(--secondary-color);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.footer-logo {
+    max-height: 160px;
+    width: auto;
+    display: block;
+    margin-bottom: 20px;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+/* Product Tables (Specific Requirement) */
+.spec-table-container {
+    overflow-x: auto;
+    margin: 30px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+table.spec-table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+    /* Ensure scroll on mobile */
+}
+
+/* DataTables Custom Styling */
+.dataTables_wrapper .dataTables_length,
+.dataTables_wrapper .dataTables_filter {
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    color: #333;
+}
+
+.dataTables_wrapper .dataTables_filter input {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-left: 10px;
+}
+
+.dataTables_wrapper .dataTables_length select {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 3px 5px;
+}
+
+table.spec-table {
+    width: 100% !important;
+    border-collapse: collapse !important;
+    margin-top: 10px !important;
+}
+
+table.spec-table thead th {
+    background-color: #d9edf7 !important;
+    /* Light blue from screenshot */
+    color: #31708f !important;
+    font-weight: 600;
+    text-transform: none;
+    font-size: 0.9rem;
+    padding: 12px 10px;
+    border-bottom: 2px solid #bce8f1;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+}
+
+table.spec-table tbody td {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+    color: #555;
+    border-bottom: 1px solid #eee;
+    vertical-align: middle;
+    text-align: center;
+}
+
+/* Details Control for Child Rows */
+/* Details Control for Child Rows */
+td.details-control {
+    cursor: pointer;
+    text-align: center;
+    /* Center align for merged content */
+    white-space: nowrap;
+    /* Prevent wrapping */
+    vertical-align: middle;
+}
+
+td.details-control i {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 8px;
+    color: #4CAF50;
+    /* Green color for plus */
+    font-size: 1.1rem;
+}
+
+tr.shown td.details-control i {
+    color: #f44336;
+    /* Red color for minus */
+}
+
+.child-row-content {
+    background-color: #fcfcfc;
+    padding: 10px 20px;
+    border-left: 4px solid var(--primary-color);
+    font-size: 0.9rem;
+    text-align: left;
+    /* Explicitly left-align child content */
+    color: #333;
+}
+
+table.spec-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+table.spec-table tr:hover {
+    background-color: #f1f7fd;
+}
+
+/* DataTables Pagination */
+.dataTables_wrapper .dataTables_paginate {
+    margin-top: 20px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    padding: 8px 16px;
+    border: 1px solid transparent;
+    margin-left: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+    background: transparent;
+    color: #333 !important;
+    transition: all 0.3s ease;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button:hover {
+    background-color: #eee !important;
+    border-color: #ddd;
+    color: #000 !important;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current,
+.dataTables_wrapper .dataTables_paginate .paginate_button.current:hover {
+    background: #052440 !important;
+    /* Deep navy from screenshot */
+    color: white !important;
+    border-color: #052440;
+}
+
+.dataTables_wrapper .dataTables_info {
+    margin-top: 20px;
+    font-size: 0.85rem;
+    color: #777;
+}
+
+.spec-table-container {
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Floating WhatsApp */
+.whatsapp-float {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: var(--white);
+        padding: 20px;
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+}
+
+/* Applications Section Styles */
+.applications-section {
+    background-color: var(--primary-color);
+    color: var(--white);
+}
+
+.applications-section h2 {
+    color: var(--white);
+    margin-bottom: 0;
+}
+
+.app-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.app-card {
+    background: rgba(255, 255, 255, 0.05);
+    padding: 30px 25px;
+    border-radius: 8px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: all 0.3s ease;
+}
+
+.app-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.app-card h4 {
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.app-card h4 i {
+    margin-right: 12px;
+    font-size: 1.3rem;
+    color: var(--white);
+    /* Icon white, text orange/gold */
+}
+
+.app-card p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+    color: #e0e0e0;
+    line-height: 1.5;
+}
+
+/* Hero Banner */
+.hero-banner {
+    position: relative;
+    height: 400px;
+    background: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('../images/ss-mesh-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+}
+
+.hero-banner .container {
+    width: 100%;
+}
+
+.hero-banner h1 {
+    color: var(--white);
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero-banner p {
+    font-size: 1.2rem;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Product Info Sections */
+.intro-section {
+    background-color: var(--bg-light);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.section-title h2 {
+    font-size: 2.5rem;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title h2::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background-color: var(--secondary-color);
+}
+
+/* Variety Cards */
+.variety-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.variety-card {
+    background: var(--white);
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease;
+    border: 1px solid var(--border-color);
+}
+
+.variety-card:hover {
+    transform: translateY(-10px);
+}
+
+.variety-content {
+    padding: 30px;
+}
+
+.variety-content h3 {
+    color: var(--primary-color);
+    margin-bottom: 15px;
+}
+
+.variety-info {
+    margin-bottom: 20px;
+}
+
+.variety-info strong {
+    color: var(--primary-color);
+}
+
+/* Specialty Finish Section */
+.specialty-finish {
+    background-color: #1a1a1a;
+    color: var(--white);
+    border-radius: 12px;
+    padding: 50px;
+    margin-top: 60px;
+}
+
+.specialty-finish h2 {
+    color: var(--secondary-color);
+}
+
+.finish-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.finish-item h4 {
+    color: var(--white);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.finish-item i {
+    color: var(--secondary-color);
+}
+
+/* Why Choose Section */
+.why-choose-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+}
+
+.benefit-item {
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
+}
+
+.benefit-item i {
+    font-size: 1.5rem;
+    color: var(--secondary-color);
+}
+
+.benefit-item h4 {
+    margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+    .hero-banner h1 {
+        font-size: 2rem;
+    }
+
+    .specialty-finish {
+        padding: 30px;
+    }
+}
