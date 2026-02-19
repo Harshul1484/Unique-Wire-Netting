@@ -22,8 +22,20 @@
     <?php include 'includes/header.html'; ?>
 
     <!-- Hero Section -->
+    <!-- Hero Section -->
     <section class="hero"
-        style="background: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.6)), url('images/hero-bg.jpg') no-repeat center center/cover; padding: 150px 0; color: white; text-align: center;">
+        style="position: relative; overflow: hidden; padding: 150px 0; color: white; text-align: center;">
+        <!-- Video Background -->
+        <video autoplay muted loop playsinline
+            style="position: absolute; top: 50%; left: 50%; min-width: 100%; min-height: 100%; width: auto; height: auto; z-index: -2; transform: translate(-50%, -50%); object-fit: cover;">
+            <source src="assets/hero-vid.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <!-- Overlay -->
+        <div
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: rgba(13, 44, 77, 0.6); z-index: -1;">
+        </div>
+
         <div class="container">
             <h1 style="color: white; font-size: 3rem; margin-bottom: 20px;">Premium Full-Spectrum<br>Mesh Manufacturer
             </h1>
