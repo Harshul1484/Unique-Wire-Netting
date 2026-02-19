@@ -51,7 +51,7 @@
     </header>
 
     <div class="page-header"
-        style="padding: 60px 0; text-align: center; background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/ss-rope-mesh-details.jpg'); background-size: cover; background-position: center; color: #ffffff;">
+        style="padding: 60px 0; text-align: center; background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/terms-and-conditions.jpg'); background-size: cover; background-position: center; color: #ffffff;">
         <div class="container">
             <h1>Terms and Conditions</h1>
             <p>Guidelines for Custom Orders & Services</p>

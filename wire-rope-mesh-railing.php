@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/flexible-ss-cable-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/wire-rope-mesh-railing.jpg');">
         <div class="container">
             <h1>Wire Rope Mesh Railing</h1>
             <p>Flexible, high-tensile wire rope mesh that offers a beautifully designed, transparent, and durable

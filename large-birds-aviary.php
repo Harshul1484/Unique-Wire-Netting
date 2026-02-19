@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/large-birds-aviary.jpg');">
         <div class="container">
             <h1>Large Birds Aviary</h1>
             <p>Premium stainless steel wire rope mesh designed for large bird sanctuaries, zoos, and private aviaries.

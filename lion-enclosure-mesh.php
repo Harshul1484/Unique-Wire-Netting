@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/lion-enclosure-mesh.jpg');">
         <div class="container">
             <h1>Lion Enclosure Mesh & Cage Protection</h1>
             <p>High-tensile, hand-woven stainless steel wire rope mesh designed for high security and visibility in big

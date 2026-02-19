@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/welded-wire-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/welded-wire-mesh-panels.jpg');">
         <div class="container">
             <h1>MS & G.I. Welded Wire Mesh Panels</h1>
             <p>Premium grade welded mesh panels engineered for maximum structural integrity, superior finish, and

@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/gorillas-fence-mesh.jpg');">
         <div class="container">
             <h1>Gorilla & Primate Enclosure Mesh</h1>
             <p>Robust, hand-woven stainless steel wire rope mesh designed for high tensile strength and primate safety.
