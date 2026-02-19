@@ -63,29 +63,29 @@
     <header>
         <div class="container">
             <nav>
-                <div class="logo"><a href="index.html"><img src="assets/logo.png" alt="Unique Wire Netting"
+                <div class="logo"><a href="index.php"><img src="assets/logo.png" alt="Unique Wire Netting"
                             class="nav-logo"></a></div>
                 <div class="menu-toggle">
                     <i class="fas fa-bars"></i>
                 </div>
                 <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About Us</a></li>
                     <li class="dropdown">
                         <a href="#">Our Products</a>
                         <ul class="dropdown-menu">
-                            <li><a href="flexible-ss-cable-mesh.html">Flexible Cable SS Mesh</a></li>
-                            <li><a href="walk-in-aviary.html">Walk In Aviary</a></li>
-                            <li><a href="zoo-animals-mesh.html">Zoo Animals Mesh</a></li>
-                            <li><a href="wire-rope-mesh-railing.html">Wire Rope Mesh Railing</a></li>
-                            <li><a href="decorative-wire-mesh.html">Decorative Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh.html">Welded Wire Mesh</a></li>
-                            <li><a href="gi-chain-link-mesh.html">G.I. Chain Link Wire Mesh</a></li>
+                            <li><a href="flexible-ss-cable-mesh.php">Flexible Cable SS Mesh</a></li>
+                            <li><a href="walk-in-aviary.php">Walk In Aviary</a></li>
+                            <li><a href="zoo-animals-mesh.php">Zoo Animals Mesh</a></li>
+                            <li><a href="wire-rope-mesh-railing.php">Wire Rope Mesh Railing</a></li>
+                            <li><a href="decorative-wire-mesh.php">Decorative Wire Mesh</a></li>
+                            <li><a href="welded-wire-mesh.php">Welded Wire Mesh</a></li>
+                            <li><a href="gi-chain-link-mesh.php">G.I. Chain Link Wire Mesh</a></li>
                         </ul>
                     </li>
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="contact.html" class="btn">Get Quote</a></li>
+                    <li><a href="gallery.php">Gallery</a></li>
+                    <li><a href="contact.php">Contact</a></li>
+                    <li><a href="contact.php" class="btn">Get Quote</a></li>
                 </ul>
             </nav>
         </div>
@@ -215,53 +215,7 @@
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <img src="assets/logo.png" alt="Unique Wire Netting" class="footer-logo">
-                    <p>Premium manufacturer of high-quality wire mesh solutions for industrial, architectural, and
-                        security applications.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="flexible-ss-cable-mesh.html">Products</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Resources</h3>
-                    <ul class="footer-links">
-                        <li><a href="quality-assurance.html">Quality Assurance</a></li>
-                        <li><a href="technical-faq.html">Technical FAQ</a></li>
-                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> GF-09, Siddheshwar Hall Mark, Sayaji Park, Near Ekta
-                            Nagar chaar Rasta, Ajwa Road, Vadodara -390019</li>
-                        <li><i class="fas fa-phone"></i> +91 9898376811</li>
-                        <li><i class="fas fa-envelope"></i> sbj7860@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2024 Unique Wire Netting. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/919898376811" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <?php include 'includes/footer.html'; ?>
 
     <script src="js/main.js"></script>
 </body>

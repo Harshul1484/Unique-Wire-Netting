@@ -19,73 +19,7 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo"><a href="index.html"><img src="assets/logo.png" alt="Unique Wire Netting"
-                            class="nav-logo"></a></div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-
-                    <!-- Products Dropdown -->
-                    <li class="dropdown">
-                        <a href="#">Our Products</a>
-                        <ul class="dropdown-menu">
-                            <!-- Flexible Cable SS Mesh -->
-                            <li class="dropdown-submenu">
-                                <a href="flexible-ss-cable-mesh.html">Flexible Cable SS Mesh</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="ss-cable-mesh-specifications.html">Specifications</a></li>
-                                    <li><a href="ss-rope-mesh-details.html">Mesh Details</a></li>
-                                    <li><a href="ss-cable-development.html">Cable Development</a></li>
-                                    <li><a href="black-ss-rope-mesh.html">Black SS Rope Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Walk In Aviary -->
-                            <li class="dropdown-submenu">
-                                <a href="walk-in-aviary.html">Walk In Aviary</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="eagle-netting-mesh.html">Eagle Netting Mesh</a></li>
-                                    <li><a href="large-birds-aviary.html">Large Birds Aviary</a></li>
-                                    <li><a href="parrot-aviary-mesh.html">Parrot Aviary Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Zoo Animals Mesh -->
-                            <li class="dropdown-submenu">
-                                <a href="zoo-animals-mesh.html">Zoo Animals Mesh</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="deer-fence-mesh.html">Deer Fence Mesh</a></li>
-                                    <li><a href="gorillas-fence-mesh.html">Gorillas Fence Mesh</a></li>
-                                    <li><a href="leopard-cage-fence.html">Leopard Cage Fence</a></li>
-                                    <li><a href="lion-enclosure-mesh.html">Lion Enclosure Mesh</a></li>
-                                    <li><a href="tiger-fences-mesh.html">Tiger Fences Mesh</a></li>
-                                    <li><a href="monkey-enclosure-mesh.html">Monkey Enclosure Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <li><a href="wire-rope-mesh-railing.html">Wire Rope Mesh Railing</a></li>
-                            <li><a href="decorative-wire-mesh.html">Decorative Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh.html">Welded Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh-panels.html">Welded Wire Mesh Panels</a></li>
-                            <li><a href="gi-welded-wire-mesh.html">G.I. Welded Wire Mesh</a></li>
-                            <li><a href="gi-chain-link-mesh.html">G.I. Chain Link Wire Mesh</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="contact.html" class="btn">Get Quote</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include 'includes/header.html'; ?>
 
     <!-- Hero Section -->
     <section class="hero"
@@ -98,8 +32,8 @@
                 Global Civil Contractors.
             </p>
             <div class="hero-btns">
-                <a href="flexible-ss-cable-mesh.html" class="btn">Explore Products</a>
-                <a href="contact.html" class="btn btn-outline"
+                <a href="flexible-ss-cable-mesh.php" class="btn">Explore Products</a>
+                <a href="contact.php" class="btn btn-outline"
                     style="border-color: white; color: white; margin-left: 15px;">Contact Us</a>
             </div>
         </div>
@@ -127,7 +61,7 @@
                         contractors and industrial clients worldwide, ensuring every square meter meets rigorous
                         international standards.
                     </p>
-                    <a href="about.html" class="btn btn-outline">Read More</a>
+                    <a href="about.php" class="btn btn-outline">Read More</a>
                 </div>
             </div>
         </div>
@@ -153,7 +87,7 @@
                         <h3>Wire Mesh & Netting</h3>
                         <p style="margin-bottom: 15px; font-size: 0.9rem;">Welded mesh, panels, chain link, and
                             hexagonal mesh for construction and fencing.</p>
-                        <a href="welded-wire-mesh.html" style="color: var(--secondary-color); font-weight: 600;">View
+                        <a href="welded-wire-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
                             Category &rarr;</a>
                     </div>
                 </div>
@@ -169,7 +103,7 @@
                         <h3>Specialized & Architectural</h3>
                         <p style="margin-bottom: 15px; font-size: 0.9rem;">Flexible SS cable mesh, decorative mesh,
                             metal curtains, and bulletproof solutions.</p>
-                        <a href="flexible-ss-cable-mesh.html"
+                        <a href="flexible-ss-cable-mesh.php"
                             style="color: var(--secondary-color); font-weight: 600;">View Category &rarr;</a>
                     </div>
                 </div>
@@ -185,14 +119,14 @@
                         <h3>Aviary & Zoo Mesh</h3>
                         <p style="margin-bottom: 15px; font-size: 0.9rem;">High-strength enclosures for lions, tigers,
                             monkeys, aviaries, and more.</p>
-                        <a href="zoo-animals-mesh.html" style="color: var(--secondary-color); font-weight: 600;">View
+                        <a href="zoo-animals-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
                             Category &rarr;</a>
                     </div>
                 </div>
             </div>
 
             <div style="text-align: center; margin-top: 40px;">
-                <a href="flexible-ss-cable-mesh.html" class="btn">View All 19 Products</a>
+                <a href="flexible-ss-cable-mesh.php" class="btn">View All 19 Products</a>
             </div>
         </div>
     </section>
@@ -239,7 +173,7 @@
             <div
                 style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; margin-bottom: 40px;">
                 <h2>Applications</h2>
-                <a href="flexible-ss-cable-mesh.html" class="btn btn-white">Explore Solutions</a>
+                <a href="flexible-ss-cable-mesh.php" class="btn btn-white">Explore Solutions</a>
             </div>
             <div class="app-grid">
                 <div class="app-card">
@@ -268,59 +202,13 @@
             <h2 style="margin-bottom: 20px;">Have a Project in Mind?</h2>
             <p style="margin-bottom: 30px; font-size: 1.1rem;">Contact us today for a consultation or a custom quote.
             </p>
-            <a href="contact.html" class="btn">Get a Quote</a>
+            <a href="contact.php" class="btn">Get a Quote</a>
             <a href="https://wa.me/919898376811" class="btn" style="background-color: #25d366; margin-left: 15px;"><i
                     class="fab fa-whatsapp"></i> Chat on WhatsApp</a>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <img src="assets/logo.png" alt="Unique Wire Netting" class="footer-logo">
-                    <p>Premium manufacturer of high-quality wire mesh solutions for industrial, architectural, and
-                        security applications.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="flexible-ss-cable-mesh.html">Products</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Resources</h3>
-                    <ul class="footer-links">
-                        <li><a href="quality-assurance.html">Quality Assurance</a></li>
-                        <li><a href="technical-faq.html">Technical FAQ</a></li>
-                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt" style="width: 20px;"></i> 123 Industrial Area, City,
-                            Country</li>
-                        <li><i class="fas fa-phone" style="width: 20px;"></i> +91 9898376811</li>
-                        <li><i class="fas fa-envelope" style="width: 20px;"></i> sbj7860@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2024 Unique Wire Netting. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- WhatsApp Float -->
-    <a href="https://wa.me/919898376811" class="whatsapp-float" target="_blank">
-        <i class="fab fa-whatsapp"></i>
-    </a>
+    <?php include 'includes/footer.html'; ?>
 
     <script src="js/main.js"></script>
 </body>

@@ -17,80 +17,7 @@
 
 <body>
 
-    <!-- Header -->
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo"><a href="index.html"><img src="assets/logo.png" alt="Unique Wire Netting"
-                            class="nav-logo"></a></div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About Us</a></li>
-
-                    <!-- Products Dropdown -->
-                    <li class="dropdown">
-                        <a href="products.html">Our Products</a>
-                        <ul class="dropdown-menu">
-                            <!-- Flexible Cable SS Mesh -->
-                            <li class="dropdown-submenu">
-                                <a href="flexible-ss-cable-mesh.html">Flexible Cable SS Mesh</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="ss-cable-mesh-specifications.html">Specifications</a></li>
-                                    <li><a href="ss-rope-mesh-details.html">Mesh Details</a></li>
-                                    <li><a href="ss-cable-development.html">Cable Development</a></li>
-                                    <li><a href="black-ss-rope-mesh.html">Black SS Rope Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Walk In Aviary -->
-                            <li class="dropdown-submenu">
-                                <a href="walk-in-aviary.html">Walk In Aviary</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="eagle-netting-mesh.html">Eagle Netting Mesh</a></li>
-                                    <li><a href="large-birds-aviary.html">Large Birds Aviary</a></li>
-                                    <li><a href="parrot-aviary-mesh.html">Parrot Aviary Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <!-- Zoo Animals Mesh -->
-                            <li class="dropdown-submenu">
-                                <a href="zoo-animals-mesh.html">Zoo Animals Mesh</a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="deer-fence-mesh.html">Deer Fence Mesh</a></li>
-                                    <li><a href="gorillas-fence-mesh.html">Gorillas Fence Mesh</a></li>
-                                    <li><a href="leopard-cage-fence.html">Leopard Cage Fence</a></li>
-                                    <li><a href="lion-enclosure-mesh.html">Lion Enclosure Mesh</a></li>
-                                    <li><a href="tiger-fences-mesh.html">Tiger Fences Mesh</a></li>
-                                    <li><a href="monkey-enclosure-mesh.html">Monkey Enclosure Mesh</a></li>
-                                </ul>
-                            </li>
-
-                            <li><a href="wire-rope-mesh-railing.html">Wire Rope Mesh Railing</a></li>
-                            <li><a href="decorative-wire-mesh.html">Decorative Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh.html">Welded Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh-panels.html">Welded Wire Mesh Panels</a></li>
-                            <li><a href="gi-welded-wire-mesh.html">G.I. Welded Wire Mesh</a></li>
-                            <li><a href="gi-chain-link-mesh.html">G.I. Chain Link Wire Mesh</a></li>
-                        </ul>
-                    </li>
-
-                    <li><a href="gallery.html">Gallery</a></li>
-                    <li class="dropdown">
-                        <a href="#">Resources</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="technical-faq.html">Technical FAQ</a></li>
-                            <li><a href="quality-assurance.html">Quality Assurance</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="contact.html" class="btn">Get Quote</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include 'includes/header.html'; ?>
 
     <!-- Hero Banner -->
     <section class="hero-banner">
@@ -502,19 +429,19 @@
                 <div class="footer-col">
                     <h3>Quick Links</h3>
                     <ul class="footer-links">
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="products.html">Products</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="index.php">Home</a></li>
+                        <li><a href="about.php">About Us</a></li>
+                        <li><a href="products.php">Products</a></li>
+                        <li><a href="gallery.php">Gallery</a></li>
+                        <li><a href="contact.php">Contact Us</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
                     <h3>Resources</h3>
                     <ul class="footer-links">
-                        <li><a href="quality-assurance.html">Quality Assurance</a></li>
-                        <li><a href="technical-faq.html">Technical FAQ</a></li>
-                        <li><a href="terms-and-conditions.html">Terms & Conditions</a></li>
+                        <li><a href="quality-assurance.php">Quality Assurance</a></li>
+                        <li><a href="technical-faq.php">Technical FAQ</a></li>
+                        <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
                     </ul>
                 </div>
                 <div class="footer-col">
