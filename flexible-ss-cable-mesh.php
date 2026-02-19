@@ -20,7 +20,8 @@
     <?php include 'includes/header.html'; ?>
 
     <!-- Hero Banner -->
-    <section class="hero-banner">
+    <section class="hero-banner"
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/flexible-ss-cable-mesh.jpg');">
         <div class="container">
             <h1>Stainless Steel Cable Mesh</h1>
             <p>Elevate your project with the perfect blend of high-tensile strength and architectural elegance. At

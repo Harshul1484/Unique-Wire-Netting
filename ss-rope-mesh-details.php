@@ -20,7 +20,8 @@
     <?php include 'includes/header.html'; ?>
 
     <!-- Hero Banner -->
-    <section class="hero-banner">
+    <section class="hero-banner"
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/ss-rope-mesh-details.jpg');">
         <div class="container">
             <h1>Stainless Steel Wire Rope Mesh Details</h1>
             <p>Explore the technical specifications, material grades, and structural advantages of our premium Stainless

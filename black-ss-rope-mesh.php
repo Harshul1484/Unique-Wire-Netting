@@ -20,7 +20,8 @@
     <?php include 'includes/header.html'; ?>
 
     <!-- Hero Banner -->
-    <section class="hero-banner">
+    <section class="hero-banner"
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
         <div class="container">
             <h1>Black SS Rope Mesh</h1>
             <p>Black oxidized stainless steel wire rope mesh for superior durability and aesthetics.</p>

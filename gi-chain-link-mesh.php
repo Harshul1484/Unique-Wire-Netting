@@ -20,7 +20,8 @@
     <?php include 'includes/header.html'; ?>
 
     <!-- Hero Banner -->
-    <section class="hero-banner">
+    <section class="hero-banner"
+        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/gi-chain-link-mesh.jpg');">
         <div class="container">
             <h1>G.I. Chain Link Fencing Solutions</h1>
             <p>Engineered for engineering excellence, long-term durability, and structural resilience, providing a rigid
