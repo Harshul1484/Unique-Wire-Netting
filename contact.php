@@ -241,6 +241,19 @@
         </div>
     </section>
 
+    <!-- Thank You Modal -->
+    <div id="thankYouModal" class="modal-overlay">
+        <div class="modal-content">
+            <button class="modal-close-btn" onclick="closeModal()">&times;</button>
+            <div class="modal-icon">
+                <i class="fas fa-check"></i>
+            </div>
+            <h2 class="modal-title">Thank You!</h2>
+            <p class="modal-message">Your inquiry has been received. Our team will get back to you within 24 hours.</p>
+            <button class="btn btn-accent" onclick="closeModal()">Close</button>
+        </div>
+    </div>
+
     <?php include 'includes/footer.html'; ?>
     <script src="js/main.js"></script>
 </body>
