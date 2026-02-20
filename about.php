@@ -19,152 +19,193 @@
 
     <?php include 'includes/header.html'; ?>
 
-    <div class="page-header" style="background: #f4f4f4; padding: 60px 0; text-align: center;">
+    <section class="page-header about-header">
         <div class="container">
-            <h1>About Unique Wire Netting</h1>
-            <p>Building Strength. Defining Flexibility. Since 2008.</p>
+            <h4 class="hero-subtitle">Our Legacy</h4>
+            <h1 class="page-title">Engineering High-Tensile Solutions<br>Since 1995</h1>
+            <p class="page-subtitle">Pioneering wire mesh innovation for the world's most demanding projects.</p>
         </div>
-    </div>
+    </section>
 
     <!-- Executive Summary -->
-    <section class="section">
+    <section class="section executive-summary">
         <div class="container">
-            <h2>Executive Summary</h2>
-            <p>Unique Wire Netting is a premier manufacturer and supplier of high-quality wire mesh solutions.
-                Established in 2008, we have dedicated over 15 years to mastering the art of wire weaving and
-                fabrication. From intricate architectural designs to heavy-duty industrial security, our products serve
-                as the backbone for diverse sectors across India.</p>
-            <p style="margin-top: 15px;">We specialize in high-grade Stainless Steel Cable Wire Mesh, offering both
-                Ferrule and Hand-Woven types, alongside a comprehensive catalog of industrial and decorative meshes.</p>
+            <div class="section-header">
+                <h4 class="section-subtitle">Corporate Overview</h4>
+                <h2 class="section-title">A Legacy of Precision</h2>
+            </div>
+            <div class="summary-grid">
+                <div class="summary-main">
+                    <p class="lead">
+                        Unique Wire Netting is a premier global manufacturer specializing in high-performance wire mesh
+                        and industrial netting.
+                    </p>
+                    <p>
+                        Established in 1995, we have dedicated nearly three decades to perfecting the engineering of
+                        wire weaving and fabrication. From complex architectural facades that define city skylines to
+                        high-security industrial enclosures, our products serve as the critical infrastructure for
+                        premier global contractors.
+                    </p>
+                    <p>
+                        We specialize in aerospace-grade Stainless Steel Cable Wire Mesh, offering both hand-woven and
+                        precision-ferruled solutions that meet the most rigorous international standards for tensile
+                        strength and corrosion resistance.
+                    </p>
+                </div>
+                <div class="summary-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">28+</span>
+                        <span class="stat-label">Years Success</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">500+</span>
+                        <span class="stat-label">Global Projects</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">SS316</span>
+                        <span class="stat-label">Marine Grade</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">ISO</span>
+                        <span class="stat-label">Certified</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
     <!-- Core Product Portfolio -->
-    <section class="section" style="background: var(--bg-light);">
+    <section class="section portfolio-about" style="background: var(--bg-alt);">
         <div class="container">
-            <h2>Our Core Product Portfolio</h2>
-            <p>We provide a versatile range of products engineered for durability and precision:</p>
-
-            <div style="margin-top: 30px;">
-                <h3>A. Stainless Steel Cable Mesh</h3>
-                <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
-                    <li style="margin-bottom: 10px;"><strong>Ferrule Type:</strong> High-strength mesh held together by
-                        seamless ferrules. Ideal for safety balustrades, bridge fencing, and modern architectural
-                        accents.</li>
-                    <li><strong>Hand-Woven Type:</strong> A flexible, "interwoven" mesh that offers high transparency
-                        and tensile strength. It is the preferred choice for zoo enclosures, aviary nets, and green
-                        walls.</li>
-                </ul>
+            <div class="section-header">
+                <h4 class="section-subtitle">Technical Capabilities</h4>
+                <h2 class="section-title">Core Product Portfolio</h2>
             </div>
 
-            <div style="margin-top: 30px;">
-                <h3>B. Industrial Mesh Solutions</h3>
-                <ul style="list-style-type: none; padding-left: 0; margin-top: 15px;">
-                    <li style="margin-bottom: 10px;"><strong>Welded Wiremesh:</strong> Uniform grid patterns with high
-                        stability, used in construction, machine guarding, and agricultural fencing.</li>
-                    <li style="margin-bottom: 10px;"><strong>Chainlink Wiremesh:</strong> Durable, corrosion-resistant
-                        fencing for boundaries, parks, and high-security zones.</li>
-                    <li><strong>Carbon Steel Wire Mesh:</strong> Designed for rugged industrial applications requiring
-                        high impact resistance and structural integrity.</li>
-                </ul>
-            </div>
+            <div class="about-portfolio-grid">
+                <div class="portfolio-item">
+                    <h3><i class="fas fa-layer-group"></i> SS Cable Mesh (Ferrule)</h3>
+                    <p>High-strength mesh engineered with seamless ferrules. The global standard for safety balustrades,
+                        bridge fencing, and architectural accents.</p>
+                </div>
 
-            <div style="margin-top: 30px;">
-                <h3>C. Specialty & Design Mesh</h3>
-                <p style="margin-top: 15px;"><strong>Decorative Wiremesh:</strong> A fusion of aesthetics and function.
-                    Used for interior partitions, ceiling panels, and furniture design to provide a sophisticated
-                    metallic texture.</p>
+                <div class="portfolio-item">
+                    <h3><i class="fas fa-network-wired"></i> SS Cable Mesh (Hand-Woven)</h3>
+                    <p>Flexible "interwoven" series offering maximum transparency and 3D flexibility. Ideal for complex
+                        zoo enclosures and free-flight aviaries.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3><i class="fas fa-border-all"></i> Industrial Welded Mesh</h3>
+                    <p>Precision-manufactured grid patterns for reinforced construction, heavy machinery guarding, and
+                        secure storage.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3><i class="fas fa-shield-halved"></i> High-Tensile Fencing</h3>
+                    <p>Corrosion-resistant chainlink and carbon steel meshes designed for severe environmental exposure
+                        and impact resistance.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3><i class="fas fa-palette"></i> Architectural Metal Fabrics</h3>
+                    <p>A sophisticated fusion of aesthetics and industrial strength. Custom weaves for interior
+                        partitions, ceiling systems, and luxury facade cladding.</p>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- Mission & Vision -->
-    <section class="section">
+    <section class="section mission-vision">
         <div class="container">
-            <h2>Mission & Vision</h2>
-            <div style="display: flex; gap: 30px; flex-wrap: wrap; margin-top: 20px;">
-                <div
-                    style="flex: 1; min-width: 300px; background: #f9f9f9; padding: 25px; border-radius: 8px; border-left: 5px solid #333;">
-                    <h3>Mission</h3>
-                    <p>To deliver superior wire mesh products that exceed international quality standards while
-                        providing cost-effective solutions for our clients.</p>
+            <div class="mv-grid">
+                <div class="mv-card primary">
+                    <i class="fas fa-bullseye bg-icon"></i>
+                    <h4 class="section-subtitle">Our Purpose</h4>
+                    <h2>Mission</h2>
+                    <p>
+                        To engineer superior wire mesh products that set international benchmarks in quality,
+                        durability, and safety, while delivering bespoke, cost-effective solutions for the world's most
+                        complex architectural and industrial challenges.
+                    </p>
                 </div>
-                <div
-                    style="flex: 1; min-width: 300px; background: #f9f9f9; padding: 25px; border-radius: 8px; border-left: 5px solid #333;">
-                    <h3>Vision</h3>
-                    <p>To be the most trusted name in the wire netting industry, known for innovation in architectural
-                        mesh and reliability in industrial supply.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="section" style="background: var(--bg-light);">
-        <div class="container">
-            <h2 style="text-align: center; margin-bottom: 40px;">Why Choose Unique Wire Netting?</h2>
-            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px;">
-                <div
-                    style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-                    <h4>15+ Years of Experience</h4>
-                    <p>Our longevity in the market is a testament to our quality and reliability.</p>
-                </div>
-                <div
-                    style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-                    <h4>Pan-India Distribution</h4>
-                    <p>With an efficient logistics network, we ensure seamless delivery to every corner of India.</p>
-                </div>
-                <div
-                    style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-                    <h4>Customization</h4>
-                    <p>We understand that every project is unique. We offer customized wire diameters, aperture sizes,
-                        and material grades (SS304, SS316, etc.) to meet specific project needs.</p>
-                </div>
-                <div
-                    style="background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.05);">
-                    <h4>Quality Assurance</h4>
-                    <p>Each product undergoes rigorous testing for tensile strength, corrosion resistance, and weave
-                        consistency.</p>
+                <div class="mv-card alt">
+                    <i class="fas fa-eye bg-icon"></i>
+                    <h4 class="section-subtitle">Our Aspiration</h4>
+                    <h2>Vision</h2>
+                    <p>
+                        To be recognized as the global leader in high-tensile wire mesh innovation, pioneering new
+                        standards in flexible architectural fabrics and becoming the indispensable partner for civil
+                        engineering excellence worldwide.
+                    </p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Markets We Serve -->
-    <section class="section">
+    <section class="section markets-about" style="background: var(--bg-alt);">
         <div class="container">
-            <h2>Markets We Serve</h2>
-            <div
-                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-top: 30px;">
-                <div style="background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-                    <h4 style="margin-bottom: 10px;">Architecture & Design</h4>
-                    <p>Balustrades, facades, and interior decor.</p>
+            <div class="section-header center">
+                <h4 class="section-subtitle">Global Impact</h4>
+                <h2 class="section-title">Industries We Empower</h2>
+            </div>
+
+            <div class="market-grid">
+                <div class="market-card">
+                    <i class="fas fa-building"></i>
+                    <h4>Architecture</h4>
+                    <p>Facades, safety balustrades, and sophisticated interior cladding.</p>
                 </div>
-                <div style="background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-                    <h4 style="margin-bottom: 10px;">Infrastructure</h4>
-                    <p>Bridge safety, highway fencing, and construction reinforcement.</p>
+                <div class="market-card">
+                    <i class="fas fa-road"></i>
+                    <h4>Infrastructure</h4>
+                    <p>Highway fencing, bridge protection, and highway safety systems.</p>
                 </div>
-                <div style="background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-                    <h4 style="margin-bottom: 10px;">Wildlife & Zoos</h4>
-                    <p>Secure, humane, and invisible enclosures.</p>
+                <div class="market-card">
+                    <i class="fas fa-paw"></i>
+                    <h4>Wildlife & Zoos</h4>
+                    <p>High-security enclosures designed for animal welfare and visibility.</p>
                 </div>
-                <div style="background: #fff; padding: 20px; border: 1px solid #eee; border-radius: 8px;">
-                    <h4 style="margin-bottom: 10px;">Industrial</h4>
-                    <p>Filtration, sifting, and machine protection.</p>
+                <div class="market-card">
+                    <i class="fas fa-industry"></i>
+                    <h4>Industrial</h4>
+                    <p>Heavy-duty filtration, machine guarding, and product reinforcement.</p>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Corporate Information -->
-    <section class="section" style="background: var(--bg-light); padding: 40px 0;">
+    <section class="section corporate-info">
         <div class="container">
-            <h2>Corporate Information</h2>
-            <div style="margin-top: 20px; background: white; padding: 30px; border-radius: 8px;">
-                <p style="margin-bottom: 10px;"><strong>Year of Establishment:</strong> 2008</p>
-                <p style="margin-bottom: 10px;"><strong>Service Area:</strong> All Over India</p>
-                <p><strong>Material Grades:</strong> Stainless Steel (304, 316, 316L), Carbon Steel, Galvanized Iron.
-                </p>
+            <div class="corp-box">
+                <div class="corp-text">
+                    <h4 class="section-subtitle">Entity Profile</h4>
+                    <h2 class="dark-title">Corporate Credentials</h2>
+                    <p>As an ISO-certified manufacturer, we adhere to stringent quality management protocols, ensuring
+                        that every square meter of mesh leaving our facility maintains absolute engineering integrity.</p>
+                    <a href="contact.php" class="btn btn-accent">Request Company Profile</a>
+                </div>
+                <div class="corp-details">
+                    <div class="detail-item">
+                        <span class="detail-label">Established</span>
+                        <span class="detail-value">1995</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Headquarters</span>
+                        <span class="detail-value">Vadodara, India</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Materials</span>
+                        <span class="detail-value">SS304, 316, 316L, GI</span>
+                    </div>
+                    <div class="detail-item">
+                        <span class="detail-label">Export Network</span>
+                        <span class="detail-value">Global Distribution</span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

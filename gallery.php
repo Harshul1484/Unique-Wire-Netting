@@ -16,115 +16,6 @@
     <!-- Lightbox2 CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
     <style>
-        .filter-btn {
-            background: transparent;
-            border: 2px solid var(--primary-color);
-            color: var(--primary-color);
-            padding: 10px 24px;
-            margin: 0 8px 15px;
-            cursor: pointer;
-            border-radius: 30px;
-            font-weight: 600;
-            transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
-            text-transform: uppercase;
-            font-size: 0.85rem;
-            letter-spacing: 1px;
-        }
-
-        .filter-btn.active,
-        .filter-btn:hover {
-            background: var(--primary-color);
-            color: white;
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-            transform: translateY(-2px);
-        }
-
-        .gallery-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-            gap: 25px;
-            padding: 20px 0;
-        }
-
-        .gallery-item {
-            display: none;
-            position: relative;
-            overflow: hidden;
-            border-radius: 12px;
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
-            transition: all 0.5s ease;
-            cursor: pointer;
-        }
-
-        .gallery-item.show {
-            display: block;
-            animation: fadeIn 0.6s ease forwards;
-        }
-
-        .gallery-item img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-            transition: transform 0.8s cubic-bezier(0.165, 0.84, 0.44, 1);
-        }
-
-        .gallery-item:hover img {
-            transform: scale(1.1);
-        }
-
-        .gallery-item .overlay {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.4);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            transition: opacity 0.4s ease;
-        }
-
-        .gallery-item:hover .overlay {
-            opacity: 1;
-        }
-
-        .gallery-item .overlay i {
-            color: white;
-            font-size: 2.5rem;
-            transform: scale(0.8);
-            transition: transform 0.4s ease;
-        }
-
-        .gallery-item:hover .overlay i {
-            transform: scale(1);
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: scale(0.95);
-            }
-
-            to {
-                opacity: 1;
-                transform: scale(1);
-            }
-        }
-
-        .page-header h1 {
-            font-size: 3rem;
-            margin-bottom: 15px;
-            color: #333;
-        }
-
-        .page-header p {
-            font-size: 1.1rem;
-            color: #666;
-            max-width: 600px;
-            margin: 0 auto;
-        }
     </style>
 </head>
 
@@ -132,23 +23,23 @@
 
     <?php include 'includes/header.html'; ?>
 
-    <div class="page-header"
-        style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); padding: 80px 0; text-align: center;">
+    <section class="page-header gallery-header" style="background: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/images/gallery-banner.jpg'); background-size: cover; background-position: center; color: var(--white);">
         <div class="container">
-            <h1>Project Gallery</h1>
-            <p>A showcase of our versatile wire mesh solutions delivering excellence across diverse applications.</p>
+            <h4 class="hero-subtitle">Project Portfolio</h4>
+            <h1 class="page-title">Refining Architectural &<br>Industrial Spaces</h1>
+            <p class="page-subtitle">A showcase of engineering precision across global projects.</p>
         </div>
-    </div>
+    </section>
 
     <section class="section" style="padding: 60px 0;">
         <div class="container">
             <!-- Filters -->
-            <div style="text-align: center; margin-bottom: 50px;">
-                <button class="filter-btn active" onclick="filterGallery('all', this)">All</button>
+            <div class="gallery-filters" style="text-align: center; margin-bottom: 5rem; display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <button class="filter-btn active" onclick="filterGallery('all', this)">All Projects</button>
                 <button class="filter-btn" onclick="filterGallery('industrial', this)">Industrial</button>
                 <button class="filter-btn" onclick="filterGallery('architectural', this)">Architectural</button>
                 <button class="filter-btn" onclick="filterGallery('security', this)">Security</button>
-                <button class="filter-btn" onclick="filterGallery('zoo', this)">Zoo / Animal</button>
+                <button class="filter-btn" onclick="filterGallery('zoo', this)">Zoo & Wildlife</button>
             </div>
 
             <!-- Gallery Grid -->

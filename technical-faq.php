@@ -14,173 +14,128 @@
     <!-- Styles -->
     <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <style>
-        .faq-item {
-            margin-bottom: 30px;
-            background: #fff;
-            padding: 25px;
-            border-radius: 8px;
-            box-shadow: 0 2px 15px rgba(0, 0, 0, 0.05);
-            border-left: 4px solid var(--secondary-color);
-        }
-
-        .faq-item h3 {
-            color: var(--primary-color);
-            margin-bottom: 15px;
-            font-size: 1.25rem;
-        }
-
-        .faq-item p {
-            color: var(--text-light);
-            line-height: 1.6;
-        }
-
-        .technical-glossary {
-            background: var(--bg-light);
-            padding: 40px;
-            border-radius: 8px;
-            margin-top: 50px;
-        }
-
-        .glossary-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 20px;
-        }
-
-        .glossary-item b {
-            color: var(--primary-color);
-        }
-    </style>
 </head>
 
 <body>
 
-    <!-- Header Wrapper (to be replaced by include if needed, but keeping for direct view) -->
-    <!-- Assuming header.html is included in other pages, but for now I'll use the static version like index.html for simplicity or if the user has a build step -->
     <?php include 'includes/header.html'; ?>
 
-    <div class="page-header"
-        style="padding: 60px 0; text-align: center; background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/technical-faq.jpg'); background-size: cover; background-position: center; color: #ffffff;">
+    <!-- Page Header -->
+    <section class="page-header faq-header"
+        style="background: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/technical-faq.jpg'); background-size: cover; background-position: center; color: var(--white);">
         <div class="container">
-            <h1>Technical FAQ</h1>
-            <p>Understanding & Maintaining Wire Mesh</p>
-        </div>
-    </div>
-
-    <section class="section">
-        <div class="container" style="max-width: 900px;">
-            <p style="text-align: center; margin-bottom: 50px; font-size: 1.1rem; color: var(--text-light);">
-                To help our clients across India make the most informed decisions, we have compiled the most frequently
-                asked technical questions regarding our product range.
+            <h4 class="hero-subtitle">Knowledge Base</h4>
+            <h1 class="page-title">Technical Support &<br>Common Inquiries</h1>
+            <p class="page-subtitle">Expert guidance on wire mesh selection, installation, and engineering standards.
             </p>
+        </div>
+    </section>
 
-            <div class="faq-item">
-                <h3>1. How do I choose between SS 304 and SS 316 for my project?</h3>
-                <p><b>SS 304:</b> This is the standard "18/8" stainless steel and is excellent for most indoor
-                    applications or areas with moderate weather.</p>
-                <p><b>SS 316:</b> Contains molybdenum, which provides superior resistance to chlorides and marine
-                    environments. It is the highly recommended choice for coastal regions in India or industrial zones
-                    with high chemical exposure.</p>
+    <!-- FAQ List -->
+    <section class="section faq-list-section">
+        <div class="container" style="max-width: 900px;">
+            <div class="section-header center">
+                <h4 class="section-subtitle">Frequently Asked Questions</h4>
+                <p class="section-desc">To help our global partners make informed decisions, we have compiled the most
+                    critical technical inquiries regarding our product portfolio.</p>
             </div>
 
-            <div class="faq-item">
-                <h3>2. What is the difference between Ferrule Type and Hand-Woven Cable Mesh?</h3>
-                <p><b>Ferrule Type:</b> The cables are held together by high-strength seamless ferrules. It offers a
-                    modern, rigid aesthetic and is widely used for safety balustrades.</p>
-                <p><b>Hand-Woven:</b> The cables are physically interwoven. This provides higher flexibility and
-                    "stretch," making it ideal for the irregular shapes of zoo enclosures and aviaries.</p>
+            <div class="faq-container" style="margin-top: 5rem;">
+                <div class="faq-item">
+                    <h3>01. How do I specify between SS304 and SS316?</h3>
+                    <div class="faq-answer">
+                        <p><strong>SS304 (Standard Grade):</strong> Ideal for temperate climates and indoor
+                            architectural applications. Provides excellent structural integrity and aesthetic finish.
+                        </p>
+                        <p><strong>SS316 (Marine Grade):</strong> Enhanced with 2% Molybdenum for superior resistance to
+                            chloride-induced pitting. Explicitly required for coastal regions and high-salinity
+                            industrial environments.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>02. Difference between Ferruled and Interwoven Cable Mesh?</h3>
+                    <div class="faq-answer">
+                        <p><strong>Ferruled Series:</strong> Uses high-pressure precision ferrules to join rope
+                            intersections, creating a rigid, geometric pattern. Preferred for railing infills and
+                            security facades.</p>
+                        <p><strong>Interwoven Series:</strong> Physical cross-weaving of cables without ferrules,
+                            allowing for extreme 3D flexibility and higher transparency. The gold standard for zoo
+                            enclosures and large aviaries.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>03. Performance of G.I. Mesh in outdoor environments?</h3>
+                    <div class="faq-answer">
+                        <p>Our G.I. products are hot-dip galvanized, providing a robust sacrificial zinc layer that
+                            inhibits rust. For maximum lifecycle in harsh outdoor conditions, we recommend high-tensile
+                            SS316 which offers indefinite corrosion resistance.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>04. Structural utility of Welded Wire Mesh?</h3>
+                    <div class="faq-answer">
+                        <p>Our precision-welded grids are engineered for load-bearing applications. They serve as
+                            superior reinforcement for concrete ground slabs, high-security perimeter partitions, and
+                            protective machine guards.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>05. Recommended maintenance for Architectural Mesh?</h3>
+                    <div class="faq-answer">
+                        <p><strong>Indoor Facades:</strong> Periodic dusting with non-abrasive cloths is sufficient.
+                        </p>
+                        <p><strong>Outdoor Facades:</strong> We recommend quarterly low-pressure water rinsing to
+                            eliminate salt deposits and atmospheric pollutants, especially for SS316 installations.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>06. Why choose Carbon Steel for industrial use?</h3>
+                    <div class="faq-answer">
+                        <p>Carbon steel provides unmatched surface hardness and abrasion resistance at a more
+                            economical price point. It is the optimal choice for heavy-duty sifting of stones, minerals,
+                            and aggregates where high-impact wear is constant.</p>
+                    </div>
+                </div>
+
+                <div class="faq-item">
+                    <h3>07. Customization and Pan-India Logistics?</h3>
+                    <div class="faq-answer">
+                        <p>Since 1995, we have optimized our supply chain for seamless delivery across every state in
+                            India and overseas. We specialize in custom-cut panel dimensions and bespoke aperture
+                            specifications to minimize on-site labor and material scrap.</p>
+                    </div>
+                </div>
             </div>
 
-            <div class="faq-item">
-                <h3>3. Does G.I. (Galvanized Iron) mesh eventually rust?</h3>
-                <p>Our G.I. products are electro-galvanized to provide a protective zinc barrier that resists oxidation.
-                </p>
-                <p>While significantly more rust-resistant than plain carbon steel, its lifespan depends on
-                    environmental factors. For maximum longevity in high-moisture areas, we recommend our Stainless
-                    Steel range.</p>
-            </div>
+            <!-- Technical Glossary -->
+            <div class="technical-glossary"
+                style="background: var(--bg-alt); padding: 5rem; border-radius: var(--radius); margin-top: 6rem; border: 1px solid var(--border);">
+                <div class="section-header" style="margin-bottom: 3rem;">
+                    <h4 class="section-subtitle">Terminology</h4>
+                    <h2 class="section-title">Technical Glossary</h2>
+                </div>
 
-            <div class="faq-item">
-                <h3>4. Can Welded Wire Mesh be used for structural reinforcement?</h3>
-                <p>Yes. Our MS and G.I. Welded Mesh panels are specifically designed to reduce construction time by
-                    eliminating the need for manual bar binding.</p>
-                <p>They provide superior stress transfer and are the most practical solution for reinforcing ground
-                    slabs and preventing cracks.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>5. What maintenance is required for Decorative Mesh?</h3>
-                <p><b>Indoor:</b> A simple dusting or wiping with a soft, dry cloth is usually sufficient to maintain
-                    the metallic luster.</p>
-                <p><b>Outdoor:</b> We recommend periodic rinsing with water to remove environmental pollutants or salt
-                    buildup, especially for Stainless Steel 316 facades.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>6. What are the advantages of using Carbon Steel Mesh over Stainless Steel?</h3>
-                <p><b>Cost Efficiency:</b> Carbon steel is a more economical choice for large-scale industrial projects
-                    where high-budget alloys aren't required.</p>
-                <p><b>Impact Resistance:</b> It offers high tensile strength and superior abrasion resistance, making it
-                    ideal for the heavy-duty sifting of stones, minerals, and aggregates.</p>
-                <p><b>Industrial Utility:</b> It is perfect for indoor machine guarding and protective screens where it
-                    isn't exposed to corrosive elements.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>7. How does Unique Wirenetting handle Pan-India logistics?</h3>
-                <p><b>Established Network:</b> Since 2008, we have built a robust supply chain that delivers to every
-                    corner of India.</p>
-                <p><b>Reliability:</b> We pride ourselves on meeting promised timeframes, ensuring your construction or
-                    industrial project stays on schedule.</p>
-                <p><b>Packaging:</b> All materials, whether in rolls or panels, are securely packed to prevent
-                    deformation during long-distance transit.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>8. Can I get custom dimensions for my mesh panels?</h3>
-                <p><b>Bespoke Fabrication:</b> Yes. We specialize in custom-cut panels and specific roll widths to match
-                    your architectural or industrial drawings.</p>
-                <p><b>Waste Reduction:</b> Ordering custom sizes significantly reduces on-site labor and material scrap,
-                    leading to immediate cost savings.</p>
-                <p><b>Technical Support:</b> Our team can help you determine the optimal wire gauge and aperture size
-                    based on your specific application, such as bridge safety or zoo enclosures.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>9. Why is Welded Mesh preferred for ground slabs?</h3>
-                <p><b>Stress Distribution:</b> It ensures superior structural integrity and more efficient stress
-                    transfer throughout the slab.</p>
-                <p><b>Crack Minimization:</b> The high-strength welding provides a rigid grid that effectively minimizes
-                    surface cracking in concrete.</p>
-                <p><b>Better Bonding:</b> Our manufacturing process ensures stronger bonding between rebars compared to
-                    traditional hand-bound methods.</p>
-            </div>
-
-            <div class="faq-item">
-                <h3>10. Is your Chainlink fencing suitable for high-security zones?</h3>
-                <p><b>Rugged Materials:</b> We use heavy-duty raw materials to ensure maximum durability and rigidity
-                    against intrusion.</p>
-                <p><b>Animal Protection:</b> Our chainlink is specifically engineered to protect areas from the
-                    intrusion of wild animals, making it a favorite for forest and rural boundaries.</p>
-                <p><b>Anti-Corrosive:</b> The high-quality galvanization process distinguishes our brand, offering a
-                    fence that lasts longer in open-air environments.</p>
-            </div>
-
-            <div class="technical-glossary">
-                <h2 style="text-align: center; margin-bottom: 30px;">Technical Glossary</h2>
-                <div class="glossary-grid">
+                <div class="glossary-grid"
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2.5rem;">
                     <div class="glossary-item">
-                        <p><b>Mesh Count:</b> The number of openings per linear inch.</p>
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Mesh Count</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">The number of individual openings per
+                            linear inch.</p>
                     </div>
                     <div class="glossary-item">
-                        <p><b>Wire Gauge:</b> The thickness of the wire (the higher the gauge number, the thinner the
-                            wire).</p>
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Wire Gauge</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">The diameter of the wire; higher numbers
+                            signify thinner diameters.</p>
                     </div>
                     <div class="glossary-item">
-                        <p><b>Aperture:</b> The clear distance between two adjacent parallel wires.</p>
+                        <h4 style="color: var(--primary); margin-bottom: 0.5rem;">Aperture</h4>
+                        <p style="font-size: 0.9rem; color: var(--text-muted);">The clear, unobstructed distance between
+                            parallel wires.</p>
                     </div>
                 </div>
             </div>

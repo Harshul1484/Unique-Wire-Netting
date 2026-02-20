@@ -198,9 +198,10 @@
 
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-top: 30px; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                            <div class="product-img">
-                                <img src="assets/images/products/ss-rope-mesh-details/microstructure-comparison.jpg" alt="Microstructure Comparison">
-                            </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/microstructure-comparison.jpg"
+                                alt="Microstructure Comparison">
+                        </div>
                     </div>
                     <div style="flex: 1; min-width: 300px;">
                         <h4 style="margin-bottom: 15px;">Difference between 304 and 316:</h4>
@@ -230,9 +231,10 @@
                 <div
                     style="display: flex; gap: 40px; flex-wrap: wrap; flex-direction: row-reverse; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                            <div class="product-img">
-                                <img src="assets/images/products/ss-rope-mesh-details/intergranular-corrosion.jpg" alt="Intergranular Corrosion Structure">
-                            </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/intergranular-corrosion.jpg"
+                                alt="Intergranular Corrosion Structure">
+                        </div>
                     </div>
 
                     <div style="flex: 1; min-width: 300px;">
@@ -262,9 +264,10 @@
             <div style="margin-top: 60px;">
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                            <div class="product-img">
-                                <img src="assets/images/products/ss-rope-mesh-details/colored-coils.jpg" alt="Colored Wire Rope Mesh Coils">
-                            </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/colored-coils.jpg"
+                                alt="Colored Wire Rope Mesh Coils">
+                        </div>
                     </div>
                     <div style="flex: 1; min-width: 300px;">
                         <h3 style="margin-bottom: 20px;">Color of Stainless steel wire rope mesh</h3>
@@ -286,9 +289,10 @@
             <div style="margin-top: 60px;">
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                            <div class="product-img">
-                                <img src="assets/images/products/ss-rope-mesh-details/woven-vs-ferrule.jpg" alt="Woven vs Ferrule Mesh Component Diagram">
-                            </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/woven-vs-ferrule.jpg"
+                                alt="Woven vs Ferrule Mesh Component Diagram">
+                        </div>
                     </div>
 
                     <div style="flex: 1; min-width: 300px;">
@@ -340,9 +344,10 @@
             <!-- Manufacturing Specifications -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                        <div class="product-img">
-                            <img src="assets/images/products/ss-rope-mesh-details/rope-diameters.jpg" alt="Wire Rope Diameters and Structure">
-                        </div>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-rope-mesh-details/rope-diameters.jpg"
+                            alt="Wire Rope Diameters and Structure">
+                    </div>
                 </div>
 
                 <div style="flex: 1; min-width: 300px;">
@@ -388,9 +393,10 @@
             <!-- Costs and Prices -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                        <div class="product-img">
-                            <img src="assets/images/products/ss-rope-mesh-details/blue-mesh-bg.jpg" alt="Blue Mesh Background">
-                        </div>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-rope-mesh-details/blue-mesh-bg.jpg"
+                            alt="Blue Mesh Background">
+                    </div>
                 </div>
 
                 <div style="flex: 1; min-width: 300px;">
@@ -414,46 +420,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <img src="assets/logo.png" alt="Unique Wire Netting" class="footer-logo">
-                    <p>Premium manufacturer of high-quality wire mesh solutions.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="products.php">Products</a></li>
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Resources</h3>
-                    <ul class="footer-links">
-                        <li><a href="quality-assurance.php">Quality Assurance</a></li>
-                        <li><a href="technical-faq.php">Technical FAQ</a></li>
-                        <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> GF-09, Siddheshwar Hall Mark, Sayaji Park, Near Ekta
-                            Nagar chaar Rasta, Ajwa Road, Vadodara -390019</li>
-                        <li><i class="fas fa-phone"></i> +91 9898376811</li>
-                        <li><i class="fas fa-envelope"></i> sbj7860@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2024 Unique Wire Netting. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'includes/footer.html'; ?>
 
     <!-- WhatsApp Float -->
     <a href="https://wa.me/919898376811" class="whatsapp-float" target="_blank">

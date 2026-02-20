@@ -21,76 +21,105 @@
 
     <?php include 'includes/header.html'; ?>
 
-    <div class="page-header"
-        style="padding: 60px 0; text-align: center; background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/terms-and-conditions.jpg'); background-size: cover; background-position: center; color: #ffffff;">
+    <section class="page-header terms-header"
+        style="background: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/terms-and-conditions.jpg'); background-size: cover; background-position: center; color: var(--white);">
         <div class="container">
-            <h1>Terms and Conditions</h1>
-            <p>Guidelines for Custom Orders & Services</p>
+            <h4 class="hero-subtitle">Legal & Regulatory</h4>
+            <h1 class="page-title">Terms & Conditions of Service</h1>
+            <p class="page-subtitle">Standard guidelines for architectural fabrication, logistics, and corporate
+                collaboration.</p>
         </div>
-    </div>
+    </section>
 
-    <section class="section">
-        <div class="container" style="max-width: 900px; line-height: 1.8;">
-            <p style="margin-bottom: 30px; font-size: 1.1rem; color: var(--text-light);">
-                The following Terms and Conditions apply to all products and custom-fabricated orders placed with Unique
-                Wirenetting. By engaging our services, you acknowledge that our manufacturing is backed by over 15 years
-                of industry expertise, established in 2008.
-            </p>
-
-            <div style="margin-bottom: 40px;">
-                <h3
-                    style="color: var(--primary-color); margin-bottom: 15px; border-bottom: 2px solid var(--secondary-color); display: inline-block;">
-                    1. Quotations and Order Specifications</h3>
-                <p style="margin-top: 15px;"><b>Customization:</b> All orders are manufactured based on the client’s
-                    provided technical drawings and specifications, including material grade, wire gauge, and aperture
-                    size.</p>
-                <p><b>Accuracy:</b> The client is responsible for the accuracy of provided dimensions to ensure optimal
-                    stress transfer and structural integrity.</p>
-                <p><b>Validity:</b> Quotations are provided at competitive rates and remain valid for a specific period
-                    due to fluctuations in raw material costs.</p>
+    <section class="section terms-content">
+        <div class="container" style="max-width: 900px;">
+            <div class="section-header">
+                <h4 class="section-subtitle">Corporate Governance</h4>
+                <p class="lead"
+                    style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 4rem; line-height: 1.8;">
+                    The following Terms & Conditions govern all technical contracts, custom-fabricated orders, and
+                    logistical engagements with Unique Wire Netting. Since 1995, our operations have been defined by
+                    engineering integrity and client-centric transparency.
+                </p>
             </div>
 
-            <div style="margin-bottom: 40px;">
-                <h3
-                    style="color: var(--primary-color); margin-bottom: 15px; border-bottom: 2px solid var(--secondary-color); display: inline-block;">
-                    2. Manufacturing and Quality Standards</h3>
-                <p style="margin-top: 15px;"><b>Compliance:</b> We guarantee that materials are manufactured using
-                    advanced techniques to meet rigorous industrial and architectural standards.</p>
-                <p><b>Material Integrity:</b> Each order undergoes a multi-stage audit at our facility to verify wire
-                    thickness and weave consistency before dispatch.</p>
-                <p><b>Ready Stock:</b> For standard items like welded mesh or chainlink, we maintain inventory for brisk
-                    delivery, though custom fabrications require additional lead time.</p>
-            </div>
+            <div class="legal-box" style="display: grid; gap: 4rem;">
+                <div class="legal-section">
+                    <h3
+                        style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 1rem;">
+                        <span style="color: var(--accent); opacity: 0.5;">01.</span> Technical Specifications
+                    </h3>
+                    <div style="padding-left: 2.5rem; border-left: 1px solid var(--border);">
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Dimension
+                                Accuracy:</strong> Custom orders are executed based on client-provided architectural
+                            drawings. The client assumes responsibility for the structural suitability and dimension
+                            precision of the requested mesh types.</p>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Material
+                                Standards:</strong> We guarantee adherence to stated material grades (SS316, SS304,
+                            etc.) as per international ASTM/AISI standards. Material certifications are provided upon
+                            project completion.</p>
+                    </div>
+                </div>
 
-            <div style="margin-bottom: 40px;">
-                <h3
-                    style="color: var(--primary-color); margin-bottom: 15px; border-bottom: 2px solid var(--secondary-color); display: inline-block;">
-                    3. Shipping and Logistics Across India</h3>
-                <p style="margin-top: 15px;"><b>Pan-India Reach:</b> We supply materials to every corner of India
-                    through a robust logistics network.</p>
-                <p><b>Promised Timeframe:</b> We are committed to delivering all orders within the timeframe promised
-                    during the quotation phase.</p>
-            </div>
+                <div class="legal-section">
+                    <h3
+                        style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 1rem;">
+                        <span style="color: var(--accent); opacity: 0.5;">02.</span> Production & Manufacturing
+                    </h3>
+                    <div style="padding-left: 2.5rem; border-left: 1px solid var(--border);">
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Lead
+                                Times:</strong> While we maintain ready stock for standard industrial mesh, custom
+                            ferruled or hand-woven cable mesh requires specific lead times determined during the
+                            quotation phase.</p>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Quality
+                                Control:</strong> Every dispatch is subject to a 5-point engineering audit to verify
+                            wire gauge accuracy, aperture consistency, and weld integrity.</p>
+                    </div>
+                </div>
 
-            <div style="margin-bottom: 40px;">
-                <h3
-                    style="color: var(--primary-color); margin-bottom: 15px; border-bottom: 2px solid var(--secondary-color); display: inline-block;">
-                    4. Returns and Cancellations</h3>
-                <p style="margin-top: 15px;"><b>Custom Fabrications:</b> Because our SS cable mesh, decorative mesh, and
-                    welded panels are often cut to bespoke dimensions, returns are typically not accepted once
-                    production has commenced.</p>
-                <p><b>Warranty:</b> We stand by the durability and anti-corrosive properties of our products when used
-                    in their intended environments (e.g., SS316 for coastal areas).</p>
-            </div>
+                <div class="legal-section">
+                    <h3
+                        style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 1rem;">
+                        <span style="color: var(--accent); opacity: 0.5;">03.</span> Logistics & Risk Transfer
+                    </h3>
+                    <div style="padding-left: 2.5rem; border-left: 1px solid var(--border);">
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Global
+                                Supply:</strong> We offer Pan-India delivery and global export services. Risk of
+                            material loss or damage transfers to the carrier once the shipment leaves our manufacturing
+                            facility, unless otherwise specified in the Incoterms.</p>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Delivery
+                                Commitments:</strong> We strive to meet all estimated arrival dates; however, technical
+                            complexities in bespoke fabrication may occasionally adjust delivery schedules.</p>
+                    </div>
+                </div>
 
-            <div style="margin-bottom: 40px;">
-                <h3
-                    style="color: var(--primary-color); margin-bottom: 15px; border-bottom: 2px solid var(--secondary-color); display: inline-block;">
-                    5. Payment Terms</h3>
-                <p style="margin-top: 15px;"><b>Moderate Pricing:</b> Our goal is to provide superlative products at
-                    moderate price points.</p>
-                <p><b>Standard Terms:</b> Production usually begins upon receipt of a partial deposit, with the balance
-                    due before final dispatch from our facility.</p>
+                <div class="legal-section">
+                    <h3
+                        style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 1rem;">
+                        <span style="color: var(--accent); opacity: 0.5;">04.</span> Cancellation & Refund Policy
+                    </h3>
+                    <div style="padding-left: 2.5rem; border-left: 1px solid var(--border);">
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Bespoke
+                                Orders:</strong> Due to the customized nature of architectural façades and ferruled
+                            mesh, cancellations are not permitted once raw material processing has commenced.</p>
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Warranty
+                                Claims:</strong> Defective materials reported within 48 hours of delivery will be
+                            investigated by our quality assurance team for repair or replacement.</p>
+                    </div>
+                </div>
+
+                <div class="legal-section">
+                    <h3
+                        style="color: var(--primary); margin-bottom: 1.5rem; font-size: 1.5rem; font-weight: 700; display: flex; align-items: center; gap: 1rem;">
+                        <span style="color: var(--accent); opacity: 0.5;">05.</span> Financial Governance
+                    </h3>
+                    <div style="padding-left: 2.5rem; border-left: 1px solid var(--border);">
+                        <p style="margin-bottom: 1rem; color: var(--text-muted); line-height: 1.7;"><strong>Pricing
+                                Policy:</strong> Quotations are valid for 7 business days, reflecting the volatility of
+                            global metal markets. <strong>Terms:</strong> Standard practice involves a mobilization
+                            deposit prior to fabrication, with the remaining balance cleared before final dispatch.</p>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

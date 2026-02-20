@@ -749,46 +749,7 @@
         </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-col">
-                    <img src="assets/logo.png" alt="Unique Wire Netting" class="footer-logo">
-                    <p>Premium manufacturer of high-quality wire mesh solutions.</p>
-                </div>
-                <div class="footer-col">
-                    <h3>Quick Links</h3>
-                    <ul class="footer-links">
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="about.php">About Us</a></li>
-                        <li><a href="products.php">Products</a></li> <!-- Will need update -->
-                        <li><a href="gallery.php">Gallery</a></li>
-                        <li><a href="contact.php">Contact Us</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Resources</h3>
-                    <ul class="footer-links">
-                        <li><a href="quality-assurance.php">Quality Assurance</a></li>
-                        <li><a href="technical-faq.php">Technical FAQ</a></li>
-                        <li><a href="terms-and-conditions.php">Terms & Conditions</a></li>
-                    </ul>
-                </div>
-                <div class="footer-col">
-                    <h3>Contact Info</h3>
-                    <ul class="footer-links">
-                        <li><i class="fas fa-map-marker-alt"></i> GF-09, Siddheshwar Hall Mark, Sayaji Park, Near Ekta
-                            Nagar chaar Rasta, Ajwa Road, Vadodara -390019</li>
-                        <li><i class="fas fa-phone"></i> +91 9898376811</li>
-                        <li><i class="fas fa-envelope"></i> sbj7860@gmail.com</li>
-                    </ul>
-                </div>
-            </div>
-            <div class="copyright">
-                <p>&copy; 2024 Unique Wire Netting. All Rights Reserved.</p>
-            </div>
-        </div>
-    </footer>
+    <?php include 'includes/footer.html'; ?>
 
     <!-- WhatsApp Float -->
     <a href="https://wa.me/919898376811" class="whatsapp-float" target="_blank">
