@@ -88,57 +88,95 @@
             </div>
 
             <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 30px;">
-                <!-- Category 1 -->
+                <!-- Category 1: Flexible Cable SS Mesh -->
                 <div class="cat-card"
                     style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
                     <div style="height: 200px; background: #ddd;">
-                        <img src="images/cat-mesh.jpg" alt="Welded Wire Mesh"
+                        <img src="assets/products/flexible-ss-cable-mesh.jpg" alt="Flexible Cable SS Mesh"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div style="padding: 25px;">
-                        <h3>Wire Mesh & Netting</h3>
-                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Welded mesh, panels, chain link, and
-                            hexagonal mesh for construction and fencing.</p>
+                        <h3>Flexible Cable SS Mesh</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">High-tensile stainless steel rope mesh for zoos, aviaries, and architectural safety.</p>
+                        <a href="flexible-ss-cable-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
+                            Category &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Category 2: G.I. Chain link Wire Mesh -->
+                <div class="cat-card"
+                    style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+                    <div style="height: 200px; background: #ddd;">
+                        <img src="assets/products/gi-chain-link-mesh.jpg" alt="G.I. Chain link Wire Mesh"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3>G.I. Chain link Wire Mesh</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Durable galvanized iron fencing for industrial, residential, and agricultural security.</p>
+                        <a href="gi-chain-link-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
+                            Category &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Category 3: Welded Wire Mesh -->
+                <div class="cat-card"
+                    style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+                    <div style="height: 200px; background: #ddd;">
+                        <img src="assets/products/welded-wire-mesh.jpg" alt="Welded Wire Mesh"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3>Welded Wire Mesh</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Precision-welded mesh rolls for construction, filtration, and general-purpose use.</p>
                         <a href="welded-wire-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
                             Category &rarr;</a>
                     </div>
                 </div>
 
-                <!-- Category 2 -->
+                <!-- Category 4: Decorative Wire Mesh -->
                 <div class="cat-card"
                     style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
                     <div style="height: 200px; background: #ddd;">
-                        <img src="images/cat-cable.jpg" alt="Cable Mesh"
+                        <img src="assets/products/decorative-wire-mesh.jpg" alt="Decorative Wire Mesh"
                             style="width: 100%; height: 100%; object-fit: cover;">
                     </div>
                     <div style="padding: 25px;">
-                        <h3>Specialized & Architectural</h3>
-                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Flexible SS cable mesh, decorative mesh,
-                            metal curtains, and bulletproof solutions.</p>
-                        <a href="flexible-ss-cable-mesh.php"
-                            style="color: var(--secondary-color); font-weight: 600;">View Category &rarr;</a>
-                    </div>
-                </div>
-
-                <!-- Category 3 -->
-                <div class="cat-card"
-                    style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
-                    <div style="height: 200px; background: #ddd;">
-                        <img src="images/cat-zoo.jpg" alt="Zoo Mesh"
-                            style="width: 100%; height: 100%; object-fit: cover;">
-                    </div>
-                    <div style="padding: 25px;">
-                        <h3>Aviary & Zoo Mesh</h3>
-                        <p style="margin-bottom: 15px; font-size: 0.9rem;">High-strength enclosures for lions, tigers,
-                            monkeys, aviaries, and more.</p>
-                        <a href="zoo-animals-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
+                        <h3>Decorative Wire Mesh</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Aesthetic metal fabrications for interior design, facades, and wall coverings.</p>
+                        <a href="decorative-wire-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
                             Category &rarr;</a>
                     </div>
                 </div>
-            </div>
 
-            <div style="text-align: center; margin-top: 40px;">
-                <a href="flexible-ss-cable-mesh.php" class="btn">View All 19 Products</a>
+                <!-- Category 5: Welded Wire Mesh Panels -->
+                <div class="cat-card"
+                    style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+                    <div style="height: 200px; background: #ddd;">
+                        <img src="assets/products/welded-wire-mesh-panels.jpg" alt="Welded Wire Mesh Panels"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3>Welded Wire Mesh Panels</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">High-strength rigid panels for partition walls, fencing, and safety enclosures.</p>
+                        <a href="welded-wire-mesh-panels.php" style="color: var(--secondary-color); font-weight: 600;">View
+                            Category &rarr;</a>
+                    </div>
+                </div>
+
+                <!-- Category 6: G.I. Welded Wire Mesh -->
+                <div class="cat-card"
+                    style="background: white; padding: 0; box-shadow: 0 5px 15px rgba(0,0,0,0.05); border-radius: 8px; overflow: hidden; transition: transform 0.3s;">
+                    <div style="height: 200px; background: #ddd;">
+                        <img src="assets/products/gi-welded-wire-mesh.jpg" alt="G.I. Welded Wire Mesh"
+                            style="width: 100%; height: 100%; object-fit: cover;">
+                    </div>
+                    <div style="padding: 25px;">
+                        <h3>G.I. Welded Wire Mesh</h3>
+                        <p style="margin-bottom: 15px; font-size: 0.9rem;">Galvanized welded mesh with superior corrosion resistance for outdoor applications.</p>
+                        <a href="gi-welded-wire-mesh.php" style="color: var(--secondary-color); font-weight: 600;">View
+                            Category &rarr;</a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>

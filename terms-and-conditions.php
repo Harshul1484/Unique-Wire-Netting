@@ -19,36 +19,7 @@
 
 <body>
 
-    <header>
-        <div class="container">
-            <nav>
-                <div class="logo"><a href="index.php"><img src="assets/logo.png" alt="Unique Wire Netting"
-                            class="nav-logo"></a></div>
-                <div class="menu-toggle">
-                    <i class="fas fa-bars"></i>
-                </div>
-                <ul class="nav-links">
-                    <li><a href="index.php">Home</a></li>
-                    <li><a href="about.php">About Us</a></li>
-                    <li class="dropdown">
-                        <a href="#">Our Products</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="flexible-ss-cable-mesh.php">Flexible Cable SS Mesh</a></li>
-                            <li><a href="walk-in-aviary.php">Walk In Aviary</a></li>
-                            <li><a href="zoo-animals-mesh.php">Zoo Animals Mesh</a></li>
-                            <li><a href="wire-rope-mesh-railing.php">Wire Rope Mesh Railing</a></li>
-                            <li><a href="decorative-wire-mesh.php">Decorative Wire Mesh</a></li>
-                            <li><a href="welded-wire-mesh.php">Welded Wire Mesh</a></li>
-                            <li><a href="gi-chain-link-mesh.php">G.I. Chain Link Wire Mesh</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="gallery.php">Gallery</a></li>
-                    <li><a href="contact.php">Contact</a></li>
-                    <li><a href="contact.php" class="btn">Get Quote</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <?php include 'includes/header.html'; ?>
 
     <div class="page-header"
         style="padding: 60px 0; text-align: center; background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/terms-and-conditions.jpg'); background-size: cover; background-position: center; color: #ffffff;">
