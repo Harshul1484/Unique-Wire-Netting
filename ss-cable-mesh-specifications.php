@@ -207,9 +207,8 @@
             <div class="product-card">
                 <!-- Image Container -->
                 <div class="product-img">
-                    <!-- Image Placeholder -->
-                    <i class="fas fa-image fa-3x"></i>
-                    <span style="margin-left: 10px;">Mesh Detail Image</span>
+                    <img src="assets/images/products/ss-cable-mesh-specifications/mesh-detail.jpg"
+                        alt="Mesh Detail Image">
                 </div>
                 <!-- Content -->
                 <div class="product-content">
@@ -275,8 +274,8 @@
 
                 <!-- Image Container for Right Side -->
                 <div class="product-img" style="flex: 1;">
-                    <i class="fas fa-image fa-3x"></i>
-                    <span style="margin-left: 10px;">Mesh Close-up Image</span>
+                    <img src="assets/images/products/ss-cable-mesh-specifications/mesh-close-up.jpg"
+                        alt="Mesh Close-up Image">
                 </div>
             </div>
 

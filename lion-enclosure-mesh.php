@@ -65,9 +65,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Black Oxide Lion Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/black-oxide-fence.jpg"
+                                alt="Black Oxide Lion Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Black Oxide Lion Exhibit Fence</h4>
@@ -84,9 +84,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Mountain Lion Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/mountain-lion-exhibit.jpg"
+                                alt="Mountain Lion Exhibit">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Mountain Lion Exhibit Net</h4>
@@ -103,9 +103,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Exhibit Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/lion-exhibit-mesh.jpg"
+                                alt="Lion Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion enclosure mesh</h4>
@@ -122,9 +122,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Fence Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/lion-fence-netting.jpg"
+                                alt="Lion Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion fence mesh</h4>
@@ -141,9 +141,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Cage Protected]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/lion-cage-protected.jpg"
+                                alt="Lion Cage Protected">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion cage protective mesh</h4>
@@ -160,9 +160,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Isolation Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/lion-isolation-mesh.jpg"
+                                alt="Lion Isolation Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion safety isolation mesh</h4>
@@ -180,9 +180,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Habitat Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/lion-enclosure-mesh/lion-habitat-enclosure.jpg"
+                                alt="Lion Habitat Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion enclosure fence mesh</h4>
@@ -221,34 +221,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Lion in Large Open Habitat]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/black-oxide-fence.jpg"
+                            alt="Lion in Large Open Habitat">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Lion Exhibit with Rocky Layout]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/mountain-lion-exhibit.jpg"
+                            alt="Lion Exhibit with Rocky Layout">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Close-up of Lion Behind Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/lion-exhibit-mesh.jpg"
+                            alt="Close-up of Lion Behind Mesh">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Mountain Lion Enclosure View]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/lion-fence-netting.jpg"
+                            alt="Mountain Lion Enclosure View">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Lion Pair in Safe Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/lion-cage-protected.jpg"
+                            alt="Lion Pair in Safe Enclosure">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Wide Angle of Zoo Exhibit Fence]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/lion-isolation-mesh.jpg"
+                            alt="Wide Angle of Zoo Exhibit Fence">
                     </div>
                 </div>
             </div>

@@ -68,9 +68,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Bridge Safety Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/wire-rope-mesh-railing/bridge-fence.jpg"
+                                alt="Bridge Safety Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Bridge fence mesh</h4>
@@ -87,9 +87,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Staircase Mesh Railing]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/wire-rope-mesh-railing/staircase-mesh.jpg"
+                                alt="Staircase Mesh Railing">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Staircase Wire rope mesh railing</h4>
@@ -106,9 +106,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Corridor Road Safety]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/wire-rope-mesh-railing/corridor-fence.jpg"
+                                alt="Corridor Road Safety">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Corridor fence nets</h4>
@@ -125,9 +125,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Decorative Decoration Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/wire-rope-mesh-railing/decorative-mesh.jpg"
+                                alt="Decorative Decoration Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Decorative wire rope mesh</h4>
@@ -144,9 +144,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Zoo Enclosure Railing]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/wire-rope-mesh-railing/zoo-railing.jpg"
+                                alt="Zoo Enclosure Railing">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Zoo enclosure fence railing</h4>
@@ -184,34 +184,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Modern Balcony Mesh Railing]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/decorative-mesh.jpg"
+                            alt="Modern Balcony Mesh Railing">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Staircase Safety Mesh Setup]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/staircase-mesh.jpg"
+                            alt="Staircase Safety Mesh Setup">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Public Bridge Side Protection]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/zoo-railing.jpg"
+                            alt="Public Bridge Side Protection">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Corridor Perimeter Fence View]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/bridge-fence.jpg"
+                            alt="Corridor Perimeter Fence View">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Zoo Pathway Mesh Railing]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/zoo-pathway.jpg"
+                            alt="Zoo Pathway Mesh Railing">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Building Decoration Mesh Wall]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/corridor-fence.jpg"
+                            alt="Building Decoration Mesh Wall">
                     </div>
                 </div>
             </div>

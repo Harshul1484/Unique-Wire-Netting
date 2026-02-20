@@ -61,9 +61,9 @@
                     </ol>
                 </div>
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Mesh Texture Closeup]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/mesh-texture.jpg"
+                            alt="Mesh Texture Closeup">
                     </div>
                 </div>
             </div>
@@ -95,9 +95,8 @@
             <!-- Origin -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: center;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Rolled Mesh Panels]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/rolled-mesh.jpg" alt="Rolled Mesh Panels">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -144,9 +143,9 @@
             <!-- Material -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Eagle in Zoo Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/eagle-enclosure.jpg"
+                            alt="Eagle in Zoo Enclosure">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -190,9 +189,9 @@
             <!-- Woven Mesh -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Outdoor Zoo Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/zoo-enclosure-outdoor.jpg"
+                            alt="Outdoor Zoo Enclosure">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -221,9 +220,9 @@
                         mesh is absolutely UV resistant and weather resistant.</p>
                 </div>
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Woven vs Ferrule Comparison]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/woven-vs-ferrule-3.jpg"
+                            alt="Woven vs Ferrule Comparison">
                     </div>
                 </div>
             </div>
@@ -245,21 +244,20 @@
                 <!-- 4 Image Grid -->
                 <div
                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-bottom: 30px;">
-                    <div
-                        style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Green Background Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/green-mesh.jpg"
+                            alt="Green Background Mesh">
                     </div>
-                    <div
-                        style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Red/Brown Background Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/red-mesh.jpg"
+                            alt="Red/Brown Background Mesh">
                     </div>
-                    <div
-                        style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Rolled Mesh Layers]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/mesh-layers.jpg" alt="Rolled Mesh Layers">
                     </div>
-                    <div
-                        style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Vertical Mesh Pattern]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/vertical-mesh.jpg"
+                            alt="Vertical Mesh Pattern">
                     </div>
                 </div>
 
@@ -279,9 +277,9 @@
             <!-- Hot Specifications Section -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 100%; min-height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Stacks of Black Mesh on Blue Pallets]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-cable-development/black-mesh-stacks.jpg"
+                            alt="Stacks of Black Mesh on Blue Pallets">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">

@@ -36,9 +36,9 @@
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px; display: flex; flex-wrap: wrap; gap: 40px; align-items: start;">
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 350px; border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                        <p style="color: #666; font-weight: bold;">[Main Welded Mesh Roll Image]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh/welded-mesh-roll-main.jpg"
+                            alt="Main Welded Mesh Roll Image">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -221,19 +221,19 @@
                 <div
                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Welded Mesh Rolls In Storage]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh/welded-mesh-rolls-storage.jpg"
+                            alt="Welded Mesh Rolls In Storage">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Welded Mesh Fence Installation]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh/welded-mesh-fence-installation.jpg"
+                            alt="Welded Mesh Fence Installation">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Industrial Mesh Panel Closeup]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh/industrial-mesh-panel.jpg"
+                            alt="Industrial Mesh Panel Closeup">
                     </div>
                 </div>
             </div>

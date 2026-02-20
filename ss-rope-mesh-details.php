@@ -35,9 +35,9 @@
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                 <!-- Image Placeholder -->
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Mesh Details Hexagon Collage]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-rope-mesh-details/hexagon-collage.jpg"
+                            alt="Mesh Details Hexagon Collage">
                     </div>
                 </div>
                 <!-- Text -->
@@ -77,9 +77,9 @@
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                 <!-- Image Placeholder -->
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Wire Rope Mesh Material Coils]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/ss-rope-mesh-details/material-coils.jpg"
+                            alt="Wire Rope Mesh Material Coils">
                     </div>
                 </div>
                 <!-- Text -->
@@ -198,10 +198,9 @@
 
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-top: 30px; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                            <p style="color: #666;">[Image: Microstructure Comparison]</p>
-                        </div>
+                            <div class="product-img">
+                                <img src="assets/images/products/ss-rope-mesh-details/microstructure-comparison.jpg" alt="Microstructure Comparison">
+                            </div>
                     </div>
                     <div style="flex: 1; min-width: 300px;">
                         <h4 style="margin-bottom: 15px;">Difference between 304 and 316:</h4>
@@ -231,10 +230,9 @@
                 <div
                     style="display: flex; gap: 40px; flex-wrap: wrap; flex-direction: row-reverse; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                        <div
-                            style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                            <p style="color: #666;">[Image: Intergranular Corrosion Structure]</p>
-                        </div>
+                            <div class="product-img">
+                                <img src="assets/images/products/ss-rope-mesh-details/intergranular-corrosion.jpg" alt="Intergranular Corrosion Structure">
+                            </div>
                     </div>
 
                     <div style="flex: 1; min-width: 300px;">
@@ -264,10 +262,9 @@
             <div style="margin-top: 60px;">
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px;">
-                        <div
-                            style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                            <p style="color: #666;">[Image: Colored Wire Rope Mesh Coils]</p>
-                        </div>
+                            <div class="product-img">
+                                <img src="assets/images/products/ss-rope-mesh-details/colored-coils.jpg" alt="Colored Wire Rope Mesh Coils">
+                            </div>
                     </div>
                     <div style="flex: 1; min-width: 300px;">
                         <h3 style="margin-bottom: 20px;">Color of Stainless steel wire rope mesh</h3>
@@ -289,10 +286,9 @@
             <div style="margin-top: 60px;">
                 <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px; align-items: flex-start;">
                     <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                        <div
-                            style="background: #eee; height: 100%; min-height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                            <p style="color: #666;">[Image: Woven vs Ferrule Mesh Component Diagram]</p>
-                        </div>
+                            <div class="product-img">
+                                <img src="assets/images/products/ss-rope-mesh-details/woven-vs-ferrule.jpg" alt="Woven vs Ferrule Mesh Component Diagram">
+                            </div>
                     </div>
 
                     <div style="flex: 1; min-width: 300px;">
@@ -344,10 +340,9 @@
             <!-- Manufacturing Specifications -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #fff; height: 100%; min-height: 350px; display: flex; align-items: center; justify-content: center; border-radius: 8px; border: 1px solid #eee;">
-                        <p style="color: #666;">[Image: Wire Rope Diameters and Structure]</p>
-                    </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/rope-diameters.jpg" alt="Wire Rope Diameters and Structure">
+                        </div>
                 </div>
 
                 <div style="flex: 1; min-width: 300px;">
@@ -393,10 +388,9 @@
             <!-- Costs and Prices -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Blue Mesh Background]</p>
-                    </div>
+                        <div class="product-img">
+                            <img src="assets/images/products/ss-rope-mesh-details/blue-mesh-bg.jpg" alt="Blue Mesh Background">
+                        </div>
                 </div>
 
                 <div style="flex: 1; min-width: 300px;">

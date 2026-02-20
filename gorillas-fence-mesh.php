@@ -65,9 +65,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Gorilla Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/gorilla-enclosure.jpg"
+                                alt="Gorilla Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">The Gorillas fence mesh</h4>
@@ -84,9 +84,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Orangutan Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/orangutan-exhibit.jpg"
+                                alt="Orangutan Exhibit">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Orangutan exhibit mesh</h4>
@@ -103,9 +103,8 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Gibbons Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/gibbons-fence.jpg" alt="Gibbons Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Javan Gibbons Fence Mesh</h4>
@@ -122,9 +121,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Chimpanzee Nets]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/chimpanzee-nets.jpg"
+                                alt="Chimpanzee Nets">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Chimpanzee enclosure nets</h4>
@@ -141,9 +140,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Gorilla Exhibits]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/gorilla-exhibits.jpg"
+                                alt="Gorilla Exhibits">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Gorillas enclosure fence mesh</h4>
@@ -160,9 +159,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Primate Safety Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/gorillas-fence-mesh/primate-safety-mesh.jpg"
+                                alt="Primate Safety Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Orangutan enclosure fence mesh</h4>
@@ -202,34 +201,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Gibbon Swinging on Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/gorilla-enclosure.jpg"
+                            alt="Gibbon Swinging on Mesh">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Primate Enclosure Fence]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/orangutan-exhibit.jpg"
+                            alt="Primate Enclosure Fence">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Orangutan Behind Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/gibbons-fence.jpg"
+                            alt="Orangutan Behind Mesh">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Gorilla Sitting in Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/chimpanzee-nets.jpg"
+                            alt="Gorilla Sitting in Enclosure">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Gorilla High View]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/gorilla-exhibits.jpg"
+                            alt="Gorilla High View">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Large Primate Display]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/primate-safety-mesh.jpg"
+                            alt="Large Primate Display">
                     </div>
                 </div>
             </div>

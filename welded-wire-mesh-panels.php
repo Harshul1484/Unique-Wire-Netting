@@ -36,9 +36,9 @@
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px; display: flex; flex-wrap: wrap; gap: 40px; align-items: start;">
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 350px; border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                        <p style="color: #666; font-weight: bold;">[Main Welded Panel Image]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh-panels/welded-panel-main.jpg"
+                            alt="Main Welded Panel Image">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -188,19 +188,19 @@
                 <div
                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Stack of Welded Panels]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh-panels/welded-panel-stack.jpg"
+                            alt="Stack of Welded Panels">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: G.I. Fence Panels in Site]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh-panels/gi-fence-panels.jpg"
+                            alt="G.I. Fence Panels in Site">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Architectural Mesh Panel Close-up]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/welded-wire-mesh-panels/architectural-panel.jpg"
+                            alt="Architectural Mesh Panel Close-up">
                     </div>
                 </div>
             </div>

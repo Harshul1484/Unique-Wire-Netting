@@ -66,9 +66,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Leopard Exhibit Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/leopard-exhibit-fence.jpg"
+                                alt="Leopard Exhibit Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Exhibit Fence</h4>
@@ -86,9 +86,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Snow Leopard Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/snow-leopard-enclosure.jpg"
+                                alt="Snow Leopard Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Enclosure Mesh</h4>
@@ -105,9 +105,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Leopard Perimeter Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/leopard-perimeter-fence.jpg"
+                                alt="Leopard Cage Perimeter Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Cage Perimeter Fence</h4>
@@ -125,9 +125,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Leopard Safety Net]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/leopard-safety-net.jpg"
+                                alt="Leopard Protective Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Protective Mesh</h4>
@@ -144,9 +144,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Snow Leopard Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/snow-leopard-fence.jpg"
+                                alt="Snow Leopard Enclosure Fencing">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Snow Leopard Enclosure Fencing</h4>
@@ -163,9 +163,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Leopard Visual Barrier]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/leopard-visual-barrier.jpg"
+                                alt="Leopard Fence Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Fence Protection Mesh</h4>
@@ -182,9 +182,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Leopard Trail Way]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/leopard-cage-fence/leopard-trail-way.jpg"
+                                alt="Leopard Trail Fence Wire Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Leopard Trail Fence Wire Mesh</h4>
@@ -222,34 +222,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Leopard in High Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/leopard-high-enclosure.jpg"
+                            alt="Leopard in High Enclosure">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Snow Leopard in Snow Exhibit]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/snow-leopard-exhibit.jpg"
+                            alt="Snow Leopard in Snow Exhibit">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Snow Leopard Close-up]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/snow-leopard-close-up.jpg"
+                            alt="Snow Leopard Close-up">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Leopard Walking on Trail]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/leopard-walking.jpg"
+                            alt="Leopard Walking on Trail">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Cheetah Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/cheetah-enclosure.jpg"
+                            alt="Cheetah Enclosure">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Snow Leopard Exhibit Wide View]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/snow-leopard-wide.jpg"
+                            alt="Snow Leopard Exhibit Wide View">
                     </div>
                 </div>
             </div>

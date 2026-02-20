@@ -70,9 +70,9 @@
             <!-- Categories & Image Section -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start;">
                 <div style="flex: 1; min-width: 300px; max-width: 600px;">
-                    <div
-                        style="background: #eee; height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Large Walk-in Aviary Dome Structure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/aviary-dome.jpg"
+                            alt="Large Walk-in Aviary Dome Structure">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -107,9 +107,8 @@
                     <!-- Card 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Walk-in Aviary Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/walk-in-mesh.jpg" alt="Walk-in Aviary mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Walk-in Aviary mesh</h4>
@@ -123,9 +122,9 @@
                     <!-- Card 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Large Birds Aviary Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/aviary-netting.jpg"
+                                alt="Large birds aviary netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Large birds aviary netting</h4>
@@ -139,9 +138,9 @@
                     <!-- Card 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Crane Enclosure Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/crane-fence.jpg"
+                                alt="Crane enclosure fence mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Crane enclosure fence mesh</h4>
@@ -156,9 +155,8 @@
                     <!-- Card 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Macaw Aviary Wire]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/macaw-wire.jpg" alt="Macaw aviary wire">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Macaw aviary wire</h4>
@@ -175,9 +173,9 @@
                     <!-- Card 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Toucan Fence Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/toucan-netting.jpg"
+                                alt="Toucan fence netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Toucan fence netting</h4>
@@ -192,9 +190,9 @@
                     <!-- Card 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Eagle Aviary Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/walk-in-aviary/eagle-mesh.jpg"
+                                alt="Eagle aviary mesh, eagle enclosure fence mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Eagle aviary mesh, eagle enclosure fence mesh
@@ -230,34 +228,29 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle Perched/Flying]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/eagle.jpg" alt="Eagle Perched/Flying">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Large Aviary Dome]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/aviary-dome.jpg" alt="Large Aviary Dome">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle Flying Against Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/eagle-mesh-close.jpg"
+                            alt="Eagle Flying Against Mesh">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Rectangular Aviary]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/macaw-wire.jpg" alt="Rectangular Aviary">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Macaws on Perch]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/macaws.jpg" alt="Macaws on Perch">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Cranes in Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/walk-in-aviary/crane-fence.jpg" alt="Cranes in Enclosure">
                     </div>
                 </div>
             </div>

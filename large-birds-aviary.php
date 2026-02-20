@@ -68,9 +68,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Peacock Aviary Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/peacock-mesh.jpg"
+                                alt="Peacock Aviary Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Peacock Aviary Mesh</h4>
@@ -88,9 +88,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Crane Enclosure Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/crane-fence-1.jpg"
+                                alt="Crane Enclosure Fence Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Crane Enclosure Fence Mesh</h4>
@@ -108,9 +108,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Flamingo Fence Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/flamingo-netting.jpg"
+                                alt="Flamingo Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Flamingo Fence Netting</h4>
@@ -128,9 +128,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Peacock Fence Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/peacock-fencing.jpg"
+                                alt="Peacock Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Peacock Fence Netting</h4>
@@ -148,9 +148,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Aviary Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/aviary-mesh.jpg"
+                                alt="Aviary Mesh, Bird Cage Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Aviary Mesh, Bird Cage Netting</h4>
@@ -168,9 +168,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Pheasants Cage]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/pheasant-cage.jpg"
+                                alt="Pheasants Cage Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Pheasants Cage Netting</h4>
@@ -187,9 +187,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Emu/Ostrich Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/ostrich-fence.jpg"
+                                alt="Emu Protective Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Emu Protective Fence</h4>
@@ -207,9 +207,9 @@
                     <!-- Case 8 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Red-crowned Crane]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/red-crowned-crane.jpg"
+                                alt="Red-crowned Crane Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Red-crowned Crane Fence Netting</h4>
@@ -227,9 +227,9 @@
                     <!-- Case 9 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Bird Aviary Wire]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/large-birds-aviary/aviary-wire.jpg"
+                                alt="Bird Aviary Wire Mesh, Crane Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Bird Aviary Wire Mesh, Crane Fence Netting
@@ -269,34 +269,28 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Pheasant]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/peacock-mesh.jpg" alt="Pheasant">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: White Peacock]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/crane-fence-1.jpg" alt="White Peacock">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Flamingos]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/flamingo-netting.jpg" alt="Flamingos">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Ostrich]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/peacock-fencing.jpg" alt="Ostrich">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Cranes]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/aviary-mesh.jpg" alt="Cranes">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Large Bird Dome]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/large-birds-aviary/pheasant-cage.jpg" alt="Large Bird Dome">
                     </div>
                 </div>
             </div>

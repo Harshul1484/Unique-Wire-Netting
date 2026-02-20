@@ -36,9 +36,8 @@
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px; display: flex; flex-wrap: wrap; gap: 40px; align-items: start;">
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 350px; border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                        <p style="color: #666; font-weight: bold;">[G.I. Welded Mesh Roll Image]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-welded-wire-mesh/mesh-roll.jpg" alt="G.I. Welded Mesh Roll">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -306,19 +305,19 @@
                 <div
                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: G.I. Mesh Fence in Sunlight]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-welded-wire-mesh/fence-sunlight.jpg"
+                            alt="G.I. Mesh Fence in Sunlight">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Rolls of Galvanized Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-welded-wire-mesh/galvanized-rolls.jpg"
+                            alt="Rolls of Galvanized Mesh">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: G.I. Mesh Panel Detail]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-welded-wire-mesh/panel-detail.jpg"
+                            alt="G.I. Mesh Panel Detail">
                     </div>
                 </div>
             </div>

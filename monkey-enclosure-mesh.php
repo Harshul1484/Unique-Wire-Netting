@@ -78,9 +78,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Monkey Tunnel Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/monkey-tunnel.jpg"
+                                alt="Monkey Tunnel Exhibit">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Monkey Tunnel Mesh Enclosure</h4>
@@ -98,9 +98,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Golden Monkey Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/golden-monkey-mesh.jpg"
+                                alt="Golden Monkey Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Golden Monkey Exhibit Mesh</h4>
@@ -117,9 +117,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lemur Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/lemur-enclosure.jpg"
+                                alt="Lemur Monkey Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lemur Monkey Enclosure Mesh</h4>
@@ -137,9 +137,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Monkey Cage Top Barrier]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/cage-top-barrier.jpg"
+                                alt="Monkey Cage Covered Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Monkey Cage Covered Mesh</h4>
@@ -156,9 +156,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Monkey Fence Protection]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/fence-protection.jpg"
+                                alt="Monkey Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Monkey Fence Netting</h4>
@@ -176,9 +176,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Peripheral Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/peripheral-fence.jpg"
+                                alt="Monkey Safety Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Monkey Safety Protection Mesh</h4>
@@ -196,9 +196,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Monkey Fencing Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/monkey-enclosure-mesh/monkey-fencing-mesh.jpg"
+                                alt="Monkey Cage Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Monkey Cage Fence</h4>
@@ -236,34 +236,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Squirrel Monkey Playing Near Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/golden-monkey-mesh.jpg"
+                            alt="Squirrel Monkey Playing Near Mesh">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Monkey Climbing on Large Exhibit Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/lemur-enclosure.jpg"
+                            alt="Monkey Climbing on Large Exhibit Mesh">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Close-up of Monkey Behind Tunnel Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/cage-top-barrier.jpg"
+                            alt="Close-up of Monkey Behind Tunnel Mesh">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Primates Grooming in Safe Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/fence-protection.jpg"
+                            alt="Primates Grooming in Safe Enclosure">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Wide Snapshot of Zoo Primate Habitat]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/peripheral-fence.jpg"
+                            alt="Wide Snapshot of Zoo Primate Habitat">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Monkey Transitioning via Mesh Tunnel]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/monkey-fencing-mesh.jpg"
+                            alt="Monkey Transitioning via Mesh Tunnel">
                     </div>
                 </div>
             </div>

@@ -60,9 +60,9 @@
             <!-- Categories & Image Section -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
                 <div style="flex: 1; min-width: 300px; max-width: 600px;">
-                    <div
-                        style="background: #eee; height: 400px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Eagle Netting Structure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/netting-lable.jpg"
+                            alt="Eagle Netting Structure">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -96,9 +96,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Eagle Enclosure Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/eagle-enclosure-mesh.jpg"
+                                alt="Eagle Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Eagle Enclosure Mesh</h4>
@@ -117,9 +117,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Eagle Aviary Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/eagle-aviary-mesh.jpg"
+                                alt="Eagle Aviary Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Eagle Aviary Mesh, Eagle Fence Mesh</h4>
@@ -137,9 +137,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Eagle Cage Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/eagle-cage-netting.jpg"
+                                alt="Eagle Cage Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Eagle Cage Netting, Eagle Fence Mesh</h4>
@@ -157,9 +157,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Vulture Enclosure Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/vulture-enclosure-mesh.jpg"
+                                alt="Vulture Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Vulture Enclosure Mesh, Vulture Cage Fence
@@ -179,9 +179,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Vulture Fencing]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/vulture-fencing.jpg"
+                                alt="Vulture Fencing">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Vulture Fencing, Vulture Cage Protective Mesh
@@ -200,9 +200,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Eagle Fencing Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/eagle-netting-mesh/eagle-fencing-mesh.jpg"
+                                alt="Eagle Fencing Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Eagle Fencing Mesh</h4>
@@ -240,34 +240,28 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 1]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/eagle-enclosure-mesh.jpg" alt="Eagle 1">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 2]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/eagle-aviary-mesh.jpg" alt="Eagle 2">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 3]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/eagle-cage-netting.jpg" alt="Eagle 3">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 4]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/vulture-enclosure-mesh.jpg" alt="Eagle 4">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 5]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/vulture-fencing.jpg" alt="Eagle 5">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Eagle 6]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/eagle-netting-mesh/eagle-fencing-mesh.jpg" alt="Eagle 6">
                     </div>
                 </div>
             </div>

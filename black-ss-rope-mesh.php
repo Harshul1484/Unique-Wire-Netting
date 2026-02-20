@@ -35,9 +35,9 @@
             <!-- Intro Section -->
             <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: center;">
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 350px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Black Mesh Roll on Blue Pallet]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/black-mesh-roll.jpg"
+                            alt="Black Mesh Roll on Blue Pallet">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -112,9 +112,9 @@
                     </ol>
                 </div>
                 <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div
-                        style="background: #eee; height: 350px; display: flex; align-items: center; justify-content: center; border-radius: 8px; position: relative;">
-                        <p style="color: #666;">[Image: Mesh Fence Near Water]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/mesh-fence-water.jpg"
+                            alt="Mesh Fence Near Water">
                     </div>
                 </div>
             </div>
@@ -125,9 +125,9 @@
                     <!-- Top Part: Image Left, Text Right -->
                     <div style="width: 100%; display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 40px;">
                         <div style="flex: 1; min-width: 300px; max-width: 400px;">
-                            <div
-                                style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                <p style="color: #666;">[Image: Bird in Black Mesh Aviary]</p>
+                            <div class="product-img">
+                                <img src="assets/images/products/black-ss-rope-mesh/bird-aviary.jpg"
+                                    alt="Bird in Black Mesh Aviary">
                             </div>
                         </div>
                         <div style="flex: 1.5; min-width: 300px;">
@@ -154,15 +154,15 @@
                     <!-- Bottom Part: Two Images -->
                     <div style="width: 100%; display: flex; gap: 40px; flex-wrap: wrap;">
                         <div style="flex: 1; min-width: 300px;">
-                            <div
-                                style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                                <p style="color: #666;">[Image: Black Wire Coil]</p>
+                            <div class="product-img">
+                                <img src="assets/images/products/black-ss-rope-mesh/black-wire-coil.jpg"
+                                    alt="Black Wire Coil">
                             </div>
                         </div>
                         <div style="flex: 1; min-width: 300px;">
-                            <div
-                                style="background: #eee; height: 300px; display: flex; align-items: center; justify-content: center; border-radius: 8px; position: relative;">
-                                <p style="color: #666;">[Image: Hand Weaving Close-up]</p>
+                            <div class="product-img">
+                                <img src="assets/images/products/black-ss-rope-mesh/hand-weaving.jpg"
+                                    alt="Hand Weaving Close-up">
                             </div>
                         </div>
                     </div>
@@ -331,49 +331,48 @@
                 <!-- 9 Image Grid -->
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Black Mesh Roll - 1]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/black-mesh-roll-1.jpg"
+                            alt="Black Mesh Roll - 1">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Leopard in Black Mesh Cage]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/leopard-cage.jpg"
+                            alt="Leopard in Black Mesh Cage">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Bird in Black Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/bird-mesh.jpg" alt="Bird in Black Mesh">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Wire Coil Close Up]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/wire-coil-close-up.jpg"
+                            alt="Wire Coil Close Up">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Mesh Knot Detail]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/mesh-knot-detail.jpg"
+                            alt="Mesh Knot Detail">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Stacked Mesh Rolls]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/stacked-mesh-rolls.jpg"
+                            alt="Stacked Mesh Rolls">
                     </div>
                     <!-- Image 7 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Lemurs in Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/lemurs-enclosure.jpg"
+                            alt="Lemurs in Enclosure">
                     </div>
                     <!-- Image 8 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Gorilla in Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/gorilla-enclosure.jpg"
+                            alt="Gorilla in Enclosure">
                     </div>
                     <!-- Image 9 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px;">
-                        <p style="color: #666;">[Image: Monkey Looking Through Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/black-ss-rope-mesh/monkey-mesh.jpg"
+                            alt="Monkey Looking Through Mesh">
                     </div>
                 </div>
             </div>

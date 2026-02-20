@@ -83,9 +83,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Kangaroo Black Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/kangaroo-black-mesh.jpg"
+                                alt="Kangaroo Black Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Black Mesh for Kangaroos</h4>
@@ -103,9 +103,8 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Deer Fence Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/deer-fence-mesh.jpg" alt="Deer Fence Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Deer Fence Mesh</h4>
@@ -122,9 +121,8 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Deer Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/deer-enclosure.jpg" alt="Deer Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Deer Enclosure Fence Netting</h4>
@@ -141,9 +139,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Kangaroo Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/kangaroo-enclosure.jpg"
+                                alt="Kangaroo Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Kangaroo Fence Enclosure Mesh</h4>
@@ -160,9 +158,8 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Giraffe Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/giraffe-fence.jpg" alt="Giraffe Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Giraffe Fence Mesh</h4>
@@ -180,9 +177,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Giraffe Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/deer-fence-mesh/giraffe-enclosure-1.jpg"
+                                alt="Giraffe Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Giraffe Enclosure Mesh</h4>
@@ -222,34 +219,31 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Giraffe in Aviary/Enclosure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/giraffe-aviary.jpg"
+                            alt="Giraffe in Aviary/Enclosure">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Kangaroos Exhibit]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/kangaroos-exhibit.jpg" alt="Kangaroos Exhibit">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Deer in Open Field]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/deer-open-field.jpg" alt="Deer in Open Field">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Zoo Fence Structure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/zoo-fence-structure.jpg"
+                            alt="Zoo Fence Structure">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Antelope Exhibit]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/antelope-exhibit.jpg" alt="Antelope Exhibit">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Vertical Giraffe Fence]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/vertical-giraffe-fence.jpg"
+                            alt="Vertical Giraffe Fence">
                     </div>
                 </div>
             </div>

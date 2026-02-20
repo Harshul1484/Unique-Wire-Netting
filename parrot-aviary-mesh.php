@@ -70,9 +70,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Sun Conures Parrots Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/sun-conures-mesh.jpg"
+                                alt="Sun Conures Parrots Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Sun Conures Parrots Mesh</h4>
@@ -90,9 +90,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Macaw Parrot Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/macaw-enclosure.jpg"
+                                alt="Macaw Parrot Enclosure">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Macaw Parrot Fence Netting</h4>
@@ -109,9 +109,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Parrot Cage Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/parrot-cage-mesh.jpg"
+                                alt="Parrot Cage Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Parrot Cage Enclosure Mesh</h4>
@@ -128,9 +128,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Parrot Exhibit Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/parrot-exhibit-fence.jpg"
+                                alt="Parrot Exhibit Fence">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Parrot Exhibit Fence</h4>
@@ -147,9 +147,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Parrot Enclosure Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/parrot-enclosure-mesh.jpg"
+                                alt="Parrot Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Parrot Enclosure Mesh</h4>
@@ -166,9 +166,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Toucan Fence Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/parrot-aviary-mesh/toucan-fence-netting.jpg"
+                                alt="Toucan Fence Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Toucan Fence Netting</h4>
@@ -179,25 +179,6 @@
                             </p>
                             <p style="font-size: 0.9em; color: #555;">Stainless steel rope mesh specifically for toucan
                                 fence netting and toucan cage netting applications.</p>
-                        </div>
-                    </div>
-
-                    <!-- Case 7 -->
-                    <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Habitat Mesh]</p>
-                        </div>
-                        <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Parrot Habitat Mesh</h4>
-                            <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1630</p>
-                            <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
-                            <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
-                            <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 30mm x 30mm (1.2″ x 1.2″)
-                            </p>
-                            <p style="font-size: 0.9em; color: #555;">Provides more comfortable habitat for parrots.
-                                Mesh aperture will not block sun light and air flowing.</p>
                         </div>
                     </div>
 
@@ -223,34 +204,30 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Sun Conures]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/sun-conures-mesh.jpg" alt="Sun Conures">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Aviary Structure]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/macaw-enclosure.jpg" alt="Aviary Structure">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Toucan on Branch]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/parrot-cage-mesh.jpg"
+                            alt="Toucan on Branch">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Outdoor Exhibit]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/parrot-exhibit-fence.jpg"
+                            alt="Outdoor Exhibit">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Macaws]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/parrot-enclosure-mesh.jpg" alt="Macaws">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Side View]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/parrot-aviary-mesh/toucan-fence-netting.jpg" alt="Side View">
                     </div>
                 </div>
             </div>

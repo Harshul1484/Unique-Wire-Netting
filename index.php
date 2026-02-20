@@ -56,7 +56,7 @@
         <div class="container">
             <div style="display: flex; flex-wrap: wrap; align-items: center; gap: 50px;">
                 <div style="flex: 1; min-width: 300px;">
-                    <img src="images/about-home.jpg" alt="Unique Wire Netting Factory"
+                    <img src="assets/images/about-home.jpg" alt="Unique Wire Netting Factory"
                         style="border-radius: 8px; box-shadow: 0 10px 30px rgba(0,0,0,0.1);">
                 </div>
                 <div style="flex: 1; min-width: 300px;">

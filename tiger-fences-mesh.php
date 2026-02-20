@@ -68,9 +68,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Exhibit Black Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-exhibit-black-mesh.jpg"
+                                alt="Tiger Exhibit Black Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger exhibit fence mesh</h4>
@@ -88,9 +88,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Passage Netting]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-passage-netting.jpg"
+                                alt="Tiger Passage Netting">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger passage mesh</h4>
@@ -107,9 +107,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Overhead Tunnel]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-overhead-tunnel.jpg"
+                                alt="Tiger Overhead Tunnel">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger overhead passage mesh</h4>
@@ -126,9 +126,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Cage Mesh]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-cage-mesh.jpg"
+                                alt="Tiger Cage Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger cage protection mesh</h4>
@@ -145,9 +145,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Sumatran Tiger Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/sumatran-tiger-exhibit.jpg"
+                                alt="Sumatran Tiger Exhibit">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger enclosure netting mesh</h4>
@@ -164,9 +164,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Cage Shape Adaption]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-cage-shape.jpg"
+                                alt="Tiger Cage Shape Adaption">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger cage fence netting</h4>
@@ -184,9 +184,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Fur Protection]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/tiger-fences-mesh/tiger-fur-protection.jpg"
+                                alt="Tiger Fur Protection">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger Safety Isolation Mesh</h4>
@@ -224,34 +224,34 @@
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Siberian Tiger Walking by Fence]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/tiger-passage-netting.jpg"
+                            alt="Siberian Tiger Walking by Fence">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Tiger Behind High Mesh Barrier]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/tiger-overhead-tunnel.jpg"
+                            alt="Tiger Behind High Mesh Barrier">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Tiger in Overhead Passage Tunnel]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/tiger-cage-mesh.jpg"
+                            alt="Tiger in Overhead Passage Tunnel">
                     </div>
                     <!-- Image 4 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Tiger Sitting Near Mesh Wall]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/sumatran-tiger-exhibit.jpg"
+                            alt="Tiger Sitting Near Mesh Wall">
                     </div>
                     <!-- Image 5 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Wide Zoo Exhibit Overview]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/tiger-cage-shape.jpg"
+                            alt="Wide Zoo Exhibit Overview">
                     </div>
                     <!-- Image 6 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden;">
-                        <p style="color: #666;">[Image: Tiger Close-up Behind Safety Mesh]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/tiger-fences-mesh/tiger-fur-protection.jpg"
+                            alt="Tiger Close-up Behind Safety Mesh">
                     </div>
                 </div>
             </div>

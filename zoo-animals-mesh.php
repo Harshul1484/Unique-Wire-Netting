@@ -75,9 +75,9 @@
                     <!-- Case 1 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Polar Bear Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/polar-bear-exhibit.jpg"
+                                alt="Polar Bear Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Polar Bear Exhibit Mesh</h4>
@@ -94,9 +94,9 @@
                     <!-- Case 2 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Coconut Crabs Exhibit]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/coconut-crabs-exhibit.jpg"
+                                alt="Coconut Crabs Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Coconut Crabs Exhibit Mesh</h4>
@@ -113,9 +113,9 @@
                     <!-- Case 3 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Red Panda Tunnel]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/red-panda-tunnel.jpg"
+                                alt="Red Panda Tunnel Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Red Panda Tunnel Mesh</h4>
@@ -133,9 +133,9 @@
                     <!-- Case 4 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Penguin Exhibit Roof]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/penguin-exhibit-roof.jpg"
+                                alt="Penguin Exhibit Roof Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Penguin Exhibit Roof Mesh</h4>
@@ -152,9 +152,9 @@
                     <!-- Case 5 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Animal Trail Fence]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/trail-fence.jpg"
+                                alt="Zoo Animal Trail Fence Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Zoo Animal Trail Fence Mesh</h4>
@@ -171,9 +171,9 @@
                     <!-- Case 6 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Tiger Cage]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/tiger-cage.jpg"
+                                alt="Tiger Cage Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Tiger Cage Protection Mesh</h4>
@@ -190,9 +190,9 @@
                     <!-- Case 7 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Lion Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/lion-enclosure.jpg"
+                                alt="Lion Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Lion Enclosure Mesh</h4>
@@ -209,9 +209,9 @@
                     <!-- Case 8 -->
                     <div
                         style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
-                        <div
-                            style="background: #eee; height: 200px; display: flex; align-items: center; justify-content: center;">
-                            <p style="color: #666;">[Image: Giraffe Enclosure]</p>
+                        <div class="product-img">
+                            <img src="assets/images/products/zoo-animals-mesh/giraffe-enclosure.jpg"
+                                alt="Giraffe Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
                             <h4 style="margin-bottom: 15px; color: #333;">Giraffe Enclosure Mesh</h4>

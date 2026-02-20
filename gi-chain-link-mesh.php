@@ -36,9 +36,9 @@
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px; display: flex; flex-wrap: wrap; gap: 40px; align-items: start;">
                 <div style="flex: 1; min-width: 300px;">
-                    <div
-                        style="background: #eee; height: 350px; border-radius: 12px; overflow: hidden; display: flex; align-items: center; justify-content: center;">
-                        <p style="color: #666; font-weight: bold;">[G.I. Chain Link Fence Close-up Image]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-chain-link-mesh/fence-close-up.jpg"
+                            alt="G.I. Chain Link Fence Close-up">
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
@@ -222,19 +222,19 @@
                 <div
                     style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin-top: 30px;">
                     <!-- Image 1 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Chain Link Fence Perimeter]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-chain-link-mesh/perimeter-fence.jpg"
+                            alt="Chain Link Fence Perimeter">
                     </div>
                     <!-- Image 2 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Galvanized Chain Link Weave Detail]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-chain-link-mesh/weave-detail.jpg"
+                            alt="Galvanized Chain Link Weave Detail">
                     </div>
                     <!-- Image 3 -->
-                    <div
-                        style="background: #eee; height: 250px; display: flex; align-items: center; justify-content: center; border-radius: 8px; overflow: hidden; border: 1px solid #ddd;">
-                        <p style="color: #666;">[Image: Residential Fencing Installation]</p>
+                    <div class="product-img">
+                        <img src="assets/images/products/gi-chain-link-mesh/residential-installation.jpg"
+                            alt="Residential Fencing Installation">
                     </div>
                 </div>
             </div>
