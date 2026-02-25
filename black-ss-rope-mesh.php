@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/black-ss-rope-mesh.jpg');">
         <div class="container">
             <h1>Black SS Rope Mesh</h1>
             <p>Black oxidized stainless steel wire rope mesh for superior durability and aesthetics.</p>
@@ -41,7 +41,7 @@
                     </div>
                 </div>
                 <div style="flex: 1; min-width: 300px;">
-                    <h2 style="margin-bottom: 20px; color: #333;">Black stainless steel rope mesh</h2>
+                    <h2 style="margin-bottom: 20px; color: var(--text-main);">Black stainless steel rope mesh</h2>
                     <p style="margin-bottom: 15px;"><strong>Other names:</strong> black stainless steel wire rope mesh,
                         black oxidized stainless steel rope net, black wire rope netting, black hand-woven steel wire
                         mesh, black steel wire cable mesh, etc.</p>
@@ -58,12 +58,12 @@
             <!-- Product Details Section -->
             <div style="margin-bottom: 60px;">
                 <h2
-                    style="margin-bottom: 20px; color: #333; border-bottom: 2px solid #e1a610; padding-bottom: 10px; display: inline-block;">
+                    style="margin-bottom: 20px; color: var(--text-main); border-bottom: 2px solid #e1a610; padding-bottom: 10px; display: inline-block;">
                     Product Details</h2>
                 <div style="background-color: #f9f9f9; padding: 30px; border-radius: 8px;">
                     <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
                         <div>
-                            <p style="margin-bottom: 10px; color: #000;"><strong>Quick Details:</strong></p>
+                            <p style="margin-bottom: 10px; color: var(--primary);"><strong>Quick Details:</strong></p>
                             <p style="margin-bottom: 5px;">Black stainless steel cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Color:</strong> Black</p>
                             <p style="margin-bottom: 5px;"><strong>Technology:</strong> Pure hand-woven</p>
@@ -96,7 +96,7 @@
                         to the original color stainless steel wire rope mesh/netting product performance quite, but the
                         black stainless steel rope mesh is more design sense and decorative.</p>
 
-                    <h3 style="margin: 20px 0 15px; color: #000;">Black stainless steel rope mesh/ wire cable netting
+                    <h3 style="margin: 20px 0 15px; color: var(--primary);">Black stainless steel rope mesh/ wire cable netting
                         advantages:</h3>
                     <ol style="padding-left: 20px; line-height: 1.6;">
                         <li>High-strength and durable, it can safely contain any animal species on land, in the air
@@ -171,7 +171,7 @@
 
             <!-- Specifications Parameter Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Commonly used black stainless steel rope mesh
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Commonly used black stainless steel rope mesh
                     specifications parameter:</h3>
 
                 <h4 style="margin-bottom: 10px; font-size: 1.1em;">Material:</h4>
@@ -202,108 +202,108 @@
 
                 <!-- Specifications Table -->
                 <div style="overflow-x: auto;">
-                    <table style="width: 100%; border-collapse: collapse; border: 1px solid #333; margin-bottom: 20px;">
+                    <table style="width: 100%; border-collapse: collapse; border: 1px solid var(--text-main); margin-bottom: 20px;">
                         <thead>
                             <tr style="background-color: #f2f2f2;">
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">Rope diameter</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">3/64"(1.2mm)</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">1/16"(1.6mm)</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">5/64"(2.0mm)</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">3/32"(2.4mm)</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">1/8"(3.2mm)</th>
-                                <th style="border: 1px solid #333; padding: 10px; text-align: left;">5/32"(4.0mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">Rope diameter</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">3/64"(1.2mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">1/16"(1.6mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">5/64"(2.0mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">3/32"(2.4mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">1/8"(3.2mm)</th>
+                                <th style="border: 1px solid var(--text-main); padding: 10px; text-align: left;">5/32"(4.0mm)</th>
                             </tr>
                         </thead>
                         <tbody>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px; font-weight: bold;">Mesh aperture</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px; font-weight: bold;">Mesh aperture</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">0.8"x0.8"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1220</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">0.8"x0.8"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1220</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">1"x1"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1225</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1625</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">1"x1"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1225</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1625</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">1.2"x1.2"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1230</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1630</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">1.2"x1.2"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1230</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1630</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">1.5"x1.5"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1238</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1638</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2038</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2438</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">1.5"x1.5"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1238</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1638</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2038</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2438</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">2"x2"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1251</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1651</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2051</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2451</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW3251</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">2"x2"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1251</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1651</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2051</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2451</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW3251</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">2.4"x2.4"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1260</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1660</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW060</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2460</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW3260</td>
-                                <td style="border: 1px solid #333; padding: 10px;">--</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">2.4"x2.4"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1260</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1660</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW060</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2460</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW3260</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">--</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">3"x3"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">276UW</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1676</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2076</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2476</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW3276</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW4076</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">3"x3"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">276UW</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1676</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2076</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2476</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW3276</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW4076</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">3.6"x3.6"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1290</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW1690</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2090</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW2490</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW3290</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW4090</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">3.6"x3.6"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1290</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW1690</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2090</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW2490</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW3290</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW4090</td>
                             </tr>
                             <tr>
-                                <td style="border: 1px solid #333; padding: 10px;">4"x4"</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW12102</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW16102</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW20102</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW24102</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW32102</td>
-                                <td style="border: 1px solid #333; padding: 10px;">UW40102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">4"x4"</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW12102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW16102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW20102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW24102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW32102</td>
+                                <td style="border: 1px solid var(--text-main); padding: 10px;">UW40102</td>
                             </tr>
                         </tbody>
                     </table>
@@ -312,7 +312,7 @@
 
             <!-- Applications Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">The applications of black stainless steel rope mesh:</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">The applications of black stainless steel rope mesh:</h3>
 
                 <p style="margin-bottom: 15px;">Black stainless steel rope mesh is also called black steel wire cable
                     netting, black wire rope mesh, black steel wire zoo mesh, black stainless steel braid mesh,

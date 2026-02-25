@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/monkey-enclosure-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/monkey-enclosure-mesh.jpg');">
         <div class="container">
             <h1>Monkey Enclosure Mesh & Cage Protection</h1>
             <p>Flexible, high-tensile stainless steel wire rope mesh designed for active primates, offering safety,
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel wire rope mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel wire rope
+                    mesh for
                     Monkey Enclosure Mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel rope mesh is specially designed for monkey enclosure
@@ -58,18 +59,47 @@
                         last over 30 years.</li>
                 </ul>
 
-                <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is professional monkey enclosure mesh,
-                    suitable for a variety of monkey varieties, such as <strong>golden monkey, lemurs, langurs,
-                        macaques, capuchin monkeys, long-tail monkeys, and rhinopithecus</strong>.</p>
+                <div
+                    style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px; margin-top: 30px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/me-1.jpg"
+                            alt="Monkey Enclosure Feature 1">
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/me-2.png"
+                            alt="Monkey Enclosure Feature 2">
+                    </div>
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/me-3.png"
+                            alt="Monkey Enclosure Feature 3">
+                    </div>
+                </div>
 
-                <p style="margin-bottom: 15px;">Monkey's tunnels are very popular in more and more zoos and exhibition
-                    designs. Tunnel mesh creates more activity space and fun for the monkeys, providing connecting
-                    passageways between habitats.</p>
+            </div>
+
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/monkey-enclosure-mesh/netting-lable.jpg"
+                            alt="Monkey Enclosure Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is professional monkey enclosure
+                        mesh,
+                        suitable for a variety of monkey varieties, such as <strong>golden monkey, lemurs, langurs,
+                            macaques, capuchin monkeys, long-tail monkeys, and rhinopithecus</strong>.</p>
+
+                    <p>Monkey's tunnels are very popular in more and more zoos and exhibition
+                        designs. Tunnel mesh creates more activity space and fun for the monkeys, providing connecting
+                        passageways between habitats.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Applications of Monkey Enclosure Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Applications of Monkey Enclosure Mesh</h3>
                 <p style="margin-bottom: 30px;">The following are common various protection schemes and specifications
                     for different types of monkey cage fences and tunnels:</p>
 
@@ -77,137 +107,144 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/monkey-tunnel.jpg"
                                 alt="Monkey Tunnel Exhibit">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Monkey Tunnel Mesh Enclosure</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Monkey Tunnel Mesh Enclosure</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1630</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 30mm x 30mm (1.2″ x 1.2″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Specially designed high-tensile mesh for small
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Specially designed high-tensile mesh
+                                for small
                                 monkey tunnel exhibits, offering good flexibility for creative zoo trail designs.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/golden-monkey-mesh.jpg"
                                 alt="Golden Monkey Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Golden Monkey Exhibit Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Golden Monkey Exhibit Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2051</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal cage mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Beautiful and strong solution for golden monkey
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Beautiful and strong solution for
+                                golden monkey
                                 exhibitions. Provides excellent visibility and flexibility.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/lemur-enclosure.jpg"
                                 alt="Lemur Monkey Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lemur Monkey Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lemur Monkey Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1638</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal enclosure fence</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 38mm x 38mm (1.5″ x 1.5″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Optimized for lemur exhibits, balancing the need
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Optimized for lemur exhibits,
+                                balancing the need
                                 for security with a fine, beautiful mesh profile.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/cage-top-barrier.jpg"
                                 alt="Monkey Cage Covered Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Monkey Cage Covered Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Monkey Cage Covered Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2451</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Cable woven mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4 mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Ideal for top barrier applications. Customizable
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Ideal for top barrier applications.
+                                Customizable
                                 hand-woven mesh adapts to any cage size or shape without restriction.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/fence-protection.jpg"
                                 alt="Monkey Fence Netting">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Monkey Fence Netting</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Monkey Fence Netting</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2038</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Flexible cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 38mm x 38mm (1.5″ x 1.5″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Corrosion-resistant and rust-free solution
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Corrosion-resistant and rust-free
+                                solution
                                 suitable for long-term use in various primate habitats.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/peripheral-fence.jpg"
                                 alt="Monkey Safety Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Monkey Safety Protection Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Monkey Safety Protection Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2038</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal enclosure fencing</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 38mm x 38mm (1.5″ x 1.5″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Soft and smooth wire surface provides a peripheral
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Soft and smooth wire surface provides
+                                a peripheral
                                 barrier that protects monkey fur from injury.</p>
                         </div>
                     </div>
 
                     <!-- Case 7 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/monkey-enclosure-mesh/monkey-fencing-mesh.jpg"
                                 alt="Monkey Cage Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Monkey Cage Fence</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Monkey Cage Fence</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2051</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Standard stainless steel zoo mesh for general
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Standard stainless steel zoo mesh for
+                                general
                                 monkey fencing, enclosure walls, and exhibit boundaries.</p>
                         </div>
                     </div>
@@ -217,7 +254,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications For Monkey enclosure</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications For Monkey enclosure</h3>
                 <p style="margin-bottom: 15px;">In general, the size of monkey determines the size of mesh aperture, the
                     degree of monkey's climbing habit determines the rope strength, and specifications are selected
                     according to the actual exhibit design.</p>
@@ -230,7 +267,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Monkey enclosure mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Monkey enclosure mesh</h3>
                 <p style="margin-bottom: 30px;">Professional monkey enclosure mesh and cage fencing are essential for
                     zoo safety and monkey habitat design aesthetics.</p>
 

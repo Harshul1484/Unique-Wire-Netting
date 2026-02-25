@@ -38,7 +38,7 @@
                 <p class="lead"
                     style="font-size: 1.15rem; color: var(--text-main); margin-bottom: 4rem; line-height: 1.8;">
                     The following Terms & Conditions govern all technical contracts, custom-fabricated orders, and
-                    logistical engagements with Unique Wire Netting. Since 1995, our operations have been defined by
+                    logistical engagements with Unique Wire Netting. Since 2008, our operations have been defined by
                     engineering integrity and client-centric transparency.
                 </p>
             </div>

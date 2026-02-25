@@ -31,7 +31,7 @@
 
         <div class="container hero-content">
             <div class="hero-text-box">
-                <h4 class="hero-subtitle">Engineering Excellence since 1995</h4>
+                <h4 class="hero-subtitle">Engineering Excellence since 2008</h4>
                 <h1 class="hero-title">Precision Wire Mesh<br>For Global Architecture</h1>
                 <p class="hero-description">
                     Leading manufacturer of high-tensile SS cable mesh, zoo enclosures, and industrial netting solutions
@@ -53,7 +53,7 @@
                 <div class="about-image">
                     <img src="assets/images/about-home.jpg" alt="Unique Wire Netting Manufacturing">
                     <div class="experience-badge">
-                        <span class="years">28+</span>
+                        <span class="years">17+</span>
                         <span class="label">Years of Innovation</span>
                     </div>
                 </div>
@@ -91,7 +91,8 @@
             <div class="section-header center">
                 <h4 class="section-subtitle">Our Product Portfolio</h4>
                 <h2 class="section-title">Comprehensive Mesh Solutions</h2>
-                <p class="section-desc">Reliable high-tensile components for architectural, security, and industrial applications.</p>
+                <p class="section-desc">Reliable high-tensile components for architectural, security, and industrial
+                    applications.</p>
             </div>
 
             <div class="cat-grid">
@@ -102,8 +103,10 @@
                     </div>
                     <div class="content">
                         <h3>Flexible Cable SS Mesh</h3>
-                        <p>High-tensile stainless steel rope mesh designed for zoo enclosures, large-scale aviaries, and safety facades.</p>
-                        <a href="flexible-ss-cable-mesh.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>High-tensile stainless steel rope mesh designed for zoo enclosures, large-scale aviaries, and
+                            safety facades.</p>
+                        <a href="flexible-ss-cable-mesh.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -114,8 +117,10 @@
                     </div>
                     <div class="content">
                         <h3>G.I. Chain link Mesh</h3>
-                        <p>Durable, corrosion-resistant galvanized iron fencing for industrial perimeters and high-security agricultural needs.</p>
-                        <a href="gi-chain-link-mesh.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>Durable, corrosion-resistant galvanized iron fencing for industrial perimeters and
+                            high-security agricultural needs.</p>
+                        <a href="gi-chain-link-mesh.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -126,8 +131,10 @@
                     </div>
                     <div class="content">
                         <h3>Welded Wire Mesh</h3>
-                        <p>Industrial-grade precision-welded mesh rolls suitable for reinforced construction, filtration, and storage solutions.</p>
-                        <a href="welded-wire-mesh.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>Industrial-grade precision-welded mesh rolls suitable for reinforced construction,
+                            filtration, and storage solutions.</p>
+                        <a href="welded-wire-mesh.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -138,8 +145,10 @@
                     </div>
                     <div class="content">
                         <h3>Decorative Wire Mesh</h3>
-                        <p>Architectural metal fabrics designed for sophisticated interior design, facade cladding, and acoustic partitioning.</p>
-                        <a href="decorative-wire-mesh.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>Architectural metal fabrics designed for sophisticated interior design, facade cladding, and
+                            acoustic partitioning.</p>
+                        <a href="decorative-wire-mesh.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -150,8 +159,10 @@
                     </div>
                     <div class="content">
                         <h3>Rigid Mesh Panels</h3>
-                        <p>High-strength welded panels engineered for heavy-duty fencing, security partitions, and protective enclosures.</p>
-                        <a href="welded-wire-mesh-panels.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>High-strength welded panels engineered for heavy-duty fencing, security partitions, and
+                            protective enclosures.</p>
+                        <a href="welded-wire-mesh-panels.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
 
@@ -162,8 +173,10 @@
                     </div>
                     <div class="content">
                         <h3>G.I. Welded Mesh</h3>
-                        <p>Superior corrosion protection for outdoor applications, agricultural fencing, and industrial safety guards.</p>
-                        <a href="gi-welded-wire-mesh.php" class="link-btn">View Category <i class="fas fa-arrow-right"></i></a>
+                        <p>Superior corrosion protection for outdoor applications, agricultural fencing, and industrial
+                            safety guards.</p>
+                        <a href="gi-welded-wire-mesh.php" class="link-btn">View Category <i
+                                class="fas fa-arrow-right"></i></a>
                     </div>
                 </div>
             </div>
@@ -177,35 +190,39 @@
                 <h4 class="section-subtitle">Why Partner With Us</h4>
                 <h2 class="section-title">The Unique Advantage</h2>
             </div>
-            
+
             <div class="trust-grid">
                 <div class="trust-card">
                     <div class="icon-box">
                         <i class="fas fa-medal"></i>
                     </div>
                     <h4>Premium Grade SS</h4>
-                    <p>We use only certified SS304/316 grade materials, ensuring decades of corrosion resistance in any environment.</p>
+                    <p>We use only certified SS304/316 grade materials, ensuring decades of corrosion resistance in any
+                        environment.</p>
                 </div>
                 <div class="trust-card">
                     <div class="icon-box">
                         <i class="fas fa-globe-asia"></i>
                     </div>
                     <h4>Global Logistics</h4>
-                    <p>Trusted by international contractors for large-scale projects, with streamlined export documentation and delivery.</p>
+                    <p>Trusted by international contractors for large-scale projects, with streamlined export
+                        documentation and delivery.</p>
                 </div>
                 <div class="trust-card">
                     <div class="icon-box">
                         <i class="fas fa-ruler-combined"></i>
                     </div>
                     <h4>Custom Fabrication</h4>
-                    <p>Tailor-made mesh dimensions and aperture specifications to fit your project's precise engineering requirements.</p>
+                    <p>Tailor-made mesh dimensions and aperture specifications to fit your project's precise engineering
+                        requirements.</p>
                 </div>
                 <div class="trust-card">
                     <div class="icon-box">
                         <i class="fas fa-shipping-fast"></i>
                     </div>
                     <h4>On-Time Project Delivery</h4>
-                    <p>We understand project timelines. Our efficient production lines ensure your materials are ready when you are.</p>
+                    <p>We understand project timelines. Our efficient production lines ensure your materials are ready
+                        when you are.</p>
                 </div>
             </div>
         </div>
@@ -221,23 +238,27 @@
                 </div>
                 <a href="flexible-ss-cable-mesh.php" class="btn btn-accent">Explore Case Studies</a>
             </div>
-            
+
             <div class="app-grid">
                 <div class="app-card">
                     <h4><i class="fas fa-building"></i> Civil Architecture</h4>
-                    <p>Modern facades, railing infills, and green wall support systems for sustainable building design.</p>
+                    <p>Modern facades, railing infills, and green wall support systems for sustainable building design.
+                    </p>
                 </div>
                 <div class="app-card">
                     <h4><i class="fas fa-paw"></i> Zoo Enclosures</h4>
-                    <p>High-security, high-visibility netting for big cats, primates, and large aviaries across global zoos.</p>
+                    <p>High-security, high-visibility netting for big cats, primates, and large aviaries across global
+                        zoos.</p>
                 </div>
                 <div class="app-card">
                     <h4><i class="fas fa-industry"></i> Industrial Use</h4>
-                    <p>Reliable components for chemical filtration, mining sieves, and heavy-duty product reinforcement.</p>
+                    <p>Reliable components for chemical filtration, mining sieves, and heavy-duty product reinforcement.
+                    </p>
                 </div>
                 <div class="app-card">
                     <h4><i class="fas fa-shield-alt"></i> Security Solutions</h4>
-                    <p>Unmatched perimeter security and anti-theft mesh for residential and commercial infrastructure.</p>
+                    <p>Unmatched perimeter security and anti-theft mesh for residential and commercial infrastructure.
+                    </p>
                 </div>
             </div>
         </div>
@@ -248,10 +269,12 @@
         <div class="container">
             <div class="cta-box">
                 <h2 class="cta-title">Ready to secure your project?</h2>
-                <p class="cta-desc">Contact our engineering team today for technical consultation or a custom quotation.</p>
+                <p class="cta-desc">Contact our engineering team today for technical consultation or a custom quotation.
+                </p>
                 <div class="cta-actions">
-                    <a href="contact.php" class="btn btn-accent">Request Official Quote</a>
-                    <a href="https://wa.me/919898376811" class="btn btn-white"><i class="fab fa-whatsapp"></i> WhatsApp Consultation</a>
+                    <a href="inquiry.php" class="btn btn-accent">Request Official Quote</a>
+                    <a href="https://wa.me/919898376811" class="btn btn-white"><i class="fab fa-whatsapp"></i> WhatsApp
+                        Consultation</a>
                 </div>
             </div>
         </div>

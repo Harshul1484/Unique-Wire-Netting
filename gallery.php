@@ -52,6 +52,27 @@
                         <div class="overlay"><i class="fas fa-search-plus"></i></div>
                     </a>
                 </div>
+                <div class="gallery-item show industrial">
+                    <a href="assets/images/gallery/ind-2.jpg" data-lightbox="gallery"
+                        data-title="Industrial Metal Sheet">
+                        <img src="assets/images/gallery/ind-2.jpg" alt="Industrial Metal Sheet">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show industrial">
+                    <a href="assets/images/gallery/ind-3.png" data-lightbox="gallery"
+                        data-title="Industrial Filter Mesh">
+                        <img src="assets/images/gallery/ind-3.png" alt="Industrial Filter Mesh">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show industrial">
+                    <a href="assets/images/gallery/ind-4.png" data-lightbox="gallery"
+                        data-title="Industrial Safety Net">
+                        <img src="assets/images/gallery/ind-4.png" alt="Industrial Safety Net">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
 
                 <!-- Architectural Items -->
                 <div class="gallery-item show architectural">
@@ -61,12 +82,75 @@
                         <div class="overlay"><i class="fas fa-search-plus"></i></div>
                     </a>
                 </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-2.jpg" data-lightbox="gallery"
+                        data-title="Architectural Design 2">
+                        <img src="assets/images/gallery/arch-2.jpg" alt="Architectural Design 2">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-3.jpg" data-lightbox="gallery"
+                        data-title="Architectural Design 3">
+                        <img src="assets/images/gallery/arch-3.jpg" alt="Architectural Design 3">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-4.png" data-lightbox="gallery"
+                        data-title="Architectural Design 4">
+                        <img src="assets/images/gallery/arch-4.png" alt="Architectural Design 4">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-5.png" data-lightbox="gallery"
+                        data-title="Architectural Design 5">
+                        <img src="assets/images/gallery/arch-5.png" alt="Architectural Design 5">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-6.jpg" data-lightbox="gallery"
+                        data-title="Architectural Design 6">
+                        <img src="assets/images/gallery/arch-6.jpg" alt="Architectural Design 6">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show architectural">
+                    <a href="assets/images/gallery/arch-7.jpg" data-lightbox="gallery"
+                        data-title="Architectural Design 7">
+                        <img src="assets/images/gallery/arch-7.jpg" alt="Architectural Design 7">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
 
                 <!-- Security Items -->
                 <div class="gallery-item show security">
                     <a href="assets/images/gallery/sec-1.jpg" data-lightbox="gallery"
                         data-title="Security Fencing Installation">
                         <img src="assets/images/gallery/sec-1.jpg" alt="Security Fencing Installation">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show security">
+                    <a href="assets/images/gallery/sec-2.jpg" data-lightbox="gallery"
+                        data-title="High Security Barrier">
+                        <img src="assets/images/gallery/sec-2.jpg" alt="High Security Barrier">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show security">
+                    <a href="assets/images/gallery/sec-3.jpg" data-lightbox="gallery"
+                        data-title="Security Fence Mesh">
+                        <img src="assets/images/gallery/sec-3.jpg" alt="Security Fence Mesh">
+                        <div class="overlay"><i class="fas fa-search-plus"></i></div>
+                    </a>
+                </div>
+                <div class="gallery-item show security">
+                    <a href="assets/images/gallery/sec-4.jpg" data-lightbox="gallery"
+                        data-title="Perimeter Security Netting">
+                        <img src="assets/images/gallery/sec-4.jpg" alt="Perimeter Security Netting">
                         <div class="overlay"><i class="fas fa-search-plus"></i></div>
                     </a>
                 </div>

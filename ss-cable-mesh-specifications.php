@@ -9,17 +9,16 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600&display=swap"
         rel="stylesheet">
-    <!-- Styles -->
-    <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <!-- DataTables CSS -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
-    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.dataTables.min.css">
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css">
     <style>
         .spec-intro {
             padding: 40px 0;
-            background-color: #fff;
+            background-color: var(--bg-main);
         }
 
         .spec-example {
@@ -140,7 +139,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/ss-cable-mesh-specifications.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/ss-cable-mesh-specifications.jpg');">
         <!-- Placeholder for banner if different -->
         <div class="container">
             <h1>Stainless Steel Cable Mesh Specifications</h1>
@@ -171,9 +170,14 @@
 
                 <div class="spec-example">
                     <h4>For example: UW1251</h4>
+                    <div style="margin: 20px 0;">
+                        <img src="assets/images/products/ss-cable-mesh-specifications/DetailsOfProductsSpecifications.jpg"
+                            alt="Details of Products Specifications"
+                            style="max-width: 100%; height: auto; border-radius: 4px;">
+                    </div>
                     <p><strong>Rope diameter:</strong> 1.2mm (3/64")</p>
                     <p><strong>Mesh aperture:</strong> 51mm x 51mm (2" x 2")</p>
-                    <hr style="margin: 15px 0; border: 0; border-top: 1px solid #ddd;">
+                    <hr style="margin: 15px 0; border: 0; border-top: 1px solid var(--border);">
                     <p>The wire rope diameter is 1.2 mm; When the opening angle of each mesh is 90�, the distance
                         between the two parallel ropes is the standard rope diameter. Shown as the "X" in the picture.
                         In this example, X = 51mm.</p>
@@ -181,6 +185,9 @@
 
                 <div class="row" style="display: flex; flex-wrap: wrap; gap: 40px;">
                     <div style="flex: 1; min-width: 300px;">
+                        <img src="assets/images/products/ss-cable-mesh-specifications/rope-diameters.jpg"
+                            alt="Rope Diameters"
+                            style="max-width: 100%; height: auto; border-radius: 4px; margin-bottom: 20px;">
                         <h4>Wire rope diameter:</h4>
                         <ul class="list-group">
                             <li class="list-group-item">By inch: 3/64", 1/16", 5/64", 3/32", 1/8"</li>
@@ -246,6 +253,17 @@
                 <h2>Stainless Steel Rope Mesh Product Description</h2>
             </div>
 
+            <div class="row" style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 40px;">
+                <div class="product-img" style="flex: 1;">
+                    <img src="assets/images/products/ss-cable-mesh-specifications/product-description.jpg"
+                        alt="Product Description" style="width: 100%; height: auto; border-radius: 8px;">
+                </div>
+                <div class="product-img" style="flex: 1;">
+                    <img src="assets/images/products/ss-cable-mesh-specifications/mesh-close-up.jpg"
+                        alt="Mesh Close-up Image" style="width: 100%; height: auto; border-radius: 8px;">
+                </div>
+            </div>
+
             <div class="row" style="display: flex; flex-wrap: wrap; gap: 40px; margin-bottom: 50px;">
                 <div class="product-content" style="flex: 1;">
                     <div class="info-block">
@@ -271,12 +289,6 @@
                         </ul>
                     </div>
                 </div>
-
-                <!-- Image Container for Right Side -->
-                <div class="product-img" style="flex: 1;">
-                    <img src="assets/images/products/ss-cable-mesh-specifications/mesh-close-up.jpg"
-                        alt="Mesh Close-up Image">
-                </div>
             </div>
 
             <div class="info-block">
@@ -300,7 +312,7 @@
             <div class="section-title">
                 <h2>Product Specification Table</h2>
             </div>
-            <div class="table-responsive">
+            <div class="spec-table-container">
                 <table id="specTable" class="display spec-table" style="width:100%">
                     <thead>
                         <tr>
@@ -931,77 +943,48 @@
     <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    <!-- Mobile Menu Toggle Script (Inline for simplicity as it's standard) -->
-    <script>
-        $(document).ready(function () {
-            $('.menu-toggle').click(function () {
-                $('.nav-links').toggleClass('active');
-            });
-
-            // Dropdown mobile toggle support
-            if ($(window).width() <= 768) {
-                $('.dropdown > a').click(function (e) {
-                    e.preventDefault();
-                    $(this).next('.dropdown-menu').slideToggle();
-                });
-                $('.dropdown-submenu > a').click(function (e) {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    $(this).next('.dropdown-menu').slideToggle();
-                });
-            }
-        });
-    </script>
 
     <!-- DataTables JS -->
     <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
-    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+
     <script>
         $(document).ready(function () {
-            // Check if table exists
-            if ($('#specTable').length) {
-                var table = $('#specTable').DataTable({
-                    responsive: true,
-                    "pageLength": 12,
-                    "lengthMenu": [[12, 25, 46, -1], [12, 25, 46, "All"]],
-                    "ordering": false,
-                    "language": {
-                        "search": "Search:",
-                        "lengthMenu": "Show _MENU_ entries"
-                    },
-                    "columnDefs": [
-                        { "className": "dt-center", "targets": "_all" }
-                    ]
-                });
-
-                // Add event listener for opening and closing details
-                $('#specTable tbody').on('click', 'td.details-control', function () {
-                    var tr = $(this).closest('tr');
-                    var row = table.row(tr);
-                    var icon = $(this).find('i');
-
-                    if (row.child.isShown()) {
-                        // This row is already open - close it
-                        row.child.hide();
-                        tr.removeClass('shown');
-                        icon.removeClass('fa-minus-circle').addClass('fa-plus-circle');
-                    }
-                    else {
-                        // Open this row
-                        var breakingLoad = tr.attr('data-breaking-load');
-                        if (breakingLoad) {
-                            row.child(format(breakingLoad)).show();
-                            tr.addClass('shown');
-                            icon.removeClass('fa-plus-circle').addClass('fa-minus-circle');
-                        }
-                    }
-                });
-
-                function format(breakingLoad) {
-                    return '<div class="child-row-content" style="padding: 10px 20px;">' +
-                        '<strong>Min. Breaking Load:</strong> ' + breakingLoad +
-                        '</div>';
+            var table = $('#specTable').DataTable({
+                "pageLength": 12,
+                "lengthMenu": [[12, 25, 46, -1], [12, 25, 46, "All"]],
+                "ordering": false,
+                "language": {
+                    "search": "Search:",
+                    "lengthMenu": "Show _MENU_ entries"
                 }
+            });
+
+            // Add event listener for opening and closing details
+            $('#specTable tbody').on('click', 'td.details-control', function () {
+                var tr = $(this).closest('tr');
+                var row = table.row(tr);
+                var breakingLoad = tr.data('breaking-load');
+                var icon = $(this).find('i');
+
+                if (row.child.isShown()) {
+                    // This row is already open - close it
+                    row.child.hide();
+                    tr.removeClass('shown');
+                    icon.removeClass('fa-minus-circle').addClass('fa-plus-circle');
+                }
+                else {
+                    // Open this row
+                    row.child(format(breakingLoad)).show();
+                    tr.addClass('shown');
+                    icon.removeClass('fa-plus-circle').addClass('fa-minus-circle');
+                }
+            });
+
+            function format(d) {
+                // `d` is the breaking load value which already includes (KN)
+                return '<div class="child-row-content" style="padding: 10px 20px;">' +
+                    '<strong>Min. Breaking Load:</strong> ' + d +
+                    '</div>';
             }
         });
     </script>

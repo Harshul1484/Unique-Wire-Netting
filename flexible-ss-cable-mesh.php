@@ -21,11 +21,11 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/flexible-ss-cable-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/flexible-ss-cable-mesh.jpg');">
         <div class="container">
             <h1>Stainless Steel Cable Mesh</h1>
             <p>Elevate your project with the perfect blend of high-tensile strength and architectural elegance. At
-                Unique Wirenetting, we specialize in premium Stainless Steel (SS) Cable Mesh.</p>
+                netting, we specialize in premium Stainless Steel (SS) Cable Mesh.</p>
         </div>
     </section>
 
@@ -36,7 +36,7 @@
                 <h2>Excellence Since 2008</h2>
             </div>
             <p style="text-align: center; max-width: 900px; margin: 0 auto;">
-                At Unique Wirenetting, we provide versatile solutions for safety, security, and aesthetics. Since 2008,
+                At Unique Wire netting, we provide versatile solutions for safety, security, and aesthetics. Since 2008,
                 we have supplied iconic projects across India with Grade 304 and 316 stainless steel meshes that are
                 built to withstand the elements while maintaining a sleek, modern profile.
             </p>
@@ -703,7 +703,7 @@
                 </table>
             </div>
             <p style="margin-top: 20px; font-style: italic; color: #777; text-align: center;">Note: More specifications
-                can be customized according to requirements. Material: SUS304, 304L, 316, 316L.</p>
+                can be customized according to requirements. Material: S.S.304, 304L, 316, 316L.</p>
         </div>
     </section>
 
@@ -711,7 +711,7 @@
     <section class="section bg-light">
         <div class="container">
             <div class="section-title">
-                <h2>Why Choose Unique Wirenetting SS Cable Mesh?</h2>
+                <h2>Why Choose Unique Wire netting SS Cable Mesh?</h2>
             </div>
             <div class="why-choose-list">
                 <div class="benefit-item">

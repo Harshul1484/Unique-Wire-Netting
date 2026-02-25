@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/wire-rope-mesh-railing.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/wire-rope-mesh-railing.jpg');">
         <div class="container">
             <h1>Wire Rope Mesh Railing</h1>
             <p>Flexible, high-tensile wire rope mesh that offers a beautifully designed, transparent, and durable
@@ -35,31 +35,49 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Wire Rope Mesh Railing Solutions</h2>
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Wire Rope Mesh Railing
+                    Solutions</h2>
 
                 <p style="margin-bottom: 15px;">Wire Rope Mesh Railing—Filling the railing with a flexible and tough
                     tensile wire rope mesh is a modern alternative to standard railings that are beautifully designed
                     and decorated. It can be applied to homes, kindergartens, schools, indoors, outdoors, balconies,
                     bridge sides, and public transportation platforms.</p>
 
-                <p style="margin-bottom: 15px;">Wire rope mesh railing bars offer excellent safety performance, good
-                    elasticity, and high tensile strength. They can be installed to adapt to any shape, offering a
-                    beautiful appearance, long life cycle, and freedom from maintenance. The material is almost
-                    unaffected by bad weather and extreme temperatures, maintaining high reliability for decades.</p>
+            </div>
 
-                <p style="margin-bottom: 15px;">Unique for their transparent appearance, these railings do not interfere
-                    with lighting or the line of sight. This allows architects to use their imagination without worrying
-                    about uncoordinated designs. It combined reliable use with almost unlimited design possibilities,
-                    making it a favorite for innovative architectural projects.</p>
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/wire-rope-mesh-railing/netting-lable.jpg"
+                            alt="Wire Rope Mesh Railing Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">Wire rope mesh railing bars offer excellent safety performance, good
+                        elasticity, and high tensile strength. They can be installed to adapt to any shape, offering a
+                        beautiful appearance, long life cycle, and freedom from maintenance. The material is almost
+                        unaffected by bad weather and extreme temperatures, maintaining high reliability for decades.
+                    </p>
 
-                <p style="margin-bottom: 15px;">Similar products include: decoration mesh, stadium fence mesh, sports
-                    hall safety nets, stair protection net, bridge fence mesh, road safety fence, and balcony protection
-                    mesh.</p>
+                    <p style="margin-bottom: 15px;">Unique for their transparent appearance, these railings do not
+                        interfere
+                        with lighting or the line of sight. This allows architects to use their imagination without
+                        worrying
+                        about uncoordinated designs. It combined reliable use with almost unlimited design
+                        possibilities,
+                        making it a favorite for innovative architectural projects.</p>
+
+                    <p>Similar products include: decoration mesh, stadium fence mesh, sports
+                        hall safety nets, stair protection net, bridge fence mesh, road safety fence, and balcony
+                        protection
+                        mesh.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Applications of Wire Rope Mesh Railing</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Applications of Wire Rope Mesh Railing</h3>
                 <p style="margin-bottom: 30px;">The following are common protection schemes and specifications for
                     various railing and safety applications:</p>
 
@@ -67,95 +85,101 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/wire-rope-mesh-railing/bridge-fence.jpg"
                                 alt="Bridge Safety Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Bridge fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Bridge fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3280</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 80mm x 139mm</p>
-                            <p style="font-size: 0.9em; color: #555;">Professional bridge protection mesh and safety
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Professional bridge protection mesh
+                                and safety
                                 nets. Offers good visibility and high flexibility for various bridge shape designs.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/wire-rope-mesh-railing/staircase-mesh.jpg"
                                 alt="Staircase Mesh Railing">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Staircase Wire rope mesh railing</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Staircase Wire rope mesh railing
+                            </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2460</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 104mm</p>
-                            <p style="font-size: 0.9em; color: #555;">High tensile strength mesh for stairs fences and
+                            <p style="font-size: 0.9em; color: var(--text-muted);">High tensile strength mesh for stairs
+                                fences and
                                 barriers. Smooth surface effectively prevents people from falling down.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/wire-rope-mesh-railing/corridor-fence.jpg"
                                 alt="Corridor Road Safety">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Corridor fence nets</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Corridor fence nets</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2050</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 50mm x 87mm</p>
-                            <p style="font-size: 0.9em; color: #555;">Corrosion-resistant solution for road safety
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Corrosion-resistant solution for road
+                                safety
                                 fences, balcony protection, and corridor perimeters. Maintenance-free.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/wire-rope-mesh-railing/decorative-mesh.jpg"
                                 alt="Decorative Decoration Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Decorative wire rope mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Decorative wire rope mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1650</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 50mm x 87mm</p>
-                            <p style="font-size: 0.9em; color: #555;">Perfect for building decoration, curtain walls,
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Perfect for building decoration,
+                                curtain walls,
                                 and decorative fence protection. Customizable to any demand.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/wire-rope-mesh-railing/zoo-railing.jpg"
                                 alt="Zoo Enclosure Railing">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Zoo enclosure fence railing</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Zoo enclosure fence railing</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2460</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm</p>
-                            <p style="font-size: 0.9em; color: #555;">Cutting-proof and durable choice for zoo animal
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Cutting-proof and durable choice for
+                                zoo animal
                                 enclosures. Offers transparent and best railing options for habitats.</p>
                         </div>
                     </div>
@@ -165,7 +189,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications For Wire rope mesh railing</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications For Wire rope mesh railing</h3>
                 <p style="margin-bottom: 15px;">In general, stainless steel wire rope mesh specifications are chosen
                     according to protection requirements. If your application environment is special, we offer full
                     customization to your needs.</p>
@@ -178,7 +202,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Wire rope mesh railing</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Wire rope mesh railing</h3>
                 <p style="margin-bottom: 30px;">Architecture and design reference photos for various types of wire rope
                     mesh railing and safety fences.</p>
 

@@ -13,6 +13,144 @@
     <link rel="stylesheet" href="css/style.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .contact-page-section {
+            padding: 80px 0;
+            background: var(--bg-main);
+        }
+
+        .reach-out-section {
+            margin-bottom: 60px;
+        }
+
+        .reach-out-section h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            color: var(--black);
+            margin-bottom: 30px;
+            font-weight: 700;
+        }
+
+        .contact-table-wrapper {
+            max-width: 1000px;
+            margin: 0 auto;
+            overflow-x: auto;
+        }
+
+        .contact-table {
+            width: 100%;
+            border-collapse: collapse;
+            border: 1px solid var(--border);
+        }
+
+        .contact-table th,
+        .contact-table td {
+            border: 1px solid var(--border);
+            padding: 18px 20px;
+            text-align: center;
+        }
+
+        .contact-table th {
+            background-color: var(--primary);
+            /* Deep Navy matching other headers */
+            color: var(--white);
+            font-size: 1.1rem;
+            font-weight: 600;
+        }
+
+        .contact-table td {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            background-color: var(--white);
+        }
+
+        .contact-table tbody tr:nth-child(even) {
+            background-color: var(--bg-alt);
+        }
+
+        .contact-info-section {
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 1000px;
+            margin: 0 auto;
+            gap: 40px;
+            align-items: stretch;
+            background: var(--bg-alt);
+            padding: 40px;
+            border-radius: var(--radius);
+        }
+
+        .map-col {
+            flex: 1;
+            min-width: 300px;
+            border-radius: var(--radius);
+            overflow: hidden;
+            box-shadow: var(--shadow-md);
+        }
+
+        .map-col iframe {
+            width: 100%;
+            height: 100%;
+            min-height: 350px;
+            border: 0;
+            display: block;
+        }
+
+        .info-col {
+            flex: 1;
+            min-width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .info-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            padding: 25px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .info-item:first-child {
+            padding-top: 0;
+        }
+
+        .info-item:last-child {
+            border-bottom: none;
+            padding-bottom: 0;
+        }
+
+        .info-item-icon {
+            color: var(--accent);
+            margin-top: 5px;
+            font-size: 24px;
+        }
+
+        .info-item-content h4 {
+            font-size: 1.2rem;
+            color: var(--primary);
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+
+        .info-item-content p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            line-height: 1.6;
+            margin: 0;
+        }
+
+        .info-item-content a {
+            color: var(--text-muted);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+
+        .info-item-content a:hover {
+            color: var(--accent);
+        }
+    </style>
 </head>
 
 <body>
@@ -22,237 +160,111 @@
     <section class="page-header contact-header"
         style="background: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/contact.jpg'); background-size: cover; background-position: center; color: var(--white);">
         <div class="container">
-            <h4 class="hero-subtitle">Unique Wirenetting</h4>
-            <h1 class="page-title">Request a Quotation</h1>
-            <p class="page-subtitle">At Unique Wirenetting, we specialize in providing high-precision, durable wire mesh
-                solutions for architectural, industrial, and security applications.</p>
+            <h4 class="hero-subtitle">Unique Wire netting</h4>
+            <h1 class="page-title">Get in Touch</h1>
+            <p class="page-subtitle">Ready to secure your project with the finest mesh in the industry? Whether you need
+                a technical quote for Stainless Steel Ferrule Mesh or need to discuss bulk requirements for Welded
+                Wiremesh, our team is standing by to assist.</p>
         </div>
     </section>
 
-    <section class="section contact-section">
+    <section class="section contact-page-section">
         <div class="container">
-            <!-- Introduction -->
-            <div class="contact-intro">
-                <p>
-                    To receive a personalized quote for your project, please fill out the form below.
-                    Our team, which has been supplying quality materials across India since 2008, will get back to you
-                    within 24 hours.
-                </p>
-            </div>
 
-            <div class="contact-form-box">
-                <h3 class="form-title">Quotation Request Form</h3>
-
-                <form action="send-mail.php" method="POST" class="quotation-form">
-                    <!-- 1. Contact Information -->
-                    <div class="quote-form-section">
-                        <h4>1. Contact Information</h4>
-                        <div class="form-grid">
-                            <div class="form-group">
-                                <label>Full Name / Company Name *</label>
-                                <input type="text" name="name" required placeholder="Enter name or organization">
-                            </div>
-                            <div class="form-group">
-                                <label>Email Address *</label>
-                                <input type="email" name="email" required placeholder="email@example.com">
-                            </div>
-                            <div class="form-group">
-                                <label>Phone Number *</label>
-                                <input type="tel" name="phone" required placeholder="Include area code">
-                            </div>
-                            <div class="form-group">
-                                <label>Location (City/State) *</label>
-                                <input type="text" name="location" required placeholder="We supply all over India">
-                            </div>
-                        </div>
-                    </div>
-
-                    <!-- 2. Product Selection -->
-                    <div class="quote-form-section">
-                        <h4>2. Product Selection</h4>
-                        <p class="variety-info">Please select the product(s) you are interested in:</p>
-                        <div class="checkbox-grid">
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="SS Cable Wire Mesh (Ferrule Type)">
-                                <div class="checkbox-label">
-                                    <span>SS Cable Wire Mesh (Ferrule)</span>
-                                    <small>High-strength architectural safety</small>
-                                </div>
-                            </label>
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="SS Cable Wire Mesh (Hand-Woven)">
-                                <div class="checkbox-label">
-                                    <span>SS Cable Wire Mesh (Hand-Woven)</span>
-                                    <small>Flexible zoo and aviary enclosures</small>
-                                </div>
-                            </label>
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="MS/G.I. Welded Wire Mesh">
-                                <div class="checkbox-label">
-                                    <span>MS/G.I. Welded Wire Mesh</span>
-                                    <small>Industrial guarding and reinforcement</small>
-                                </div>
-                            </label>
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="G.I. Chainlink Fencing">
-                                <div class="checkbox-label">
-                                    <span>G.I. Chainlink Fencing</span>
-                                    <small>Rugged perimeter security</small>
-                                </div>
-                            </label>
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="Decorative Wiremesh">
-                                <div class="checkbox-label">
-                                    <span>Decorative Wiremesh</span>
-                                    <small>Architectural grilles and interiors</small>
-                                </div>
-                            </label>
-                            <label class="checkbox-item">
-                                <input type="checkbox" name="product[]" value="Carbon Steel Wire Mesh">
-                                <div class="checkbox-label">
-                                    <span>Carbon Steel Wire Mesh</span>
-                                    <small>Heavy-duty industrial sifting</small>
-                                </div>
-                            </label>
-                        </div>
-                    </div>
-
-                    <!-- 3. Technical Specifications -->
-                    <div class="quote-form-section">
-                        <h4>3. Technical Specifications</h4>
-                        <div class="form-row triple">
-                            <div class="form-group">
-                                <label>Material Grade</label>
-                                <input type="text" name="material" placeholder="e.g., SS304, SS316">
-                            </div>
-                            <div class="form-group">
-                                <label>Wire Diameter (Gauge)</label>
-                                <input type="text" name="diameter" placeholder="e.g., 1.5mm, 12 Gauge">
-                            </div>
-                            <div class="form-group">
-                                <label>Aperture/Mesh Size</label>
-                                <input type="text" name="aperture" placeholder="e.g., 2&quot; x 2&quot;, 50mm x 50mm">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <label>Dimensions</label>
-                            <input type="text" name="dimensions"
-                                placeholder="Total Height x Total Length or Square Meters">
-                        </div>
-                    </div>
-
-                    <!-- 4. Application Details -->
-                    <div class="quote-form-section">
-                        <h4>4. Application Details</h4>
-                        <div class="form-group">
-                            <label>What is the primary use for this mesh?</label>
-                            <textarea name="application" rows="3"
-                                placeholder="e.g., &quot;Zoo enclosure,&quot; &quot;Security fencing,&quot; &quot;Building facade,&quot; etc."></textarea>
-                        </div>
-                    </div>
-
-                    <!-- Form Footer -->
-                    <div class="form-footer">
-                        <button type="submit" class="btn btn-accent btn-submit">Submit Quote Request</button>
-                        <p><i class="fas fa-clock"></i> We typically respond within 24 hours.</p>
-                    </div>
-                </form>
-            </div>
-
-            <!-- Restored Contact Table -->
-            <div class="contact-table-wrapper">
-                <div class="section-header">
-                    <h2 class="section-title">Corporate Directory</h2>
-                    <p>Direct contact information for our specialized departments and regional presence.</p>
+            <!-- Reach Out Table -->
+            <div class="reach-out-section">
+                <h2 style="color: var(--primary);">Reach Out to the Experts</h2>
+                <div class="contact-table-wrapper">
+                    <table class="contact-table">
+                        <thead>
+                            <tr>
+                                <th>Department</th>
+                                <th>Best For</th>
+                                <th>Response Time</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><i class="fas fa-chart-line" style="color: var(--accent); margin-right: 8px;"></i>
+                                    Sales Inquiry</td>
+                                <td>Pricing, Bulk Orders, & Custom Dimensions</td>
+                                <td>Within 2-4 Hours</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-tools" style="color: var(--accent); margin-right: 8px;"></i>
+                                    Technical Support</td>
+                                <td>Material Grades & Installation Advice</td>
+                                <td>Same Business Day</td>
+                            </tr>
+                            <tr>
+                                <td><i class="fas fa-truck" style="color: var(--accent); margin-right: 8px;"></i>
+                                    Logistics</td>
+                                <td>Tracking Shipments Across India.</td>
+                                <td>Real-time Updates</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <table class="contact-table">
-                    <thead>
-                        <tr>
-                            <th>Department</th>
-                            <th>Contact Person</th>
-                            <th>Inquiry Type</th>
-                            <th>Contact Detail</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td><strong>Sales & Estimating</strong></td>
-                            <td>Mr. Harshul Jadav</td>
-                            <td>Quotations & Tenders</td>
-                            <td><i class="fas fa-phone"></i> +91 98983 76811</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Technical Support</strong></td>
-                            <td>Engineering Team</td>
-                            <td>Material Grade Analysis</td>
-                            <td><i class="fas fa-envelope"></i> sales@uniquewirenetting.com</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Logistics Group</strong></td>
-                            <td>Shipping Desk</td>
-                            <td>National Delivery Tracking</td>
-                            <td><i class="fas fa-truck"></i> Real-time Updates</td>
-                        </tr>
-                        <tr>
-                            <td><strong>Headquarters</strong></td>
-                            <td>Vadodara Office</td>
-                            <td>General Administration</td>
-                            <td><i class="fas fa-map-marker-alt"></i> GF-09, Siddheshwar Hallmark</td>
-                        </tr>
-                    </tbody>
-                </table>
             </div>
 
-            <!-- Why Choose Us -->
-            <div class="why-choose-container">
-                <div class="why-choose-header">
-                    <h2>Why Choose Unique Wirenetting?</h2>
-                    <p>Our commitment to precision engineering and customer success sets us apart.</p>
+            <!-- Contact Information & Map -->
+            <div class="contact-info-section">
+                <!-- Map -->
+                <div class="map-col">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3690.6657960359056!2d73.22851911495529!3d22.32847008530348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fcf4af8778f23%3A0x6bba52240974ad63!2sShree%20Siddheshwar%20Plaza%201%20%26%202!5e0!3m2!1sen!2sin!4v1684000000000!5m2!1sen!2sin"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-                <div class="why-choose-grid">
-                    <div class="why-choose-item">
-                        <h4>Established Expertise</h4>
-                        <p>Serving the industry with technical excellence since 2008.</p>
+
+                <!-- Info -->
+                <div class="info-col">
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-item-content">
+                            <h4>Corporate Office</h4>
+                            <p>GF-09, Siddheshwar Hall Mark, Sayaji Park,<br>Near Ekta Nagar chaar Rasta,<br>Ajwa Road,
+                                Vadodara - 390019</p>
+                        </div>
                     </div>
-                    <div class="why-choose-item">
-                        <h4>Precision Quality</h4>
-                        <p>Advanced manufacturing techniques for a perfect, durable finish.</p>
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-item-content">
+                            <h4>Email Direct</h4>
+                            <p><a href="mailto:sbj7860@gmail.com">sbj7860@gmail.com</a></p>
+                        </div>
                     </div>
-                    <div class="why-choose-item">
-                        <h4>National Delivery</h4>
-                        <p>Reliable supply chain reaching every corner of India.</p>
-                    </div>
-                    <div class="why-choose-item">
-                        <h4>Cost-Effective</h4>
-                        <p>Premium high-grade materials offered at competitive rates.</p>
+                    <div class="info-item">
+                        <div class="info-item-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-item-content">
+                            <h4>Phone Number</h4>
+                            <p><a href="tel:+919898376811">+91 9274876811</a></p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
-    <!-- Location -->
-    <section class="section map-section">
-        <div class="map-container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3691.312988456641!2d73.2389143!3d22.3040371!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395fc576a47a1103%3A0xe1355466f272c695!2sSiddheshwar%20Hallmark!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
-                loading="lazy"></iframe>
+    <!-- Call to Action -->
+    <section class="section cta-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-title">Need a Detailed Quotation?</h2>
+                <p class="cta-desc">Use our dedicated inquiry form to specify your product requirements, mesh sizes, and
+                    dimensions for an accurate quote.</p>
+                <div class="cta-actions">
+                    <a href="inquiry.php" class="btn btn-accent">Go to Inquiry Form</a>
+                </div>
+            </div>
         </div>
     </section>
-
-    <!-- Thank You Modal -->
-    <div id="thankYouModal" class="modal-overlay">
-        <div class="modal-content">
-            <button class="modal-close-btn" onclick="closeModal()">&times;</button>
-            <div class="modal-icon">
-                <i class="fas fa-check"></i>
-            </div>
-            <h2 class="modal-title">Thank You!</h2>
-            <p class="modal-message">Your inquiry has been received. Our team will get back to you within 24 hours.</p>
-            <button class="btn btn-accent" onclick="closeModal()">Close</button>
-        </div>
-    </div>
 
     <?php include 'includes/footer.html'; ?>
     <script src="js/main.js"></script>

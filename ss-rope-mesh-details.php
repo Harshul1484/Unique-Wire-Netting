@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/ss-rope-mesh-details.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/ss-rope-mesh-details.jpg');">
         <div class="container">
             <h1>Stainless Steel Wire Rope Mesh Details</h1>
             <p>Explore the technical specifications, material grades, and structural advantages of our premium Stainless
@@ -282,6 +282,17 @@
                             soaked in boiling water for 28 days, or heated to about 300 &deg; C, and its color luster no
                             change."</p>
                     </div>
+                </div>
+            </div>
+
+            <div style="margin-top: 40px; display: flex; gap: 40px; flex-wrap: wrap;">
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="assets/images/products/ss-rope-mesh-details/colored-coils-1.png" alt="Colored Coils 1"
+                        style="width: 100%; height: auto; border-radius: 8px;">
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <img src="assets/images/products/ss-rope-mesh-details/colored-coils-2.jpg" alt="Colored Coils 2"
+                        style="width: 100%; height: auto; border-radius: 8px;">
                 </div>
             </div>
 

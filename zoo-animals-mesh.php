@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/zoo-animals-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/zoo-animals-mesh.jpg');">
         <div class="container">
             <h1>Zoo Animals Mesh & Fence</h1>
             <p>High-strength, flexible stainless steel wire rope mesh for diverse zoo inhabitants, ensuring safety and
@@ -35,7 +35,7 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel rope mesh is used for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel rope mesh is used for
                     zoo animals mesh, animal fence netting.</h2>
 
                 <p style="margin-bottom: 15px;">Zoo Animals Mesh & Fence, the variety of specifications for a large
@@ -66,7 +66,7 @@
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Reference cases for Zoo Animals Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Reference cases for Zoo Animals Mesh</h3>
                 <p style="margin-bottom: 30px;">The following is the commonly used zoo animals mesh specifications for
                     tigers, lions, leopards, deer, and other animals:</p>
 
@@ -74,154 +74,154 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/polar-bear-exhibit.jpg"
                                 alt="Polar Bear Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Polar Bear Exhibit Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Polar Bear Exhibit Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Fence Wire Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Polar bear exhibit mesh uses the steel cable mesh
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Polar bear exhibit mesh uses the steel cable mesh
                                 as the fence railing. Can withstand winter's bad weather effectively.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/coconut-crabs-exhibit.jpg"
                                 alt="Coconut Crabs Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Coconut Crabs Exhibit Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Coconut Crabs Exhibit Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Hand-woven Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 316 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Uses 316 steel material as the exhibit protect
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Uses 316 steel material as the exhibit protect
                                 mesh. Can withstand harsh weather in both outdoor and indoor environments.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/red-panda-tunnel.jpg"
                                 alt="Red Panda Tunnel Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Red Panda Tunnel Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Red Panda Tunnel Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1630</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal Enclosure Fence</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 30mm x 30mm (1.2″ x 1.2″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Creative tunnel design with cable woven mesh.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Creative tunnel design with cable woven mesh.
                                 Suitable for monkeys, small animals, and even big cats as trails.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/penguin-exhibit-roof.jpg"
                                 alt="Penguin Exhibit Roof Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Penguin Exhibit Roof Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Penguin Exhibit Roof Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2051</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Roof Cable Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Protects penguins while allowing air flow and
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Protects penguins while allowing air flow and
                                 light, creating an excellent habitat through transparent roofing.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/trail-fence.jpg"
                                 alt="Zoo Animal Trail Fence Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Zoo Animal Trail Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Zoo Animal Trail Fence Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal Fence Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Suitable for animal trail fences, enclsoure mesh
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Suitable for animal trail fences, enclsoure mesh
                                 for goats, steel fences for ponies, and general zoo enclosure fences.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/tiger-cage.jpg"
                                 alt="Tiger Cage Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Tiger Cage Protection Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Tiger Cage Protection Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal Cage Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Heavy-duty wire rope netting for tiger cages,
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Heavy-duty wire rope netting for tiger cages,
                                 covering mesh, and barrier mesh in tiger exhibits.</p>
                         </div>
                     </div>
 
                     <!-- Case 7 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/lion-enclosure.jpg"
                                 alt="Lion Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire Rope Netting</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">High-quality lion exhibition enclosure materials
+                            <p style="font-size: 0.9em; color: var(--text-muted);">High-quality lion exhibition enclosure materials
                                 for cage enclosures and exhibit protection.</p>
                         </div>
                     </div>
 
                     <!-- Case 8 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/zoo-animals-mesh/giraffe-enclosure.jpg"
                                 alt="Giraffe Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Giraffe Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Giraffe Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2490</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo Net Mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 90mm x 90mm (3.6″ x 3.6″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Steel cable mesh for giraffe cages, deer mesh, and
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Steel cable mesh for giraffe cages, deer mesh, and
                                 fencing nets. Provides effective separation and protection.</p>
                         </div>
                     </div>
@@ -231,7 +231,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications for Zoo Animals Mesh & Fence</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications for Zoo Animals Mesh & Fence</h3>
                 <p style="margin-bottom: 15px;">Rope diameter, material, and mesh size can all be customized. We will
                     produce according to your requirements. We use SS304/316 stainless steel, which has strong corrosion
                     resistance and tensile strength. The rope is made with multiple cores twisted together, the

@@ -24,7 +24,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/walk-in-aviary.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/walk-in-aviary.jpg');">
         <div class="container">
             <h1>Walk In Aviary</h1>
             <p>Eco-friendly, durable, and flexible stainless steel wire rope mesh for immersive bird environments.</p>
@@ -37,7 +37,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel rope mesh for Walk-In
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel rope mesh
+                    for Walk-In
                     Aviary Mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a creative product that can be
@@ -45,8 +46,8 @@
                     stainless steel aviary panels, aviary mesh panels, welded wire bird cage panels can be replaced by a
                     large area of single-piece aviary wire netting. In particular, as Macaw aviary wire, phantom mesh
                     aviary, outdoor aviary mesh, aviary materials, aviary kits, heavy duty aviary netting, stainless
-                    steel bird cage wire is able to provide safe and reliable protection for birds and visitors. Hengyi
-                    is an experienced walk-in aviary wire mesh suppliers.</p>
+                    steel bird cage wire is able to provide safe and reliable protection for birds and visitors. Unique
+                    Wire Netting is an experienced walk-in aviary wire mesh suppliers.</p>
 
                 <p style="margin-bottom: 15px;">Unique Wire Netting as a bird cage wire mesh supplier, we can supply all
                     kinds of cage and aviary wire mesh at factory price and premium quality. The aviary wire panels
@@ -98,7 +99,7 @@
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Reference cases for Aviary mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Reference cases for Aviary mesh</h3>
                 <p style="margin-bottom: 30px;">The following is the common various protection schemes and
                     specifications for kinds aviary mesh and aviary netting:</p>
 
@@ -106,12 +107,12 @@
 
                     <!-- Card 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/walk-in-mesh.jpg" alt="Walk-in Aviary mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Walk-in Aviary mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Walk-in Aviary mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2060</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64 “)</p>
@@ -121,13 +122,13 @@
 
                     <!-- Card 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/aviary-netting.jpg"
                                 alt="Large birds aviary netting">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Large birds aviary netting</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Large birds aviary netting</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2060</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64 “)</p>
@@ -137,13 +138,13 @@
 
                     <!-- Card 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/crane-fence.jpg"
                                 alt="Crane enclosure fence mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Crane enclosure fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Crane enclosure fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1651</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
@@ -154,12 +155,12 @@
 
                     <!-- Card 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/macaw-wire.jpg" alt="Macaw aviary wire">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Macaw aviary wire</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Macaw aviary wire</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1638</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16 “)</p>
@@ -172,13 +173,13 @@
 
                     <!-- Card 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/toucan-netting.jpg"
                                 alt="Toucan fence netting">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Toucan fence netting</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Toucan fence netting</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1230</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.2mm (3/64 “)</p>
@@ -189,13 +190,14 @@
 
                     <!-- Card 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/walk-in-aviary/eagle-mesh.jpg"
                                 alt="Eagle aviary mesh, eagle enclosure fence mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Eagle aviary mesh, eagle enclosure fence mesh
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Eagle aviary mesh, eagle enclosure
+                                fence mesh
                             </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1651</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
@@ -210,7 +212,7 @@
 
             <!-- Specifications For Aviary Mesh Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications For Aviary Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications For Aviary Mesh</h3>
                 <p style="margin-bottom: 15px;">Rope diameter, material and mesh size can all be customized. We will
                     produce according to your requirements.</p>
                 <p style="margin-bottom: 15px;">We use SS304/316 stainless steel, which has strong corrosion resistance
@@ -222,7 +224,7 @@
 
             <!-- Gallery of Aviary mesh Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Aviary mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Aviary mesh</h3>
                 <p style="margin-bottom: 30px;">Below is a photo album of the aviary netting system for designers and
                     architects.</p>
 
@@ -257,7 +259,7 @@
 
             <!-- Product Specification Table Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Product Specification Table</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Product Specification Table</h3>
 
                 <!-- DataTables CSS -->
                 <link rel="stylesheet" type="text/css"
@@ -848,7 +850,7 @@
                     </table>
                 </div>
                 <p style="margin-top: 20px; font-style: italic; color: #777; text-align: center;">Note: More
-                    specifications can be customized according to requirements. Material: SUS304, 304L, 316, 316L.
+                    specifications can be customized according to requirements. Material: S.S.304, 304L, 316, 316L.
                 </p>
             </div>
 

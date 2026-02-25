@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/lion-enclosure-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/lion-enclosure-mesh.jpg');">
         <div class="container">
             <h1>Lion Enclosure Mesh & Cage Protection</h1>
             <p>High-tensile, hand-woven stainless steel wire rope mesh designed for high security and visibility in big
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless Steel Wire Rope Mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless Steel Wire Rope
+                    Mesh for
                     Lion Enclosure Mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a professional <strong>Lion Enclosure
@@ -44,19 +45,35 @@
                     such as <strong>Panthera leo, Kenya Lion, Nubia Lion, South African Lion, Asiatic Lion, African
                         lion, Cameroon Lion, and Roosevelt Lion</strong>.</p>
 
-                <p style="margin-bottom: 15px;">Our Lion enclosure mesh offers strong tensile strength and flexibility,
-                    applied to a variety of habitat shape designs. Stainless steel wire rope mesh is Beautiful, Strong,
-                    Flexible, Soft, Durable, No Rust, and No Corrosion. It requires no maintenance and offers a service
-                    life of more than 30 years.</p>
+            </div>
 
-                <p style="margin-bottom: 15px;">Similar products include: lion fence, lion enclosure fence mesh, lion
-                    fence net, lion cage fence, lion exhibit netting, lion barrier mesh, lion protective fence, and lion
-                    enclosure mesh material.</p>
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/lion-enclosure-mesh/netting-lable.jpg"
+                            alt="Lion Enclosure Mesh Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">Our Lion enclosure mesh offers strong tensile strength and
+                        flexibility,
+                        applied to a variety of habitat shape designs. Stainless steel wire rope mesh is Beautiful,
+                        Strong,
+                        Flexible, Soft, Durable, No Rust, and No Corrosion. It requires no maintenance and offers a
+                        service
+                        life of more than 30 years.</p>
+
+                    <p>Similar products include: lion fence, lion enclosure fence mesh, lion
+                        fence net, lion cage fence, lion exhibit netting, lion barrier mesh, lion protective fence, and
+                        lion
+                        enclosure mesh material.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Applications of Lion Enclosure Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Applications of Lion Enclosure Mesh</h3>
                 <p style="margin-bottom: 30px;">The following are common protection schemes and specifications for
                     various lion exhibitions and enclosures:</p>
 
@@ -64,135 +81,143 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/black-oxide-fence.jpg"
                                 alt="Black Oxide Lion Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Black Oxide Lion Exhibit Fence</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Black Oxide Lion Exhibit Fence
+                            </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW32102</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 102mm x 102mm (4″ x 4″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Black oxide finish provides low reflectivity for a
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Black oxide finish provides low
+                                reflectivity for a
                                 creative and professional lion exhibit design.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/mountain-lion-exhibit.jpg"
                                 alt="Mountain Lion Exhibit">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Mountain Lion Exhibit Net</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Mountain Lion Exhibit Net</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Ideal for mountain lion and tiger enclosures,
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Ideal for mountain lion and tiger
+                                enclosures,
                                 offering a balance of safety and visibility.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/lion-exhibit-mesh.jpg"
                                 alt="Lion Exhibit Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion enclosure mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion enclosure mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Lion exhibit mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Provides high security with a smaller aperture,
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Provides high security with a smaller
+                                aperture,
                                 perfect for clear and beautiful visitor views.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/lion-fence-netting.jpg"
                                 alt="Lion Fence Netting">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo enclosure mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">High tensile strength mesh that protects lion fur
+                            <p style="font-size: 0.9em; color: var(--text-muted);">High tensile strength mesh that
+                                protects lion fur
                                 while ensuring safety for zoo tourists.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/lion-cage-protected.jpg"
                                 alt="Lion Cage Protected">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion cage protective mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion cage protective mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Durable and rust-free solution suitable for
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Durable and rust-free solution
+                                suitable for
                                 long-term use in various enclosure environments.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/lion-isolation-mesh.jpg"
                                 alt="Lion Isolation Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion safety isolation mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion safety isolation mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3260</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo cable mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Hand-woven customizable mesh that can adapt to any
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Hand-woven customizable mesh that can
+                                adapt to any
                                 lion cage size or shape requirements.</p>
                         </div>
                     </div>
 
                     <!-- Case 7 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/lion-enclosure-mesh/lion-habitat-enclosure.jpg"
                                 alt="Lion Habitat Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Lion enclosure fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Lion enclosure fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3290</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo fence mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 90mm x 90mm (3.6″ x 3.6″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Allows excellent visibility, air flow, and
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Allows excellent visibility, air
+                                flow, and
                                 sunlight while providing both security and aesthetic appeal.</p>
                         </div>
                     </div>
@@ -202,7 +227,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications for Lion enclosure mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications for Lion enclosure mesh</h3>
                 <p style="margin-bottom: 15px;">In general, the size of the mesh aperture depends on the size of the
                     lion. The diameter of the wire rope depends on the strength of the lion. The specific specifications
                     need to be selected according to the actual lion breed, habitat design, and safety requirements.</p>
@@ -215,7 +240,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Lion Enclosure Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Lion Enclosure Mesh</h3>
                 <p style="margin-bottom: 30px;">Stainless steel rope mesh is a favored choice for professional lion
                     fence and enclosure projects in zoos around the world.</p>
 

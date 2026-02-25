@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/eagle-netting-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/eagle-netting-mesh.jpg');">
         <div class="container">
             <h1>Eagle Netting Mesh</h1>
             <p>High-strength, durable, and corrosion-resistant stainless steel wire rope mesh for eagle and raptor
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel wire rope mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel wire rope
+                    mesh for
                     Eagle Netting Mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a professional Eagle Netting Mesh,
@@ -43,7 +44,8 @@
                     steel cables, hand-woven, suitable for a variety of raptor varieties, such as: Eagle, vulture,
                     peregrine falcon, hawk, falcon, owl, golden Eagle, aquila heliaca, bald eagle and so on.</p>
 
-                <p style="margin-bottom: 15px;">Stainless steel wire rope mesh for Eagle Netting Mesh produced by Hengyi
+                <p style="margin-bottom: 15px;">Stainless steel wire rope mesh for Eagle Netting Mesh produced by Unique
+                    Wire Netting
                     can provide enough light and usual air for the birds, a good living environment positively affects
                     their appearance. At the same time, good light transmission and perspective will not hinder the
                     visitors' vision.</p>
@@ -87,7 +89,7 @@
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications for Eagle Netting Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications for Eagle Netting Mesh</h3>
                 <p style="margin-bottom: 30px;">The following are common specifications and applications for eagle and
                     vulture enclosure solutions:</p>
 
@@ -95,20 +97,21 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/eagle-enclosure-mesh.jpg"
                                 alt="Eagle Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Eagle Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Eagle Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2038</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 38mm x 38mm (1.5″ x 1.5″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel wire rope mesh for eagle aviary
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel wire rope mesh for
+                                eagle aviary
                                 mesh. Good sight, beautiful, complete specifications, good flexibility, suitable for a
                                 variety of eagle exhibition.</p>
                         </div>
@@ -116,19 +119,21 @@
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/eagle-aviary-mesh.jpg"
                                 alt="Eagle Aviary Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Eagle Aviary Mesh, Eagle Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Eagle Aviary Mesh, Eagle Fence
+                                Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1651</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel wire rope mesh for eagle aviary
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel wire rope mesh for
+                                eagle aviary
                                 mesh. Good sight, beautiful, complete specifications, good flexibility, suitable for a
                                 variety of eagle exhibition.</p>
                         </div>
@@ -136,19 +141,21 @@
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/eagle-cage-netting.jpg"
                                 alt="Eagle Cage Netting">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Eagle Cage Netting, Eagle Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Eagle Cage Netting, Eagle Fence
+                                Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2451</p>
                             <p style="margin-bottom: 5px;">Outdoor bird netting</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel wire rope mesh for eagle cage
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel wire rope mesh for
+                                eagle cage
                                 netting. The cable aviary mesh is very strong and flexible, suitable for flight aviary
                                 construction.</p>
                         </div>
@@ -156,13 +163,14 @@
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/vulture-enclosure-mesh.jpg"
                                 alt="Vulture Enclosure Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Vulture Enclosure Mesh, Vulture Cage Fence
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Vulture Enclosure Mesh, Vulture
+                                Cage Fence
                             </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1638</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
@@ -170,7 +178,8 @@
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 38mm x 38mm (1.5″ x 1.5″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel zoo mesh for vulture enclosure
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel zoo mesh for vulture
+                                enclosure
                                 mesh, vulture cage fence. Its not subject to the size of vulture cages and eagle cage
                                 shape restrictions. Hand-woven mesh can be customized.</p>
                         </div>
@@ -178,20 +187,22 @@
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/vulture-fencing.jpg"
                                 alt="Vulture Fencing">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Vulture Fencing, Vulture Cage Protective Mesh
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Vulture Fencing, Vulture Cage
+                                Protective Mesh
                             </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1651</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.6mm (1/16″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel rope mesh for vulture fencing. An
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel rope mesh for vulture
+                                fencing. An
                                 aviary is more than a cage; it’s a sanctuary. It’s where your birds spread their wings.
                                 With cable mesh you can make a natural aviary for the birds.</p>
                         </div>
@@ -199,20 +210,21 @@
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/eagle-netting-mesh/eagle-fencing-mesh.jpg"
                                 alt="Eagle Fencing Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Eagle Fencing Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Eagle Fencing Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2460</p>
                             <p style="margin-bottom: 5px;">Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel rope mesh for eagle fencing mesh.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel rope mesh for eagle
+                                fencing mesh.
                                 Our handwoven techniques create smooth knots, preventing sharp edges that could injure
                                 delicate feet and beaks.</p>
                         </div>
@@ -223,7 +235,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications and Customization</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications and Customization</h3>
                 <p style="margin-bottom: 15px;">Rope diameter, material and mesh aperture size can all be customized. We
                     will produce according to your requirements.</p>
                 <p style="margin-bottom: 15px;">We use SS304/316 stainless steel, which has strong corrosion resistance
@@ -235,7 +247,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Eagle Netting Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Eagle Netting Mesh</h3>
                 <p style="margin-bottom: 30px;">Below is gallery of the Eagle for designers and architects.</p>
 
                 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px;">

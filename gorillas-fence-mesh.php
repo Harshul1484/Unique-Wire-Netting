@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/gorillas-fence-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/gorillas-fence-mesh.jpg');">
         <div class="container">
             <h1>Gorilla & Primate Enclosure Mesh</h1>
             <p>Robust, hand-woven stainless steel wire rope mesh designed for high tensile strength and primate safety.
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel wire rope mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel wire rope
+                    mesh for
                     Gorillas fence mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a professional <strong>Gorillas fence
@@ -44,19 +45,35 @@
                     varieties, such as <strong>monkey, gorilla, orangutan, chimpanzee, gibbon, ape, simian, and
                         orang</strong>.</p>
 
-                <p style="margin-bottom: 15px;">Our Gorilla fence mesh offers strong tensile strength and flexibility,
-                    applied to a variety of gorilla cage shape designs. The braid mesh's smooth surface can protect the
-                    primates' fur from being damaged. Stainless steel cable mesh is beautiful, environmentally friendly,
-                    bite-resistant, well-ventilated, and corrosion-resistant.</p>
+            </div>
 
-                <p style="margin-bottom: 15px;">It requires no maintenance and has a service life of more than 30 years.
-                    Similar products include: gorilla enclosure mesh, gorilla fencing nets, chimpanzee fence net, gibbon
-                    cage fence, and mandrill safety enclosure.</p>
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/gorillas-fence-mesh/netting-lable.jpg"
+                            alt="Gorillas Fence Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">Our Gorilla fence mesh offers strong tensile strength and
+                        flexibility,
+                        applied to a variety of gorilla cage shape designs. The braid mesh's smooth surface can protect
+                        the
+                        primates' fur from being damaged. Stainless steel cable mesh is beautiful, environmentally
+                        friendly,
+                        bite-resistant, well-ventilated, and corrosion-resistant.</p>
+
+                    <p>It requires no maintenance and has a service life of more than 30 years.
+                        Similar products include: gorilla enclosure mesh, gorilla fencing nets, chimpanzee fence net,
+                        gibbon
+                        cage fence, and mandrill safety enclosure.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Reference cases for Gorilla Fence Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Reference cases for Gorilla Fence Mesh</h3>
                 <p style="margin-bottom: 30px;">The following are the common various protection schemes and
                     specifications for kinds of gorilla and primate cage protection:</p>
 
@@ -64,114 +81,121 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/gorilla-enclosure.jpg"
                                 alt="Gorilla Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">The Gorillas fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">The Gorillas fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Handwoven cable mesh for gorilla roof netting and
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Handwoven cable mesh for gorilla roof
+                                netting and
                                 fencing. See-through, great flexibility for variety of exhibit designs.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/orangutan-exhibit.jpg"
                                 alt="Orangutan Exhibit">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Orangutan exhibit mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Orangutan exhibit mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Stainless steel wire cable mesh for orangutan
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Stainless steel wire cable mesh for
+                                orangutan
                                 fence netting and ape enclosure fencing. Beautiful and provides good sights.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/gibbons-fence.jpg" alt="Gibbons Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Javan Gibbons Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Javan Gibbons Fence Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2476</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Flexible mesh that is not subject to primate
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Flexible mesh that is not subject to
+                                primate
                                 enclosure shape restrictions. Fully customizable hand-woven mesh.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/chimpanzee-nets.jpg"
                                 alt="Chimpanzee Nets">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Chimpanzee enclosure nets</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Chimpanzee enclosure nets</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Corrosion-resistant and rust-free mesh suitable
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Corrosion-resistant and rust-free
+                                mesh suitable
                                 for chimpanzee fence nets and high-security enclosures.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/gorilla-exhibits.jpg"
                                 alt="Gorilla Exhibits">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Gorillas enclosure fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Gorillas enclosure fence mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Hand woven wire rope mesh for gorilla exhibit
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Hand woven wire rope mesh for gorilla
+                                exhibit
                                 safety. Provides high tensile strength and fur protection.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/gorillas-fence-mesh/primate-safety-mesh.jpg"
                                 alt="Primate Safety Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Orangutan enclosure fence mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Orangutan enclosure fence mesh
+                            </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3260</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Versatile mesh for orangutans, baboons, mandrills,
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Versatile mesh for orangutans,
+                                baboons, mandrills,
                                 and apes. Suitable for covered netting and safety exhibits.</p>
                         </div>
                     </div>
@@ -181,7 +205,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications For Gorillas fence</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications For Gorillas fence</h3>
                 <p style="margin-bottom: 15px;">In general, the size of gorilla determines the size of mesh aperture,
                     the degree of gorilla's damage determines the wire rope diameter, and the specific specification
                     need to be selected according to the actual gorilla cage exhibit.</p>
@@ -195,7 +219,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Gorilla Fence Mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Gorilla Fence Mesh</h3>
                 <p style="margin-bottom: 30px;">We have a number of completed gorilla and primate fence net projects for
                     designers and architects to refer to.</p>
 

@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/ss-cable-development.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/ss-cable-development.jpg');">
         <div class="container">
             <h1>Stainless Steel Cable Development</h1>
             <p>Tracing the history and innovation of stainless steel wire rope mesh, from its origins to modern
@@ -83,43 +83,6 @@
                 <p>In recent years, We have introduce a new product "Black Stainless Steel Cable Woven Mesh & Ferrule
                     Mesh" which is more durable and widely use in US and UK markets. Build Specially For Zoo and Aviary
                     Projects in India.</p>
-            </div>
-
-            <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; text-align: center;">Stainless Steel Cable Woven Mesh Development</h3>
-                <p>The invention of the stainless steel wire cable mesh originated from the production of silk fabric
-                    with a long history in China. How did weaving materials evolve from silk to stainless steel rope?
-                </p>
-            </div>
-
-            <!-- Origin -->
-            <div style="display: flex; gap: 40px; flex-wrap: wrap; margin-bottom: 60px; align-items: center;">
-                <div style="flex: 1; min-width: 300px; max-width: 500px;">
-                    <div class="product-img">
-                        <img src="assets/images/products/ss-cable-development/rolled-mesh.jpg" alt="Rolled Mesh Panels">
-                    </div>
-                </div>
-                <div style="flex: 1; min-width: 300px;">
-                    <h3 style="margin-bottom: 20px;">Origin of Flexible Stainless Steel Cable Mesh</h3>
-                    <p style="margin-bottom: 15px;">Flexible stainless steel cable mesh can be traced back as early as
-                        the Ming Dynasty. Flexible stainless steel cable mesh is known for being flexible and soft, and
-                        yet durable. The wire cable handwoven mesh can be easily covered on the surface of a round or
-                        umbrella shape, providing convenience for the installation.</p>
-                    <p>In the 1990s, the flexible stainless steel wire rope mesh produced in Anping. After several
-                        generations of Anping people's unremitting pursuit and hard work, the stainless steel wire rope
-                        mesh has taken root, sprouted, and continued to grow in Anping.</p>
-                </div>
-            </div>
-
-            <!-- Hometown & Rapid Development -->
-            <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px;">Stainless Steel Cable Woven Mesh Hometown</h3>
-                <p style="margin-bottom: 15px;">Anping is a well-known hometown of Stainless Steel Cable Woven Mesh at
-                    home and abroad. It can be originated in the Ming Dynasty.</p>
-                <p>There are now dozens of large stainless steel cable mesh suppliers with hundreds of thousands of
-                    employees and the largest wire mesh market in <strong>China-Anping Wire Mesh World</strong>. The
-                    invention of the stainless steel wire cable mesh originated from the production of silk fabric with
-                    a long history in China. How did weaving materials evolve from silk to stainless steel rope?</p>
             </div>
 
             <div style="margin-bottom: 60px;">
@@ -261,7 +224,7 @@
                     </div>
                 </div>
 
-                <h3 style="margin-bottom: 20px;">Stainless Steel Hand Woven Mesh - ECO ZOO MESH</h3>
+                <h3 style="margin-bottom: 20px;">Stainless Steel Hand Woven Mesh - ZOO MESH</h3>
                 <p style="margin-bottom: 15px;">Stainless steel hand woven mesh began to be used in the zoo construction
                     industry due to their outstanding performance and elegant appearance. The permeability of the
                     stainless steel wire rope mesh coincides with the zoo's concept of returning to nature as if
@@ -289,28 +252,32 @@
                     <div style="margin-bottom: 20px;">
                         <p style="margin-bottom: 5px;"><strong>Rope Diameter:</strong> 1/8" (3.2mm)</p>
                         <p style="margin-bottom: 5px;"><strong>Mesh Aperture:</strong> 3"×3"; 4"×4"</p>
-                        <p style="color: #555;">Use for big cats enclosure fence, tiger fence mesh, lion exhibit barrier
+                        <p style="color: var(--text-muted);">Use for big cats enclosure fence, tiger fence mesh, lion
+                            exhibit barrier
                             mesh, leopard cage mesh, etc.</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
                         <p style="margin-bottom: 5px;"><strong>Rope Diameter:</strong> 3/32" (2.4mm)</p>
                         <p style="margin-bottom: 5px;"><strong>Mesh Aperture:</strong> 2"×2"; 2.4"×2.4"</p>
-                        <p style="color: #555;">Use for gorilla enclosure fence, orguantan exhibit fence mesh, gibbon
+                        <p style="color: var(--text-muted);">Use for gorilla enclosure fence, orguantan exhibit fence
+                            mesh, gibbon
                             cage mesh, etc.</p>
                     </div>
 
                     <div style="margin-bottom: 20px;">
                         <p style="margin-bottom: 5px;"><strong>Rope Diameter:</strong> 1/16" (1.6mm)</p>
                         <p style="margin-bottom: 5px;"><strong>Mesh Aperture:</strong> 1"×1"; 1.5"×1.5"</p>
-                        <p style="color: #555;">Use for monkey enclosure mesh, monkey tunnel mesh, monkey exhibit fence,
+                        <p style="color: var(--text-muted);">Use for monkey enclosure mesh, monkey tunnel mesh, monkey
+                            exhibit fence,
                             etc.</p>
                     </div>
 
                     <div>
                         <p style="margin-bottom: 5px;"><strong>Rope Diameter:</strong> 3/64" (1.2mm)</p>
                         <p style="margin-bottom: 5px;"><strong>Mesh Aperture:</strong> 1"×1"; 2"×2"</p>
-                        <p style="color: #555;">Use for stainless steel aviary mesh, stainless steel bird enclosure
+                        <p style="color: var(--text-muted);">Use for stainless steel aviary mesh, stainless steel bird
+                            enclosure
                             netting, large aviary mesh, etc.</p>
                     </div>
                 </div>

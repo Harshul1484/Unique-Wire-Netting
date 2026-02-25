@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/leopard-cage-fence.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/leopard-cage-fence.jpg');">
         <div class="container">
             <h1>Leopard Cage Fence & Enclosure</h1>
             <p>High-strength, flexible, and safety-certified stainless steel wire rope mesh for big cats and predatory
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless Steel Wire Rope Mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless Steel Wire Rope
+                    Mesh for
                     Leopard Cage Fence</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh for Leopard cage fence (leopard barrier
@@ -43,21 +44,37 @@
                     stainless steel cables, widely used for Leopard cage fences, zoo fences, and enclosure protection.
                 </p>
 
-                <p style="margin-bottom: 15px;">It is exceptionally suitable for a variety of leopard species, such as
-                    <strong>ocelots, cheetah, jaguar, clouded leopard, panther, and snow leopard</strong>. With strong
-                    tensile strength and flexibility, our mesh can be applied to any variety of Leopard cage fence shape
-                    designs.
-                </p>
+            </div>
 
-                <p style="margin-bottom: 15px;">Stainless steel cable mesh is Beautiful, Strong, Flexible, Soft,
-                    Durable, No Rust, and No Corrosion. It requires no maintenance and offers a service life of more
-                    than 30 years. Similar products include: leopard enclosure fence mesh, leopard exhibit netting, and
-                    leopard protective fence.</p>
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/leopard-cage-fence/netting-lable.jpg"
+                            alt="Leopard Cage Fence Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">It is exceptionally suitable for a variety of leopard species, such
+                        as
+                        <strong>ocelots, cheetah, jaguar, clouded leopard, panther, and snow leopard</strong>. With
+                        strong
+                        tensile strength and flexibility, our mesh can be applied to any variety of Leopard cage fence
+                        shape
+                        designs.
+                    </p>
+
+                    <p>Stainless steel cable mesh is Beautiful, Strong, Flexible, Soft,
+                        Durable, No Rust, and No Corrosion. It requires no maintenance and offers a service life of more
+                        than 30 years. Similar products include: leopard enclosure fence mesh, leopard exhibit netting,
+                        and
+                        leopard protective fence.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Applications of Leopard Cage Fence</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Applications of Leopard Cage Fence</h3>
                 <p style="margin-bottom: 30px;">The following are the common various protection schemes and
                     specifications for kinds of leopard and predatory enclosures:</p>
 
@@ -65,19 +82,20 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/leopard-exhibit-fence.jpg"
                                 alt="Leopard Exhibit Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Exhibit Fence</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Exhibit Fence</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo animal mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Professional wire rope mesh for exhibit fencing
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Professional wire rope mesh for
+                                exhibit fencing
                                 and barriers. Offers high tensile strength while protecting animal fur with its smooth
                                 surface.</p>
                         </div>
@@ -85,115 +103,121 @@
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/snow-leopard-enclosure.jpg"
                                 alt="Snow Leopard Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Leopard exhibit mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Specially designed for snow leopard enclosures.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Specially designed for snow leopard
+                                enclosures.
                                 Provides good visibility and complete beautiful finish for exhibit areas.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/leopard-perimeter-fence.jpg"
                                 alt="Leopard Cage Perimeter Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Cage Perimeter Fence</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Cage Perimeter Fence</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3260</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Cable zoo mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Rust and corrosion-resistant netting.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Rust and corrosion-resistant netting.
                                 Maintenance-free solution for variety of areas with long-term service life.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/leopard-safety-net.jpg"
                                 alt="Leopard Protective Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Protective Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Protective Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Animal enclosure mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Flexible braid mesh for safety isolation. Fully
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Flexible braid mesh for safety
+                                isolation. Fully
                                 customizable to fit any leopard or lion cage shape.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/snow-leopard-fence.jpg"
                                 alt="Snow Leopard Enclosure Fencing">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Snow Leopard Enclosure Fencing</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Snow Leopard Enclosure Fencing
+                            </h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3251</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Leopard enclosure mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">High-transparency and airflow solution for snow
+                            <p style="font-size: 0.9em; color: var(--text-muted);">High-transparency and airflow
+                                solution for snow
                                 leopard habitats. Uses 51mm aperture for enhanced security.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/leopard-visual-barrier.jpg"
                                 alt="Leopard Fence Protection Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Fence Protection Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Fence Protection Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Zoo exhibit fence</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Hand-woven stainless steel rope mesh providing a
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Hand-woven stainless steel rope mesh
+                                providing a
                                 safe activity space without obtrusive visual barriers.</p>
                         </div>
                     </div>
 
                     <!-- Case 7 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/leopard-cage-fence/leopard-trail-way.jpg"
                                 alt="Leopard Trail Fence Wire Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Leopard Trail Fence Wire Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Leopard Trail Fence Wire Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW3276</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Mesh for zoo enclosure</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 3.2mm (1/8″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Specially crafted for leopard trail ways.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Specially crafted for leopard trail
+                                ways.
                                 Represents a commitment to quality, safety, and full customization.</p>
                         </div>
                     </div>
@@ -203,7 +227,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications for Leopard cage fence</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications for Leopard cage fence</h3>
                 <p style="margin-bottom: 15px;">In general, the size of the mesh aperture depends on the size of the
                     leopard. The diameter of the wire rope depends on the strength of the leopard. The specific
                     specifications need to be selected according to the actual leopard breed and size.</p>
@@ -216,7 +240,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Leopard Cage Fence</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Leopard Cage Fence</h3>
                 <p style="margin-bottom: 30px;">Stainless steel rope mesh is widely used in leopard cage fence, leopard
                     enclosure, and leopard trail way fence mesh projects worldwide.</p>
 

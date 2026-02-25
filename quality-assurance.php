@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <style>
         .qa-card {
-            background: #fff;
+            background: var(--bg-main);
             padding: 30px;
             border-radius: 8px;
             box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
@@ -85,7 +85,7 @@
         <div class="container">
             <h4 class="hero-subtitle">Engineering Integrity</h4>
             <h1 class="page-title">Quality Assurance &<br>Testing Standards</h1>
-            <p class="page-subtitle">Ensuring absolute precision in every square meter of mesh since 1995.</p>
+            <p class="page-subtitle">Ensuring absolute precision in every square meter of mesh since 2008.</p>
         </div>
     </section>
 
@@ -109,10 +109,10 @@
                         <i class="fas fa-vial"></i>
                     </div>
                     <div class="qa-content">
-                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Material Grade Verification</h3>
-                        <p style="color: var(--text-muted); line-height: 1.7;">Independent laboratory analysis to verify
-                            precise chemical composition (SS316 vs SS304), ensuring optimal corrosion resistance for
-                            specific environmental exposures.</p>
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Material Grade Verification:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">We conduct chemical analysis to verify
+                            the exact grade of the metal (e.g., SS304 vs. SS316) to ensure it provides the required
+                            corrosion resistance for your specific environment.</p>
                     </div>
                 </div>
 
@@ -123,10 +123,10 @@
                         <i class="fas fa-weight-hanging"></i>
                     </div>
                     <div class="qa-content">
-                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Tensile Strength Calibration</h3>
-                        <p style="color: var(--text-muted); line-height: 1.7;">Our high-tensile wire undergoes rigorous
-                            stress-loading to certify break-load thresholds required for architectural safety and
-                            high-security civil projects.</p>
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Tensile Strength Testing:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">Our wire undergoes high-tension stress
+                            tests to ensure it can withstand the mechanical loads required for high-security fencing and
+                            architectural safety applications.</p>
                     </div>
                 </div>
 
@@ -134,13 +134,13 @@
                     style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
                     <div class="qa-icon"
                         style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
-                        <i class="fas fa-microscope"></i>
+                        <i class="fas fa-ruler-combined"></i>
                     </div>
                     <div class="qa-content">
-                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Dimensional Precision Audit</h3>
-                        <p style="color: var(--text-muted); line-height: 1.7;">Laser-gauged verification of wire
-                            diameter and aperture consistency. We ensure deviations are within ±0.05mm of client
-                            specifications.</p>
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Dimensional Precision Check:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">Using digital calipers and precision
+                            gauges, we verify that the wire diameter (gauge) and aperture (mesh opening) are consistent
+                            throughout the entire roll.</p>
                     </div>
                 </div>
 
@@ -148,13 +148,13 @@
                     style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
                     <div class="qa-icon"
                         style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
-                        <i class="fas fa-project-diagram"></i>
+                        <i class="fas fa-tools"></i>
                     </div>
                     <div class="qa-content">
-                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Structural Integrity Analysis</h3>
-                        <p style="color: var(--text-muted); line-height: 1.7;">For welded panels and ferruled mesh, we
-                            perform shear-strength tests on intersections to guarantee structural stability under
-                            external impact.</p>
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Weld Integrity Analysis:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">For our Welded Wire Mesh and Panels, we
+                            inspect every joint to ensure a high-strength bond that resists shearing and structural
+                            failure.</p>
                     </div>
                 </div>
 
@@ -162,63 +162,62 @@
                     style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
                     <div class="qa-icon"
                         style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
-                        <i class="fas fa-check-circle"></i>
+                        <i class="fas fa-paint-roller"></i>
                     </div>
                     <div class="qa-content">
-                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Surface Finish Optimization</h3>
-                        <p style="color: var(--text-muted); line-height: 1.7;">Comprehensive inspection of coatings and
-                            finishes. We ensure uniform zinc density for GI products and flawless aesthetics for
-                            decorative series.</p>
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Finish & Coating Inspection:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">We examine the surface for a perfect
+                            finish, ensuring that our G.I. products have a uniform zinc coating for maximum rust
+                            resistance and our Decorative mesh is free of aesthetic defects.</p>
+                    </div>
+                </div>
+
+                <div class="qa-card"
+                    style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
+                    <div class="qa-icon"
+                        style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
+                        <i class="fas fa-gem"></i>
+                    </div>
+                    <div class="qa-content">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Certified Raw Materials:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">We source only high-grade low-carbon and
+                            stainless
+                            steel wire to ensure long-term durability.</p>
+                    </div>
+                </div>
+
+                <div class="qa-card"
+                    style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
+                    <div class="qa-icon"
+                        style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="qa-content">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Advanced Fabrication:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">Our use of digital welding and modern
+                            weaving
+                            techniques eliminates manual errors and increases product longevity.</p>
+                    </div>
+                </div>
+
+                <div class="qa-card"
+                    style="display: flex; gap: 3rem; align-items: flex-start; padding: 3rem; background: var(--bg-alt); border-radius: var(--radius); transition: var(--transition);">
+                    <div class="qa-icon"
+                        style="width: 70px; height: 70px; background: var(--white); color: var(--accent); border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.8rem; box-shadow: var(--shadow-sm); flex-shrink: 0;">
+                        <i class="fas fa-clipboard-check"></i>
+                    </div>
+                    <div class="qa-content">
+                        <h3 style="margin-bottom: 1rem; color: var(--primary);">Final Pre-Dispatch Audit:</h3>
+                        <p style="color: var(--text-muted); line-height: 1.7;">A final audit is performed by our senior
+                            engineers
+                            before any material leaves our facility for delivery across India.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="section promise-section" style="background: var(--primary); color: var(--white); overflow: hidden;">
-        <div class="container">
-            <div class="promise-header" style="text-align: center; margin-bottom: 5rem;">
-                <h4 class="section-subtitle" style="color: var(--accent);">The Unique Promise</h4>
-                <h2 style="color: var(--white); font-size: 2.5rem;">Performance Without Compromise</h2>
-            </div>
 
-            <div class="promise-content-grid"
-                style="display: grid; grid-template-columns: 1.2fr 1.8fr; gap: 6rem; align-items: center;">
-                <div class="promise-visual" style="position: relative;">
-                    <div class="quote-box"
-                        style="padding: 3rem; border-left: 4px solid var(--accent); background: rgba(255,255,255,0.05);">
-                        <p style="font-size: 1.3rem; font-style: italic; line-height: 1.8; opacity: 0.9;">
-                            "The safety of your project depends on the quality of our mesh. We never decouple
-                            manufacturing speed from engineering precision."
-                        </p>
-                    </div>
-                </div>
-
-                <div class="promise-checklist" style="display: grid; grid-template-columns: 1fr 1fr; gap: 3rem;">
-                    <div class="checklist-item">
-                        <h4 style="color: var(--accent); margin-bottom: 1rem;">Certified Alloys</h4>
-                        <p style="font-size: 0.95rem; opacity: 0.7;">Low-carbon and marine-grade stainless steel sourced
-                            exclusively from top-tier refineries.</p>
-                    </div>
-                    <div class="checklist-item">
-                        <h4 style="color: var(--accent); margin-bottom: 1rem;">Swiss Weave Precision</h4>
-                        <p style="font-size: 0.95rem; opacity: 0.7;">State-of-the-art weaving technologies that
-                            eliminate irregular aperture spacing.</p>
-                    </div>
-                    <div class="checklist-item">
-                        <h4 style="color: var(--accent); margin-bottom: 1rem;">Final Verification</h4>
-                        <p style="font-size: 0.95rem; opacity: 0.7;">Mandatory dispatch audit performed by licensed
-                            structural engineers for all export orders.</p>
-                    </div>
-                    <div class="checklist-item">
-                        <h4 style="color: var(--accent); margin-bottom: 1rem;">Traceability</h4>
-                        <p style="font-size: 0.95rem; opacity: 0.7;">Full material traceability reports provided with
-                            every project for regulatory compliance.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
 
     <?php include 'includes/footer.html'; ?>
     <script src="js/main.js"></script>

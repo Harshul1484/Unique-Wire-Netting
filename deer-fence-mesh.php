@@ -21,7 +21,7 @@
 
     <!-- Hero Banner -->
     <section class="hero-banner"
-        style="background-image: linear-gradient(rgba(13, 44, 77, 0.8), rgba(13, 44, 77, 0.8)), url('assets/product-banner/deer-fence-mesh.jpg');">
+        style="background-image: linear-gradient(rgba(10, 16, 29, 0.8), rgba(10, 16, 29, 0.8)), url('assets/product-banner/deer-fence-mesh.jpg');">
         <div class="container">
             <h1>Deer Fence Mesh & Enclosure</h1>
             <p>Eco-friendly, highly durable, and cost-effective stainless steel wire rope mesh for herbivores and zoo
@@ -35,7 +35,8 @@
 
             <!-- Main Intro Section -->
             <div style="margin-bottom: 60px;">
-                <h2 style="margin-bottom: 20px; color: #333; text-align: center;">Stainless steel wire rope mesh for
+                <h2 style="margin-bottom: 20px; color: var(--text-main); text-align: center;">Stainless steel wire rope
+                    mesh for
                     Deer Fence Mesh</h2>
 
                 <p style="margin-bottom: 15px;">Stainless steel wire rope mesh for deer fence is a professional Deer
@@ -54,26 +55,42 @@
                     <li style="margin-bottom: 10px;"><strong>Safety:</strong> Soft and elastic, smooth surface, will not
                         get stuck or harm the animal.</li>
                 </ul>
+            </div>
 
-                <p style="margin-bottom: 15px;">The key to creating a good deer fence system is that the fence will not
-                    get the deer stuck or harm. The stainless steel wire rope mesh is woven from stainless steel wire
-                    rope, which is soft and elastic with a smooth surface. It is simple in structure, light in weight,
-                    foldable and very easy to transport and install.</p>
+            <!-- Categories & Image Section -->
+            <div style="display: flex; gap: 40px; flex-wrap: wrap; align-items: flex-start; margin-bottom: 60px;">
+                <div style="flex: 1; min-width: 300px; max-width: 600px;">
+                    <div class="product-img">
+                        <img src="assets/images/products/deer-fence-mesh/netting-lable.jpg"
+                            alt="Deer Fence Netting Structure">
+                    </div>
+                </div>
+                <div style="flex: 1; min-width: 300px;">
+                    <p style="margin-bottom: 15px;">The key to creating a good deer fence system is that the fence will
+                        not
+                        get the deer stuck or harm. The stainless steel wire rope mesh is woven from stainless steel
+                        wire
+                        rope, which is soft and elastic with a smooth surface. It is simple in structure, light in
+                        weight,
+                        foldable and very easy to transport and install.</p>
 
-                <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a professional zoo mesh and animal
-                    cage protection net, widely used for a variety of Herbivore animal varieties, such as
-                    <strong>giraffe, sika deer, sambar deer, wapiti, moose, antelope, alpaca, kangaroo, zebra</strong>
-                    and so on.
-                </p>
+                    <p style="margin-bottom: 15px;">Stainless steel wire rope mesh is a professional zoo mesh and animal
+                        cage protection net, widely used for a variety of Herbivore animal varieties, such as
+                        <strong>giraffe, sika deer, sambar deer, wapiti, moose, antelope, alpaca, kangaroo,
+                            zebra</strong>
+                        and so on.
+                    </p>
 
-                <p>Applied to a variety of deer exhibit fence shape design, stainless steel cable mesh is Beautiful,
-                    Strong, Flexible, Soft, Durable, No Rust, No Corrosion, and has a service life of more than 30
-                    years.</p>
+                    <p>Applied to a variety of deer exhibit fence shape design, stainless steel cable mesh is Beautiful,
+                        Strong, Flexible, Soft, Durable, No Rust, No Corrosion, and has a service life of more than 30
+                        years.</p>
+                </div>
             </div>
 
             <!-- Reference Cases Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Application Schemes and Specifications for Deer Fence Mesh
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Application Schemes and Specifications for Deer
+                    Fence Mesh
                 </h3>
                 <p style="margin-bottom: 30px;">The following is the common various protection schemes and
                     specifications for kinds of deer fence and kangaroo enclosures:</p>
@@ -82,114 +99,120 @@
 
                     <!-- Case 1 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/kangaroo-black-mesh.jpg"
                                 alt="Kangaroo Black Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Black Mesh for Kangaroos</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Black Mesh for Kangaroos</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW1260</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Rope mesh fence</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 1.2mm (3/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Black mesh for kangaroos exhibits fence.
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Black mesh for kangaroos exhibits
+                                fence.
                                 See-through, beautiful, and suitable for designing natural animal habitats.</p>
                         </div>
                     </div>
 
                     <!-- Case 2 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/deer-fence-mesh.jpg" alt="Deer Fence Mesh">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Deer Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Deer Fence Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2051</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Cable mesh deer fence</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 51mm x 51mm (2″ x 2″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Wire rope netting for deer exhibition fence. Good
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Wire rope netting for deer exhibition
+                                fence. Good
                                 sight and excellent flexibility for various exhibition designs.</p>
                         </div>
                     </div>
 
                     <!-- Case 3 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/deer-enclosure.jpg" alt="Deer Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Deer Enclosure Fence Netting</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Deer Enclosure Fence Netting</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2076</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire mesh for deer enclosure</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">High tensile strength with a smooth surface to
+                            <p style="font-size: 0.9em; color: var(--text-muted);">High tensile strength with a smooth
+                                surface to
                                 protect deer fur from injury while ensuring maximum safety.</p>
                         </div>
                     </div>
 
                     <!-- Case 4 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/kangaroo-enclosure.jpg"
                                 alt="Kangaroo Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Kangaroo Fence Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Kangaroo Fence Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2476</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Cable mesh fence for kangaroo</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.4mm (3/32″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 76mm x 76mm (3″ x 3″)</p>
-                            <p style="font-size: 0.9em; color: #555;">Robust mesh designed to withstand predators like
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Robust mesh designed to withstand
+                                predators like
                                 raccoons or cats, as well as extreme environmental elements.</p>
                         </div>
                     </div>
 
                     <!-- Case 5 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/giraffe-fence.jpg" alt="Giraffe Fence">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Giraffe Fence Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Giraffe Fence Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2060</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Giraffe enclosure mesh</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 60mm x 60mm (2.4″ x 2.4″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Corrosion-resistant and maintenance-free. Long
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Corrosion-resistant and
+                                maintenance-free. Long
                                 service life suitable for various large-scale exhibit areas.</p>
                         </div>
                     </div>
 
                     <!-- Case 6 -->
                     <div
-                        style="background: #fff; border: 1px solid #ddd; border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+                        style="background: var(--bg-main); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
                         <div class="product-img">
                             <img src="assets/images/products/deer-fence-mesh/giraffe-enclosure-1.jpg"
                                 alt="Giraffe Enclosure">
                         </div>
                         <div style="padding: 20px;">
-                            <h4 style="margin-bottom: 15px; color: #333;">Giraffe Enclosure Mesh</h4>
+                            <h4 style="margin-bottom: 15px; color: var(--text-main);">Giraffe Enclosure Mesh</h4>
                             <p style="margin-bottom: 5px;"><strong>Specifications:</strong> UW2090</p>
                             <p style="margin-bottom: 5px;"><strong>Type:</strong> Wire rope mesh deer fence net</p>
                             <p style="margin-bottom: 5px;"><strong>Material:</strong> 304 stainless steel</p>
                             <p style="margin-bottom: 5px;"><strong>Rope diameter:</strong> 2.0mm (5/64″)</p>
                             <p style="margin-bottom: 10px;"><strong>Mesh aperture:</strong> 90mm x 90mm (3.6″ x 3.6″)
                             </p>
-                            <p style="font-size: 0.9em; color: #555;">Offers excellent tensile strength and durability
+                            <p style="font-size: 0.9em; color: var(--text-muted);">Offers excellent tensile strength and
+                                durability
                                 while allowing high visibility and airflow for giraffe habitats.</p>
                         </div>
                     </div>
@@ -199,7 +222,7 @@
 
             <!-- Customization Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Specifications For Deer fence mesh</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Specifications For Deer fence mesh</h3>
                 <p style="margin-bottom: 15px;">In general, the size of deer determines the size of mesh aperture, the
                     degree of deer's strength determines the wire rope diameter, and the specific specification need to
                     be selected according to the actual deer mesh fence exhibit.</p>
@@ -213,7 +236,7 @@
 
             <!-- Gallery Section -->
             <div style="margin-bottom: 60px;">
-                <h3 style="margin-bottom: 20px; color: #000;">Gallery of Deer fence mesh Cases</h3>
+                <h3 style="margin-bottom: 20px; color: var(--primary);">Gallery of Deer fence mesh Cases</h3>
                 <p style="margin-bottom: 30px;">Stainless steel rope mesh is widely used for deer fence, deer enclosure,
                     deer proof nets, and deer protection nets.</p>
 
