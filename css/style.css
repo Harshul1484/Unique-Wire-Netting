@@ -237,10 +237,12 @@ nav {
     transition: var(--transition);
 }
 
-.dropdown:hover>.dropdown-menu {
-    visibility: visible;
-    opacity: 1;
-    transform: translateY(0);
+@media (hover: hover) {
+    .dropdown:hover>.dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .dropdown-menu a {
@@ -596,6 +598,22 @@ table.spec-table tr:hover {
         display: flex;
     }
 
+    .nav-overlay {
+        position: fixed;
+        inset: 0;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(4px);
+        z-index: 999;
+        visibility: hidden;
+        opacity: 0;
+        transition: var(--transition);
+    }
+
+    .nav-overlay.active {
+        visibility: visible;
+        opacity: 1;
+    }
+
     .dropdown-menu {
         position: static;
         visibility: visible;
@@ -608,8 +626,8 @@ table.spec-table tr:hover {
         display: none;
     }
 
-    .dropdown:hover>.dropdown-menu,
-    .dropdown-submenu:hover>.dropdown-menu {
+    .dropdown.active>.dropdown-menu,
+    .dropdown-submenu.active>.dropdown-menu {
         display: block;
     }
 
